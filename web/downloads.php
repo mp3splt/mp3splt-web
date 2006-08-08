@@ -408,7 +408,7 @@ libmp3splt v0.1.1 (src)</a>
 
 <?php
 begin_document("mp3splt project - download page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("download");
 

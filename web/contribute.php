@@ -19,7 +19,7 @@ People are needed for the following tasks :
 <div class=\"indentdiv\">Testing the program is a very important part
 of making a software. Sometimes developers don't test the program very
 much because they enjoy programming and testing can sometimes be
-annoying. You are welcome to test the releases or the CVS version and
+annoying. You are welcome to test the releases or the subversion version and
 report us bugs or requests. Free software developers will always thank
 you for reporting a bug. Even if you don't test the software but
 find a bug when using it, you are also welcome to report the bug.
@@ -79,7 +79,7 @@ Of course, any other contributions are welcome :)
 
 <?php
 begin_document("mp3splt project - contribution page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("contribute");
 

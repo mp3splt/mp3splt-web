@@ -11,13 +11,15 @@ function create_news_page()
 ";
  
   include "news.html";
+  
+  echo "<br />";
 }
 
 ?>
 
 <?php
 begin_document("mp3splt project - news page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("news");
 

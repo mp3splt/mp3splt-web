@@ -2,7 +2,7 @@
 header("Content-type: text/html; charset=utf-8"); 
 
 //creates the first part of the html document
-function begin_document($title, $css_file)
+function begin_document($title, $css_file,$third)
 {
   $doctype =
     "<!DOCTYPE html 
@@ -19,9 +19,16 @@ function begin_document($title, $css_file)
 </title>
 <link rel=\"stylesheet\" type=\"text/css\" 
 href=\"$css_file\" title=\"Normal\" />
-</head>
-<body id=\"bodyid\">
-";
+</head>";
+  
+  if ($third)
+    {
+      echo "<body id=\"bodyid\" style=\"background-color:white\">";
+    }
+  else
+    {
+      echo "<body id=\"bodyid\">";
+    }
 }
 
 //creates the end of the document
@@ -41,8 +48,9 @@ function create_menu()
 		4 => "Screenshots",
 		5 => "Downloads",
 		6 => "Documentation",
-		7 => "Contribute",
-		8 => "Authors");
+		7 => "Subversion",
+		8 => "Contribute",
+		9 => "Authors");
   
   //set the menu fixed?
   echo "<div style=\"\">";
@@ -55,16 +63,16 @@ function create_menu()
       //convert to lower cases
       $link = strtolower($menu[$i].".php");
       echo "<div class=\"menudiv\">
-           <a href=\"$link\">$menu[$i]</a>
-       &nbsp;</div>";
+           <a href=\"$link\">$menu[$i]</a></div>";
     }
 
   //table for the developers menu
-  $menu2 = array(0 => "CVS");
+  //$menu2 = array(0 => "CVS");
+  $menu2 = array();
   
   echo "<br />";
   echo "<div class=\"titlemenu\">Tracker</div>";
-
+  
   //create developers menu
   for ($i = 0; $i < count($menu2); $i++)
     {
@@ -72,54 +80,44 @@ function create_menu()
       $link = strtolower($menu2[$i].".php");
       
       echo "<div class=\"menudiv\">
-           <a href=\"$link\"> $menu2[$i]</a>
-       &nbsp;</div>";
+           <a href=\"$link\"> $menu2[$i]</a></div>";
     } 
 
-  echo "external :";
   //mailing list external link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/mail/?group_id=55130\">
-       Mailing list</a>
-       &nbsp;</div>";
+       Mailing list</a></div>";
   //browse CVS external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://mp3splt.cvs.sourceforge.net/mp3splt/\">
-       Browse CVS</a>
-       &nbsp;</div>";
+           <a href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/\">
+       Browse SVN</a></div>";
   //bugs external link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/tracker/?atid=476061&group_id=55130&func=browse\">
-       Bugs</a>
-       &nbsp;</div>";
+       Bugs</a></div>";
   //support requests external link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/tracker/?atid=476062&group_id=55130&func=browse\">
-       Support Requests</a>
-       &nbsp;</div>";
+       Support Requests</a></div>";
   //patches external link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/tracker/?atid=476063&group_id=55130&func=browse\">
-       Patches</a>
-       &nbsp;</div>";
+       Patches</a></div>";
   //feature requests external link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/tracker/?atid=476064&group_id=55130&func=browse\">
-       Feature Requests</a>
-       &nbsp;</div>";
+       Feature Requests</a></div>";
 
   echo "<br />";
   echo "<div class=\"titlemenu\">Links</div>";
   //sourceforge page link
   echo "<div class=\"menudiv\">
            <a href=\"http://sourceforge.net/projects/mp3splt\">
-       Sf.net page</a>
-       &nbsp;</div>";
+       Sf.net page</a></div>";
   //mp3wrap link
   echo "<div class=\"menudiv\">
            <a href=\"http://mp3wrap.sourceforge.net/\">
-       Mp3Wrap</a>
-       &nbsp;</div>";
+       Mp3Wrap</a></div>";
 
   echo "<br />";
   //support logo
@@ -160,8 +158,10 @@ function create_page($page)
     create_documentation_page();
   elseif ($page == "contribute")
     create_contribute_page();
-  elseif ($page == "cvs")
-    create_cvs_page();
+  elseif ($page == "subversion")
+    create_subversion_page();
+  elseif ($page == "gnu_linux")
+    create_gnu_linux_page();
 }
 
 //creates a table with the menu and the page passed as parameter
@@ -172,7 +172,7 @@ function create_table_with_menu($page)
  <img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt =\"project\" />
 </div>
 
-<table id=\"main_table\" style=\"margin:0pt;padding:0pt\">
+<table id=\"main_table\" style=\"border-collapse:collapse\">
 <tr>
 <td id=\"main_menu_column\">
 ",
@@ -190,5 +190,3 @@ function create_table_with_menu($page)
 }
 
 ?>
-
-

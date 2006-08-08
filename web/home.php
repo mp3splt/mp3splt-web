@@ -25,7 +25,7 @@ style=\"font-weight:bold\">Libmp3splt</span> is a library created from
 mp3splt version 2.1c.</div>
 <div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3splt-gtk</span> is a GTK2 gui that uses
 libmp3splt. </div>
-<div style=\"margin:0pt;padding:0pt;text-align:right\">
+<div style=\"margin:0pt;padding:0pt;text-align:right;padding-right:5pt;\">
 - see <a href=\"about.php\">the about section</a> for more details</div>
 <br />
 
@@ -167,7 +167,7 @@ href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a> -
 
 <?php
 begin_document("mp3 and ogg splitter - mp3splt project home page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("home");
 

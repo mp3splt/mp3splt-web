@@ -89,7 +89,7 @@ input not seekable option</li>
 
 <?php
 begin_document("mp3splt project - about page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("about");
 

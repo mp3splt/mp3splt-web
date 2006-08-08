@@ -23,7 +23,7 @@ function create_cvs_page()
 
 <?php
 begin_document("mp3splt project - cvs page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("cvs");
 

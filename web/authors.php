@@ -39,7 +39,7 @@ People who contributed to mp3splt development :
 
 <?php
 begin_document("mp3splt project - authors page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("contact");
 

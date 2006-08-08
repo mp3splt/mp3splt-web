@@ -105,7 +105,7 @@ href=\"screenshots/mp3splt-0.1.1_win32.jpg\">
 
 <?php
 begin_document("mp3splt project - screenshots page",
-	       "default.css");
+	       "default.css",FALSE);
 
 create_table_with_menu("screenshots");
 

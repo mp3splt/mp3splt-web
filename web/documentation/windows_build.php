@@ -89,7 +89,7 @@ class=\"colorspan\">mp3splt</span> directory</p>
 }
 
 begin_document("mp3splt and libmp3splt",
-	       "../default.css");
+	       "../default.css",TRUE);
 
 echo "<br />
 &nbsp;&nbsp;&nbsp;&nbsp;
