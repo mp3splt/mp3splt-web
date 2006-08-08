@@ -1,0 +1,522 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Mp3Splt Manpage</title>
+</head>
+<body>
+<h1>MP3SPLT 1.9</h1>
+Section: Misc. Reference Manual Pages (1)
+<hr><a name="index"></a>
+<h2>Index</h2>
+<dl>
+  <dt><a href="#lbAB">NAME</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAC">SYNOPSIS</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAD">BESCHREIBUNG</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAE">OPTIONEN</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAF">BEISPIELE</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAG">BUGS</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAH">WEITERES</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAI">AUTOR</a></dt>
+  <dd><br>
+  </dd>
+  <dt><a href="#lbAJ">DISTRIBUTION</a></dt>
+  <dd><br>
+  </dd>
+</dl>
+<a name="lbAB">&nbsp;</a>
+<h2>NAME</h2>
+mp3splt --- Dieses Tool teilt mp3- und ogg-Dateien ohne Neuberechnung
+in kleinere Teile auf
+<a name="lbAC">&nbsp;</a>
+<h2>SYNOPSIS</h2>
+<p>
+<b>mp3splt DATEI start_zeit stop_zeit... [AUSGABEDATEI]</b><br>
+<br>
+<b>mp3splt -w DATEI</b><br>
+<br>
+<b>mp3splt -e DATEI</b><br>
+<br>
+<b>mp3splt -s SCHWELLENWERT DATEI [TRACKNUMMER]</b><br>
+<br>
+<b>mp3splt -t ZEIT DATEI</b><br>
+<br>
+<b>mp3splt -c QUELLDATEI [-o FORMAT] [-a ADJUST]</b><br>
+<br>
+</p>
+<p>ZEIT: start_zeit und stop_zeit müssen in der folgenden Form
+angegeben sein:
+</p>
+<p><b>Minuten.Sekunden[.Hundertstel]</b>
+</p>
+<dl compact="compact">
+  <dt><br>
+  </dt>
+  <dd><b>Minuten</b> (erforderlich): Dieser Wert hat keine obere
+Grenze. Auch Minutenangaben größer als 59 geben Sie damit an.</dd>
+  <dd><b>Sekunden</b> (erforderlich): Ein Wert zwischen 0 und 59.</dd>
+  <dd><b>Hundertstel</b> (optional): Ein Wert zwischen 0 und 99.
+Hunderdstel Sekunden bieten hohe Präzision. </dd>
+</dl>
+Die Angabe mehrerer Splitpunkte ist ebenso möglich. Nach den mindestens
+zwei angegebenen Zeitpunkten können bis zu 100 weitere Splitpunkte
+angegeben werden.
+An jedem angegebenen Splitpunkt ist der eine Abschnitt zu ende und der
+nächste beginnt. Ein ungültiges Zeitformat für einen Splitpunkt wird
+nicht
+verarbeitet und ganz ignoriert und auch alle weiteren Zeitangaben, die
+dem ungültigen Splitpunkt folgen. Wenn von drei angegebenen Zeitpunkten
+der letzte in einem ungültigen Format eingegeben ist, interpretiert das
+Tool diese Angabe als Name der Ausgabedatei!
+<p><b>Ausgabedatei</b>: Wenn für eine Datei nicht mehrere Splitpunkte
+angegeben sind, kann man eine Ausgabedatei selbst definieren.
+Ist keine angegeben, oder wenn mehrere Splitpunkte angegeben sind, dann
+generiert mp3splt die Ausgabedatei automatisch in dieser Form:
+DATEI_startzeit_stopzeit.mp3. Falls der Dateiname als "-" angegeben
+ist, wird die Konsole (stdout) als Ausgabe verwendet.
+</p>
+<p><b>Quelle</b>: file.cddb, file.cue oder "query".
+</p>
+<p><b>Tracknummer (optional)</b>: Die Zahl gibt an, in wie viele
+einzelne
+Tracks aufgeteilt werden soll.
+</p>
+<p><b>Schwellenwert</b>: Fließkommazahl zwischen 0 und 10, oder auch
+nur "auto". Der Quadratwert steht für den Schwellenwert der Lautstärke,
+die hinter dem Schalter -s angegeben werden kann (Der Wert von "auto"
+ist 0.58).
+</p>
+<p><b>Adjust</b>: Zum Anpassen können hier weitere Parameter folgen,
+oder auch nur "auto" (<span style="font-style: italic;">weiter unten
+sind mehr Details zu finden</span>)
+</p>
+<p><b>Format</b>: Gibt an, wie der Name der Ausgabedatei formatiert
+sein soll (<span style="font-style: italic;">siehe -o</span>)
+</p>
+<p><a name="lbAD">&nbsp;</a>
+</p>
+<h2>BESCHREIBUNG</h2>
+<b>mp3splt</b> ist ein freies, Open-Source Tool für die Kommandozeile,
+um
+Sounddateien im mp3- oder ogg-Format
+in kleinere Stücke zu zerteilen, deren Größe sich anhand einer
+Startpunkts und Endpunkts definiert werden. Aus dem Zeitabschnitt
+dazwischen erstellt mp3splt eine neue Datei, die nicht es nicht neu
+berechnen muss.<br>
+Der Nutzen ist, sehr große Dateien in kleinere aufzuteilen.
+Beispielsweise, um aus einen durchgehenden Album wieder einzelne
+Tracks zu machen, oder um unerwünschte Teile aus einer Sounddatei
+schnell abzuschneiden, ohne die Datei in einen Editor zu laden.<br>
+Das Tool mp3splt kommt mit ogg- und mp3-Soundfiles zurecht, nimmt aber
+keine Analyse des Dateiinhalts vor, sondern orientiert sich nur an der
+Dateiendung.
+Eine ogg-Datei braucht also unbedingt die Endung ".ogg" und ein
+mp3-Musikstück ".mp3".<br>
+<p>Soll ein Album in einzelne Tracks zerteilt werden, kann man die
+Splitpunkte entweder alle manuell angeben,
+mittels einer CDDB-Abfrage (über eine Internetverbindung), oder über
+eine .cue-Datei (<span style="font-style: italic;">Siehe Schalter -c</span>)
+</p>
+<p>Das Tool kann Dateien aber auch automatisch anhand des erkannten
+Soundlevels
+splitten, indem es stille Passagen erkennt
+und als Pause zwischen den Songs interpretiert. Der Schwellenwert, bis
+zu welcher
+Lautstärke eine leise Passage als Stille gilt,
+kann manuell angegeben werden (<span style="font-style: italic;">Siehe
+Schalter -s</span>)
+</p>
+<p>Ist eine Datei mit den Programmen Mp3Wrap oder AlbumWrap erstellt,
+ist zum
+Aufteilen nur der Schalter -w nötig.
+</p>
+<p><b>HINWEIS (nur falls nicht -w zum Einsatz kommt):</b> Wird das Tool
+ohne der Schalter -f aufgerufen, dann befindet sich sich im
+Standard-Modus.
+Dies bedeutet, dass es zwar sehr schnell arbeitet, allerdings keine
+Dateien mit variabler Bitrate verarbeiten kann. Variable
+Bitraten kann es nur im Frame-Modus erkennen, der mit dem Schalter -f
+aktiviert wird (<span style="font-style: italic;">Siehe unten</span>)
+<a name="lbAE">&nbsp;</a>
+</p>
+<h2>OPTIONEN</h2>
+<dl compact="compact">
+  <dt><b>-w</b> </dt>
+  <dd><b>Wrap-Modus:</b> Der Schalter dient dazu, eine Datei zu
+splitten, die mit einem dieser beiden Programmen erstellt wurde:
+    <p><b>&nbsp;&nbsp;&nbsp; Mp3Wrap (<a
+ href="http://mp3wrap.sourceforge.net">http://mp3wrap.sourceforge.net</a>)</b>:
+Dieses Programm macht das Gegenteil von mp3splt und führt
+mehrere Dateien in ein einzige, abspielbare &nbsp;&nbsp;&nbsp;
+MP3-Datei zusammen. Ein
+Merkmal ist, dass so erstellte Dateien MP3WRAP im Namen Haben und einen
+entsprechenden Kommentar in ihren ID3-Tags &nbsp;&nbsp;&nbsp; (Version
+2) enthalten. Falls
+so eine Datei mit mp3splt gesplittet werden soll, ist nur dieser eine
+Schalter -w nötig und der Teilungsprozess ist ziemlich schnell
+&nbsp;&nbsp;&nbsp; fertig.<br>
+    <b>&nbsp;&nbsp;&nbsp; AlbumWrap</b>: mp3splt ist auch zu Dateien
+des Programms
+AlbumWrap kompatibel, die üblicherweise den Teil "ALBW" im Namen haben
+und auch in den &nbsp;&nbsp;&nbsp; ID3-Tags (Version 2) einen
+entsprechenden Kommentar
+enthalten. </p>
+  </dd>
+  <dt><b>-l</b> </dt>
+  <dd><b>Listen-Modus:</b> (funktioniert nur zusammen mit -w).
+Listet alle Tracks auf, die in einer einzigen Datei mittels Mp3Wrap
+oder AlbumWrap zusammengefasst wurden. Die übergebene Datei lässt
+mp3splt
+dabei völlig unberührt.
+Dieser Schalter dient nur dazu, eine Datei zu testen und ihren Inhalt
+anzusehen. </dd>
+  <dt><b>-e</b> </dt>
+  <dd><b>Fehler-Modus</b>: (funktioniert nur mit mp3-Dateien).
+Dieser Schalter dient dazu, kleine Portionen aus einer Datei zu machen,
+die zuvor aus mehreren MP3-Dateien zusammengefügt wurde.
+Ist -e angegeben, dann sucht mp3splt nach
+Synchronisationsfehlern in der Datei. Diese entstehen, wenn eine
+MP3-Datei nachträglich aus Einzelteilen zusammengebaut wurde. Die
+Synchronisationsfehler sind
+Unterbrechungen des Streams durch Header-Informationen, Tags oder
+anderen Daten.
+Beispiele, auf die der Schalter -e passt, sind zusammengefügte
+Dateien, die AlbumWrap oder Mp3Wrap erstellt hat. Dieser Schalter
+eignen sich aber generell auch bei allen zu
+splittenden, unbekannten Dateien, die ursprünglich aus mehreren
+Einzelstücken bestanden. Es lohnt sich, diesen Schalter zu testen, denn
+wenn er mit einer Datei die gewünschten Ergebnisse produziert,&nbsp;
+kann
+man sich den weiteren Aufwand sparen und dem Tool die ganze Arbeit
+überlassen.<br>
+&nbsp;</dd>
+  <dt><b>-t DAUER</b> </dt>
+  <dd><b>Zeit-Modus:</b>
+Mit diesem Schalter erstellt mp3splt einfach eine endliche Zahl an
+Einzelteilen, die alle die vorgegebene Dauer haben, welche durch den
+Parameter DAUER bestimmt wird. Diese Zeitangabe hat das gleich Format,
+wie der weiter oben beschriebene Zeit-Parameter. Diese Funktion ist
+nützlich, wenn die Dauer der Songs bekannt ist, weil sie beispielsweise
+auf dem Cover einer CD stehen. Die Option -a kann zusätzlich zum
+Anpassen der Splitpunkte genutzt werden, um mit der automatischen
+Erkennung von stillen Passagen die Präzision noch zu verbessern<br>
+&nbsp;</dd>
+  <dt><b>-s SCHWELLENWERT</b> </dt>
+  <dd><b>Stille-Modus:</b>
+Dient dazu, eine Datei anhand automatisch erkannter, stiller Passagen
+in Einzelteile zu zerlegen. Ist -s angegeben, dann versucht
+mp3splt aus der Datei eigenständig einzelne Tracks zu erstellen. Der
+Schalter -s kann zusammen mit -a oder -c angegeben werden (<span
+ style="font-style: italic;">zu -a und -c
+folgen weiter unten Details</span>). Um stille Passagen zu erkennen,
+muss das Tool
+allerdings die Dateien dekodieren, was bei sehr großen Dateien je nach
+verfügbarer Rechenpower etwas dauern kann. Der Schwellenwert gibt den
+Soundlevel an, der gerade noch als Stille interpretiert werden soll.
+Als Wert
+kommt eine Fließkommazahl zwischen 0 und 10 in Frage. Falls "auto"
+statt
+einer Zahl angegeben wird, dann geht mp3splt vom erfahrungsgemäß
+passablen Wert 0,58 aus
+- dieser Wert hat sich als gut geeignet erwiesen und sollte in
+den meisten Fällen die erwarteten Ergebnisse liefern.
+Nach der Angabe des Dateinamens kann noch die Zahl der Tracks folgen,
+andernfalls zerteilt mp3splt alle automatisch gefundenen Tracks selbst.
+Die Trackanzahl ist optional, kann mp3plt aber dabei unterstützen, den
+wahrscheinlichsten Splitpunkt in einer Datei besser zu finden.
+Wird das Tool mit dem Schalter -s aufgerufen, so erstellt es im
+Arbeitsverzeichnis eine Log-Datei mit dem Namen "mp3splt.log", in der
+die automatisch erkannten, stillen Passagen aufgelistet sind. Diese
+Information können bei einem erneuten Aufruf
+gleich direkt als Splitpunkte angegeben werden, ohne wieder die
+rechenintensive Dekodierung von mp3splt nutzen zu müssen. Und
+Schließlich
+kann die Log-Datei auch dabei helfen, Fehler beim Aufteilen zu finden.
+Wenn mp3splt etwa eine Pause zwischen Songs nicht erkannt hat, weil sie
+zu kurz war, kann der Splitpunkt einfach manuell ergänzt werden. Falls
+übrigens zu viele erkannte Pausen eine Menge an Teilstücken erzeugt
+haben, lassen sich die Teilstücke wieder zusammenfügen. Da die
+Einzelteile fortlaufend aufeinander folgen und keine Tags in die
+aufgeteilten Teile geschrieben werden, lassen sich mit 'cat' und mit
+'copy /b' einzelne Teilabschnitte wieder zu einem durchgehenden Track
+zusammenfügen.<br>
+Der Schalter -s eignet sich hauptsächlich für kleine oder mittelgroße
+mp3- und ogg-Dateien, in der einzelne Tracks mit einer deutlichen Pause
+von einander abgetrennt sind. Wer einen flotten High-End PC hat kann
+diese Funktion natürlich auch auf große Dateien loslassen. Etwas Geduld
+sollte man aber mitbringen, da die Sounddaten dekodiert werden müssen.<br>
+Es ist sinnlos, durchgehende Sounddateien (etwa Live-Aufnahmen) ohne
+deutliche Pausen damit zu bearbeiten. Es wäre reine
+Zeitverschwendung, da kaum brauchbare Ergebnisse zu erwarten sind.<br>
+&nbsp;</dd>
+  <dt><b>-c QUELLDATEI</b> </dt>
+  <dd><b>CDDB-Modus</b>: Damit kann mp3splt die richtigen Splitpunkte
+und gewünschten Dateinamen automatisch aus einer QUELLDATEI übergeben
+werden. Diese Quelle ist eine ".cue"-Datei und muss auch diese Endung
+haben, andernfalls interpretiert mp3splt diese Datei als lokale
+CDDB-File. Sollen die Track-Informationen stattdessen von einer
+CDDB-Datenbank über das
+Internet bezogen werden, so ist nur die Angabe "query" nötig und gar
+kein
+Dateiname.<br>
+Über eine bestehende Internetverbindung nimmt mp3splt dann Kontakt zu
+einem CDDB-Server auf und verlangt einige Schlüsselworte, um die
+benötigte Track-Information zu finden. Wenn das passende Album gefunden
+wird, fragt mp3splt den Server nach allen Informationen über die Tracks
+ab und schreibt diese in die Datei "query.cddb", die dann Splitpunkte
+und Dateinamen enthält. Auch ID3-Tags kann mp3splt aus diesen
+Informationen generieren. Bei ersten Aufruf&nbsp; mit "query" fragt
+mp3splt, ob es einen Proxy nutzen soll.<br>
+    <p><b>HINWEIS ZU CDDB</b>: Zugegebenermaßen sind die aus der CDDB
+ermittelten Splitpunkte selten sehr präzise<br>
+1) Wer eine CD rippt, entfernt oft lange Pausen zwischen Tracks. Die
+resultierende Gesamtspielzeit ist dann kürzer, als die der CD. Beim
+Rippen sollten Sie auf das Abschneiden von Stille immer verzichten!<br>
+2) Anderseits kann es auch vorkommen, dass beim Erstellen der
+Soundfiles längere Pausen zwischen den Tracks eingefügt werden. Never
+do
+it. <br>
+3) Encoder könnten einige zusätzliche Frames einfügen, die in der Summe
+auch längere Spielzeiten als die der CD ergeben.<br>
+4) Pro CD gibt es in der CDDB meist mehrere Einträge. In der Ausgabe
+von mp3splt sind diese mit dem Symbol "\=&gt;" gekennzeichnet. Es
+bleibt Ihnen
+überlassen, bei den oft leicht unterschiedlichen CD-Einträgen den
+passenden zu finden. </p>
+    <p><b>Eine andere Möglichkeit ist, den Schalter -a zu nutzen, um
+die Splitpunkte zu präzisieren!</b> </p>
+  </dd>
+  <dt><b>-a &lt;name1=wert,name2=wert,...&gt;</b>&nbsp;</dt>
+  <dd><b> Auto-Adjust-Modus:</b> Diese Option nutzt die Erkennung von
+stillen Passagen, um Splitpunkte zwischen Tracks genauer zu setzen. Sie
+steht im Standard-Modus genauso zur Verfügung, wie auch zusammen mit
+-t und -c (natürlich nur, wenn die aufzuteilende Datei auch wirklich
+deutliche Pausen hat ;). Der Prozess unterscheidet sich nur dadurch,
+dass mp3splt dabei eine gewisse Spielzeit vor und nach dem Splitpunkt
+dekodiert, um stille Passagen zu erkennen anhand deren die
+Teilabschnitte präzisiert werden. Hinter dem Schalter -a können noch
+weitere, einfach durch Komma getrennte Parameter folgen (<span
+ style="font-style: italic;">siehe unten</span>). Ein einfaches "auto"
+setzt diese Parameter auf Standardwerte.<br>
+Die Parameter im Detail:<br>
+    <b>gap=INTEGER</b>: Ein positiver, ganzzahliger Wert, der angibt,
+wie viele Sekunden vor und nach dem Splitpunkt dekodiert werden sollen,
+um Pausen zwischen Tracks zu erkennen. Erhöhen Sie den Wert, wenn
+mp3splt mit den erkannten Trackgrenzen total daneben liegt. Verringern
+Sie den Wert, wenn der Splitpunkt nur knapp daneben liegt. Die
+Aufteilung ist natürlich umso schneller, je kürzer der Wert ist. Der
+Standardwert beträgt 30 Sekunden, auch wenn der Parameter ganz
+weggelassen wird.<br>
+    <b>th=FLIESSKOMMAZAHL</b>: Dieser Parameter gibt den Schwellenwert
+an, der als Stille interpretiert wird. Der Wert liegt zwischen 0 und
+10, der Standardwert beträgt 0,58.
+    <p> </p>
+  </dd>
+  <dt><b>-f</b> </dt>
+  <dd><b>Frame-Modus (funktioniert nur mit mp3):</b> Hierbei betrachtet
+mp3splt die einzelnen Frames einer MP3-Datei und geht zu den den
+Split-Positionen, indem es die Frames zählt. Im Gegensatz dazu versucht
+mp3splt im Standardmodus (also ohne -f) selbst, die Bitrate der
+MP3-Datei zu erraten. Im Frame-Modus erreicht mp3splt eine bessere
+Präzision und kann außerdem MP3s mit variabler Bitrate zerteilen.
+Natürlich lassen sich mit -f auch Dateien mit konstanter Bitrate
+bearbeiten, dies dauert aber länger, als im Standard-Modus.<br>
+Beachten Sie dass die "höhere" Präzision des Frame-Modus zu Abweichung
+führen kann, wenn Sie die Splitpunkte mit einem MP3-Player ermitteln,
+der selbst keine präzisen Werte liefert. Wenn die Ergebnisse daneben
+liegen, helfen Experimente mit den angegebenen Zeitpunkten weiter.<br>
+Das Tool mp3splt gibt im Frame-Modus mehr Infos aus, wie etwa
+Synchronisationsfehler. Wenn diese Fehler auftauchen, handelt es sich
+meist um eine zusammen gestückelte MP3-Datei, die sich auch gut mit der
+Option -e wieder in Einzeltracks aufteilen lässt.<br>
+  </dd>
+  <dt><b><br>
+-o FORMAT<br>
+    </b></dt>
+  <dd><b>Ausgabeformat:</b>
+Um eine selbst definiertes Ausgabeformat der Dateinamen zu bestimmen,
+dient der Schalter -c, gefolgt vom erwünschten Namensschema FORMAT. Das
+FORMAT wird von mp3splt dann für alle erzeugten Einzelteile verwendet.
+Es sollte die folgenden Variablen enthalten, die mit dem @-Zeichen
+eingeleitet werden:<br>
+    <br>
+@a: Künstler<br>
+@b: Album<br>
+@t: Song Titel*<br>
+@n: Track Nummer*<br>
+@p: Interpret des einzelnen Songs (funktioniert nur zusammen mit einer
+.cue-Datei)<br>
+    <br>
+Zwischen den mit Asterisk (*) gekennzeichneten Variablen @t und
+@n&nbsp; muss mindestens ein Trennzeichen stehen, um unklare Namen zu
+vermeiden. Alle möglichen Zeichen und Zeichenketten&nbsp; sind als
+Separator erlaubt. Um einfach Leerzeichen einzufügen, ohne mit
+der Syntax von mp3splt zu kollidieren, dient das Pluszeichen (+). Es
+wird automatisch als Leerzeichen interpretiert. Dazu ein paar Beispiele:<br>
+    <br>
+@n_@a_@b_@t (Unterstriche zwischen den Variablen)<br>
+@a+-+@n+-+@t (Von Leerzeichen eingefasste Minuszeichen. Dieses Format
+ist Standard, falls -o gar nicht angegeben ist)<br>
+    <p> </p>
+  </dd>
+  <dt><b>-d NAME</b> </dt>
+  <dd><b>Ausgabe-Verzeichnis:</b> Sorgt dafür, dass alle Dateien in den
+Ordner NAME gelegt werden. Dieses Verzeichnis braucht nicht schon zu
+existieren. </dd>
+  <dt><b>-n</b> </dt>
+  <dd><b>Ohne Tags</b>: Schreibt in die Ausgabedatei keine ID3- oder
+Vorbis-Kommentare. </dd>
+  <dt><b>-q</b> </dt>
+  <dd><b>Quiet mode</b>: Mit diesem Parameter verrichtet mp3splt still
+seine Arbeit. Es fragt nicht irgendwelchen Bestätigungen und gibt kaum
+Informationen aus. Wenn diese Option genutzt wird, versucht mp3splt
+ganz ohne Unterbrechung bis zum Ende durchzulaufen (praktisch für
+Scripts).
+Im Wrap-Modus (Schalter -w) lässt es außerdem die CRC- Überprüfung aus
+- für Fälle, in denen es ganz schnell gehen muss. </dd>
+</dl>
+<a name="lbAF">&nbsp;</a>
+<h2>BEISPIELE</h2>
+<p>
+<b>mp3splt album.mp3 54.32.19 67.32 ausgabe.mp3</b><br>
+<b>mp3splt album.ogg 54.32.19 67.32 ausgabe.ogg</b>
+</p>
+<p>Dies zeigt die übliche Verwendung von mp3splt für eine mp3- oder
+ogg-Datei mit konstanter Bitrate.
+Eine Startpunkt (sogar mit hunderdstel Sekunden: 54.32.19), Endpunkt
+(67.32)
+und
+Ausgabedatei ist angegeben.
+</p>
+<p><b>mp3splt -f -d verzeichnis album.mp3 145.59 234.2</b>
+</p>
+<p>Dies demonstriert den Frame-Modus für MP3-Dateien mit variabler
+Bitrate. Man sieht hier, dass als Startzeit das Format Minuten.Sekunden
+angegeben ist, obwohl&nbsp; die Minuten über die 60 gehen. Die
+Ausgabedatei sieht hier wie folgt aus: album_145.59_234.2.mp3,
+denn ein erwünschtes Namensschema ist nicht angegeben. Die aufteilten
+Dateien landen alle im angegebenen Verzeichnis.<br>
+</p>
+<p><b>mp3splt -nf album.mp3 0.12 21.34.7 25.3 30.40 38.58</b>
+</p>
+<p>Hier ist die Verwendung von -n mit drei Splitpunkten zu sehen. Vier
+Dateien werden hier erstellt, die allesamt keine ID3-Tags enthalten.
+</p>
+<p><b>mp3splt -w album_MP3WRAP.mp3</b>
+</p>
+<p>Auf durchgängige Sounddateien, die etwa mit mit den Programmen&nbsp;
+Mp3Wrap und AlbumWrap erstellt wurden, lässt sich der Wrap-Modus gut
+anwenden. Da mp3splt hier alle Splitpunkte selbst erkennt, sind keine
+weiteren Schalter nötig.
+</p>
+<p><b>mp3splt -wlq album_MP3WRAP.mp3</b> oder just <b>mp3splt -lq
+album_MP3WRAP.mp3</b>
+</p>
+<p>Dies ist der Listen-Modus, der nur eine Liste aller gefundenen
+Trackgrenzen zeigt, ohne eine Datei zu erstellen. Zusammen mit dem
+Stummschalter-q program wird mp3splt auch keine CRC-Berechnungen
+durchführen.
+</p>
+<p><b>mp3splt -s auto album.mp3<br>
+</b>oder<br>
+<b>mp3splt -s 1.45 album.mp3
+10</b>
+</p>
+<p>Hier soll mp3splt selbstständig die Splitpunkte herausfinden, indem
+es stille Passagen zwischen Tracks erkennt. Im oberen Beispiel nutzt es
+dazu den Standard-Schwellenwert 0,58. Im unteren Beispiel ist der
+Schwellenwert mit 1,45 angegeben und die erwartete Anzahl ein Tracks
+mit 10.<br>
+</p>
+<p></p>
+<p><b>mp3splt -c file.cddb album.mp3</b>
+</p>
+<p>Im CDDB-Modus, in dem mp3splt eine lokale Datei (file.cddb)
+ausließt, um resultierende Dateinamen und Splitpunkte daraus zu
+entnehmen.
+</p>
+<p><b>mp3splt -c query album.mp3</b>
+</p>
+<p>Im CDDB-Modus, in dem mp3splt eine CDDB-Anfrage über eine
+Internetverbindung stellt und Benutzereingaben erwartet, nach welchen
+Keywords es auch dem CDDB_server suchen soll.<br>
+</p>
+<p><b>mp3splt -a auto -c file.cddb album.mp3 </b>
+</p>
+<p>Hier ist der CDDB-Modus (mit einer lokalen Datei) und der
+Auto-Adjust Schalter (-a auto) kombiniert. Die Splitpunkte werden hier
+präziser, da mp3splt bei der aus der CDDB-Datei gelesenen Trackgrenzen
+auch noch die automatische Erkennung von stillen Passagen hinzuzieht.
+30 Sekunden vor und nach dem angegebenen Splitpunkt werden dazu
+dekodiert und untersucht.<br>
+</p>
+<p><b>mp3splt -a gap=15,th=0.82 -c file.cddb album.mp3 </b>
+</p>
+<p>Dies ist der CDDB-Modus (mit einer lokalen Datei) zusammen mit einem
+angepassten Adjust-Schalter. Die Parameter hinter -a weisen mp3splt an,
+15 Sekunden vor und nach dem Splitpunkt nach Pausen zu suchen und dabei
+einen Lautstärke-Schwellenwert von 0.82 zu nutzen.<br>
+</p>
+<p><b>mp3splt -c query album.mp3 -n -o @n_@t</b>
+</p>
+<p>In diesem Beispiel des CDDB-Modus (mit Server-Abfrage) soll der
+Frame-Modus genutzt werden. ID3-Tags sind abgeschaltet und das Format
+des Namensschema vorgegeben: Ausgabedateien werden Namen wie diese
+haben:
+01_Titel.mp3, 02_Titel.mp3, 03_Titel.mp3,... </p>
+<p><b>mp3splt -t 10.00 album.mp3</b>
+</p>
+<p>Im letzten Beispiel soll der Schalter -t die angegebene Datei stur
+in Teile zerstückeln, die jeweils 10 Minuten land sind.
+</p>
+<p><a name="lbAG">&nbsp;</a>
+</p>
+<h2>BUGS</h2>
+<p>Melden Sie dem Autor von mp3splt gefundene Fehler und Bugs. Hinweise
+und Anfragen
+sind willkommen.
+<a name="lbAH">&nbsp;</a>
+</p>
+<h2>SIEHE AUCH</h2>
+<p>
+<b><a href="http://mp3wrap.sourceforge.net/man.html">mp3wrap</a></b>(1)
+<a name="lbAI">&nbsp;</a>
+</p>
+<h2>AUTOR</h2>
+<p>
+Matteo Trotta &lt;<a href="mailto:mtrotta@users.sourceforge.net">mtrotta@users.sourceforge.net</a>&gt;.
+<a name="lbAJ">&nbsp;</a>
+</p>
+<h2>DISTRIBUTION</h2>
+<p>
+Besuchen Sie <a href="http://mp3splt.sourceforge.net">http://mp3splt.sourceforge.net</a>
+um immer die aktuellste Version des Tools zu erhalten.
+</p>
+<p><i>mp3splt </i>
+is (C) 2002-2003 by Matteo Trotta
+</p>
+<p><br>
+Permission is granted to copy, distribute and/or modify
+this document under the terms of the GNU General Public License.
+This can be found as COPYING in mp3splt directory.
+</p>
+<p><a href="#index">Index</a><br>
+</p>
+<hr>Dieses Dokument wurde ursprünglich man2html erstellt. Übersetzung:
+David G. Wolski (admi@india.com).<br>
+Time: 15:49:21 GMT, Nov 10, 2003
+</body>
+</html>
