@@ -48,9 +48,9 @@ svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-proje
 
 <li>Copy the <span class=\"colorspan\">nsis</span> directory from the installation directory (usually 
 <span class=\"colorspan\">Program Files/nsis</span>)
-and put it in the <span class=\"colorspan\">mp3splt</span> directory.</li>
+and put it in the <span class=\"colorspan\">mp3splt-project</span> directory.</li>
 
-<li>Now in the <span class=\"colorspan\">mp3splt</span> directory type
+<li>Now in the <span class=\"colorspan\">mp3splt-project</span> directory type
 <br />
 <code>
 ./compile_win32.sh
@@ -58,7 +58,7 @@ and put it in the <span class=\"colorspan\">mp3splt</span> directory.</li>
 </li>
 
 <li>You will find an executable installer in the
-<span class=\"colorspan\">mp3splt</span> directory.</li>
+<span class=\"colorspan\">mp3splt-project</span> directory.</li>
 
 </ol>
 
@@ -102,7 +102,7 @@ cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh
 </code>
 
 <p>You will find an executable installer in the <span
-class=\"colorspan\">mp3splt</span> directory</p>
+class=\"colorspan\">mp3splt-project</span> directory</p>
 </li>
 
 </ol>

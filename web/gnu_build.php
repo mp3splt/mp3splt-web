@@ -38,13 +38,11 @@ MAD sourceforge page</a></li>
 </ul>
 </li>
 
-<li>Get the subversion code as explained on the <a href=\"subversion.php\">subversion page</a>
-
-<p><span class=\"colorspan\">mp3splt-project</span> subversion directory content :
-<span class=\"colorspan\">libmp3splt</span>,
-<span class=\"colorspan\">mp3splt-gtk</span>,
-<span class=\"colorspan\">newmp3splt</span>,...
-</p>
+<li>Get the subversion code :
+<br />
+<code>
+svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
+</code>
 </li>
 
 </ol>
@@ -98,7 +96,8 @@ type :
 <li>Type this line as root :
 <br />
 <code>
-if [ -z `grep '/usr/local/lib' /etc/ld.so.conf` ];then `echo '/usr/local/lib' >> /etc/ld.so.conf` &amp;&amp; ldconfig;fi
+if [ -z `grep '/usr/local/lib' /etc/ld.so.conf` ];then `echo
+'/usr/local/lib' >> /etc/ld.so.conf` &amp;&amp; ldconfig;else ldconfig;fi
 </code>
 
 </li>
