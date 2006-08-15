@@ -38,7 +38,7 @@ unix-like OSes)
 </div>
 <div class=\"indentdiv\">-
 <a href=\"windows_build.php\">Windows Subversion build instructions</a>
-(includes cross compilation and windows installer instructions)</div>
+(includes cross compilation)</div>
 <br />
 
 <!--<div class=\"title\">Other :</div>
