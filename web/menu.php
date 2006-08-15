@@ -187,7 +187,14 @@ function create_table_with_menu($page)
     {
       echo "<div style=\"padding-top:0pt;padding-bottom:5pt;\"><a href=\"{$page}.php\">&lt;&lt;{$page}</a></div>";
     }
-
+  
+  $the_page = "http://".$_SERVER['SERVER_NAME'].":";
+  if ($_SERVER['SERVER_PORT'] != 80)
+    {
+      $the_page .= $_SERVER['SERVER_PORT'];
+    }
+  $the_page .= $_SERVER['PHP_SELF'];
+  
 echo "
 </td>
 </tr>
@@ -195,8 +202,8 @@ echo "
 <tr>
 <td colspan=\"2\">
 <div class=\"bottombar\">
-<a class=\"bottom\" href=\"http://validator.w3.org/check?uri={$_SERVER['HTTP_REFERER']}\">XHTML</a>
-<a class=\"bottom\" href=\"http://jigsaw.w3.org/css-validator/validator?uri={$_SERVER['HTTP_REFERER']}\">CSS2</a>
+<a class=\"bottom\" href=\"http://validator.w3.org/check?uri={$the_page}\">XHTML</a>
+<a class=\"bottom\" href=\"http://jigsaw.w3.org/css-validator/validator?uri={$the_page}\">CSS2</a>
 </div>
 </td>
 </tr>

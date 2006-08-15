@@ -113,16 +113,21 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
 P{ 
    text-align:justify;
    text-indent:0pt;
-   padding-left:20pt;
+   padding-left:10pt;
    margin-top:4pt;
    margin-bottom:4pt;
    }
 
 /* ordoned_list */
 LI{
-   margin-left:20pt;
+   margin-left:10pt;
    margin-top:4pt;
    margin-bottom:4pt;
+}
+
+/* unordoned_list */
+UL{
+    padding-left:20pt;
 }
 
 /* news paragraph */
@@ -213,3 +218,10 @@ LI{
   color:red;
  }
 
+.section
+{
+  font-weight:bold;
+  margin-top:10pt;
+  margin-bottom:5pt;
+  margin-left:10pt;
+ }
