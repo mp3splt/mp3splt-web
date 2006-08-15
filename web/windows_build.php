@@ -5,7 +5,7 @@ include 'menu.php';
 function create_main_page()
 {
   echo "
-<h2  class=\"pagetitle\">Mp3splt-project subversion for windows</h2>
+<h2  class=\"pagetitle\">Subversion build for windows</h2>
 <hr />
 
 <div class=\"title\">Windows build:</div>
@@ -38,9 +38,10 @@ and install it in the same directory as mingw and msys (<span class=\"colorspan\
 during MSYS's installation</li>
 
 <li>Download mp3splt-project subversion code :
-<pre>
-svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt
-</pre>
+<br />
+<code>
+svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
+</code>
 </li>
 
 <li>Download <a href=\"http://nsis.sourceforge.net/Download\">nsis</a> and install it.</li>
@@ -50,9 +51,10 @@ svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt
 and put it in the <span class=\"colorspan\">mp3splt</span> directory.</li>
 
 <li>Now in the <span class=\"colorspan\">mp3splt</span> directory type
-<pre>
+<br />
+<code>
 ./compile_win32.sh
-</pre>
+</code>
 </li>
 
 <li>You will find an executable installer in the
@@ -61,21 +63,23 @@ and put it in the <span class=\"colorspan\">mp3splt</span> directory.</li>
 </ol>
 
 <div class=\"title\">Cross compiling :</div>
-<p>This section explains how to compile mp3splt-gtk for Windows on a
+<p>This section explains how to compile mp3splt-project for Windows on a
 <span style=\"font-weight:bold\">Debian GNU/linux</span> operating system.</p>
 
 <ol>
 
 <li>Install mingw, nsis and wine as root :
-<pre>
+<br />
+<code>
 apt-get install mingw32 mingw32-binutils mingw32-runtime nsis wine subversion
-</pre>
+</code>
 </li>
 
 <li>Create the <span class=\"colorspan\">libs</span> directory :
-<pre>
+<br />
+<code>
 mkdir libs
-</pre>
+</code>
 </li>
 
 <li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
@@ -85,15 +89,17 @@ href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">
 put them in the <span class=\"colorspan\">libs</span> directory</li>
 
 <li>Download mp3splt-project subversion code :
-<pre>
-svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt
-</pre>
+<br />
+<code>
+svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
+</code>
 </li>
 
 <li>Type :
-<pre>
-cd mp3splt &amp;&amp; ./crosscompile_win32.sh
-</pre>
+<br />
+<code>
+cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh
+</code>
 
 <p>You will find an executable installer in the <span
 class=\"colorspan\">mp3splt</span> directory</p>

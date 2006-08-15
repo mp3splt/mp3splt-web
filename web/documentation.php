@@ -23,21 +23,18 @@ mp3splt-gtk INSTALL file</a> (contains also windows installation)
 <br />
 
 <div class=\"title\">Usage :</div>
-<p>mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
-(2.1)</a> | <a href=\"documentation/man-de.html\">German (1.9)</a></p>
+<br />
+<div class=\"indentdiv\">- mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
+(2.1)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">Subversion build :</div>
 <br />
-<div class=\"featdiv\" style=\"margin-bottom:5pt\">
-Mp3splt-project build :
+<div class=\"indentdiv\">-
+<a href=\"gnu_build.php\">Build for unix-like OSes</a>
 </div>
 <div class=\"indentdiv\">-
-<a href=\"gnu_build.php\">Subversion build instructions</a> (for
-unix-like OSes)
-</div>
-<div class=\"indentdiv\">-
-<a href=\"windows_build.php\">Windows Subversion build instructions</a>
+<a href=\"windows_build.php\">Build for windows</a>
 (includes cross compilation)</div>
 <br />
 

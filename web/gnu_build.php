@@ -5,7 +5,7 @@ include 'menu.php';
 function create_main_page()
 {
   echo "
-<h2  class=\"pagetitle\">Mp3splt-project subversion build</h2>
+<h2  class=\"pagetitle\">Subversion build for unix-like OSes</h2>
 <hr />
 
 <div class=\"section\">Prerequisites : </div>
@@ -52,9 +52,13 @@ MAD sourceforge page</a></li>
 <div class=\"title\">Automatic :</div>
 
 <ul>
-<li>As root, type <span style=\"font-weight:bold\">make
-root_install</span> in the <span
-class=\"colorspan\">mp3splt-project</span> directory</li>
+<li>As root, go  in the <span
+class=\"colorspan\">mp3splt-project</span> directory and type :
+<br />
+<code>
+make root_install
+</code>
+</li>
 </ul>
 
 <div class=\"title\">Manual :</div>
@@ -63,31 +67,38 @@ class=\"colorspan\">mp3splt-project</span> directory</li>
 
 <ol>
 
-<li>Go in the <span class=\"colorspan\">mp3splt-project/libmp3splt</span> directory and type
-<span style=\"font-weight:bold\">./autogen.sh</span></li>
+<li>Go in the <span class=\"colorspan\">mp3splt-project/libmp3splt</span> directory and
+type :
+<br />
+<code>
+./autogen.sh
+</code>
+</li>
 
-<li>After that type
-<span style=\"font-weight:bold\">./configure</span> or 
-<span style=\"font-weight:bold\">./configure --prefix=&lt;your
-directory&gt;</span> to install in a chosen directory
+<li>After that, type :
+<br />
+<code>./configure</code>
 <p>You can disable the use of ogg with \"./configure
 --disable-ogg\" but it is not recommended</p>
 <p>You can disable the use of id3tag with \"./configure
 --disable-id3tag\" but it is not recommended</p>
 </li>
 
-<li>Compile the library : type <span style=\"font-weight:bold\">make</span></li>
-
-<li>Install the library : type <span style=\"font-weight:bold\">make install</span>
-(you have to install the library to compile mp3splt-gtk)
-<p>You have to be root to install the library if you have not
-specified another directory with \"./configure --prefix=&lt;your directory&gt;\"</p>
+<li>Compile the library :
+<br />
+<code>make</code>
 </li>
 
-<li>Type this line as root : <br />
+<li>Install the library : <br />(you have to install the library to compile mp3splt-gtk) 
+<br />
+<code>make install</code>
+<p>You have to be root to install the library</p>
+</li>
+
+<li>Type this line as root :
+<br />
 <code>
-if [ -z `grep '/usr/local/lib' /etc/ld.so.conf` ];then `echo
-'/usr/local/lib' >> /etc/ld.so.conf` &amp;&amp; ldconfig;fi
+if [ -z `grep '/usr/local/lib' /etc/ld.so.conf` ];then `echo '/usr/local/lib' >> /etc/ld.so.conf` &amp;&amp; ldconfig;fi
 </code>
 
 </li>
@@ -97,23 +108,28 @@ if [ -z `grep '/usr/local/lib' /etc/ld.so.conf` ];then `echo
 <div class=\"section\">Mp3splt build : </div>
 
 <ol>
-<li>Go in the <span class=\"colorspan\">mp3splt-project/newmp3splt</span> directory and type
-<span style=\"font-weight:bold\">./autogen.sh</span></li>
+<li>Go in the <span
+class=\"colorspan\">mp3splt-project/newmp3splt</span> directory and
+type :
+<br />
+<code>./autogen.sh</code></li>
 
-<li>After that type
-<span style=\"font-weight:bold\">./configure</span> or 
-<span style=\"font-weight:bold\">./configure --prefix=&lt;your
-directory&gt;</span> to install in a chosen directory
+<li>After that type :
+<br />
+<code>./configure</code>
 </li>
 
-<li>Compile the program : type <span style=\"font-weight:bold\">make</span>
+<li>Compile the program :
+<br /><code>make</code>
 <p>The <span style=\"font-style:italic\">mp3splt</span> binary is in the <span class=\"colorspan\">mp3splt-project/newmp3splt/src</span> directory</p>
 </li>
 
-<li>Install the program (optional) : type <span
-style=\"font-weight:bold\">make install</span>
-<p>You have to be root to install the library if you have not
-specified another directory with \"./configure --prefix=&lt;your directory&gt;\"</p>
+<li>Install the program (optional) :
+<br />
+<code>
+make install
+</code>
+<p>You have to be root to install the program.</p>
 </li>
 
 </ol>
@@ -123,24 +139,31 @@ specified another directory with \"./configure --prefix=&lt;your directory&gt;\"
 <ol>
 
 <li>Go in the <span class=\"colorspan\">mp3splt-project/mp3splt-gtk</span> directory and type
-<span style=\"font-weight:bold\">./autogen.sh</span></li>
-
-<li>After that type
-<span style=\"font-weight:bold\">./configure</span> or 
-<span style=\"font-weight:bold\">./configure --prefix=&lt;your
-directory&gt;</span> to install in a chosen directory
-<p>By default, the compilation is without beep-media-player (bmp) support. You can
-enable the bmp support with \"./configure --enable-bmp\"</p>
+<br />
+<code>
+./autogen.sh
+</code>
 </li>
 
-<li>Compile the program : type <span style=\"font-weight:bold\">make</span>
+<li>After that type :
+<br />
+<code>./configure</code>
+<p>By default, the compilation is without beep-media-player (bmp) support; you can
+enable bmp support with \"./configure --enable-bmp\"</p>
+</li>
+
+<li>Compile the program :
+<br />
+<code>make</code>
 <p>The <span style=\"font-style:italic\">mp3splt-gtk</span> binary is in the <span class=\"colorspan\">mp3splt-project/mp3splt-gtk/src</span> directory</p>
 </li>
 
-<li>Install the program (optional) : type <span
-style=\"font-weight:bold\">make install</span>
-<p>You have to be root to install the library if you have not
-specified another directory with \"./configure --prefix=&lt;your directory&gt;\"</p>
+<li>Install the program (optional) :
+<br />
+<code>
+make install
+</code>
+<p>You have to be root to install the program</p>
 </li>
 
 </ol>";
