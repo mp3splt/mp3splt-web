@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_screenshots_page()
+include 'menu.php';
+
+function create_main_page()
 {
 echo "
 <h2  class=\"pagetitle\">Screenshots</h2>
@@ -101,9 +102,7 @@ href=\"screenshots/mp3splt-0.1.1_win32.jpg\">
 
 ";
 }
-?>
 
-<?php
 begin_document("mp3splt project - screenshots page",
 	       "default.css",FALSE);
 

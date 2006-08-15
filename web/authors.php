@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_contact_page()
+include 'menu.php';
+
+function create_main_page()
 {
 echo "
 <h2  class=\"pagetitle\">Authors</h2>
@@ -30,18 +31,13 @@ People who contributed to mp3splt development :
 <div class=\"title\">mp3splt-gtk :</div>
 <ul>
 <li> Munteanu Alexandru : author and main maintainer of mp3splt-gtk</li>
-</ul>
-
-";
-
+</ul>";
 }
-?>
 
-<?php
 begin_document("mp3splt project - authors page",
 	       "default.css",FALSE);
 
-create_table_with_menu("contact");
+create_table_with_menu("authors");
 
 end_document();
 ?>

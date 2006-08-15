@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_home_page()
+include 'menu.php';
+
+function create_main_page()
 {
   echo "
 <h1 class=\"pagetitle\">Mp3splt Project Homepage</h1>
@@ -12,8 +13,7 @@ function create_home_page()
 <div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3Splt</span> is a command line utility to split mp3 and ogg
 files selecting a begin and an end time position, <i>without
 decoding</i>. It's very useful to split large mp3/ogg to make smaller
-files or to split entire albums to obtain original tracks. </div>
-<div class=\"indentdiv\">If you want
+files or to split entire albums to obtain original tracks. If you want
 to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
 or from .cue files.
@@ -37,10 +37,7 @@ libmp3splt. </div>
 <span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
 General Public License</a><br /><br />
 <br />
-Please use the
-<a href=\"http://sourceforge.net/mail/?group_id=55130\">
- mailing list</a> for bug reporting.
-<br /><br />
+<br />
 Non-windows users need libmp3splt for mp3splt-gtk.
 </td>
 <td>
@@ -157,15 +154,9 @@ href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a> -
   include "news.html";
 
   echo "
-<br />
-
-";
-
-  //<center><font face=\"Arial\" size=\"2\">by <i>Matteo Trotta</i> - 2005</font></center>
+<br />";
 }
-?>
 
-<?php
 begin_document("mp3 and ogg splitter - mp3splt project home page",
 	       "default.css",FALSE);
 

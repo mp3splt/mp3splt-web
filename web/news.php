@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_news_page()
+include 'menu.php';
+
+function create_main_page()
 {
   echo "
 <h2 class=\"pagetitle\">News</h2>
@@ -9,15 +10,13 @@ function create_news_page()
 
 <br />
 ";
- 
+  
   include "news.html";
+  include "old_news.html";
   
   echo "<br />";
 }
 
-?>
-
-<?php
 begin_document("mp3splt project - news page",
 	       "default.css",FALSE);
 

@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_license_page()
+include 'menu.php';
+
+function create_main_page()
 {
 echo "
 <h2  class=\"pagetitle\">License</h2>
@@ -23,14 +24,9 @@ of the License, or (at your option) any later version. This program is distribut
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-<br />
-<br /><br />
-
-";
+<br /><br />";
 }
-?>
 
-<?php
 begin_document("mp3splt project - license page",
 	       "default.css",FALSE);
 

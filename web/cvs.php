@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_cvs_page()
+include 'menu.php';
+
+function create_main_page()
 {
   echo "
 <h2 class=\"pagetitle\">CVS</h2>
@@ -19,9 +20,7 @@ function create_cvs_page()
 </ul>
 ";
 }
-?>
 
-<?php
 begin_document("mp3splt project - cvs page",
 	       "default.css",FALSE);
 

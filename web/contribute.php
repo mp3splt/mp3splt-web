@@ -1,7 +1,8 @@
 <?php
+
 include './menu.php';
 
-function create_contribute_page()
+function create_main_page()
 {
   echo "
 <h2 class=\"pagetitle\">How to contribute to the mp3splt project ?</h2>
@@ -73,11 +74,10 @@ project but want to, you can also support it by donating.</div>
 <div class=\"featdiv\">
 Of course, any other contributions are welcome :)
 </div>
+<br />
 ";
 }
-?>
 
-<?php
 begin_document("mp3splt project - contribution page",
 	       "default.css",FALSE);
 

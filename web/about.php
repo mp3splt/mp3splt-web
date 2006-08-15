@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_about_page()
+include 'menu.php';
+
+function create_main_page()
 {
   echo "
 <h2 class=\"pagetitle\">About</h2>
@@ -81,13 +82,9 @@ auto detection split</li>
 <li class=\"lifeatures\">auto-adjust silence split, frame mode option,
 input not seekable option</li>
 </ul>
-
-
 ";
 }
-?>
 
-<?php
 begin_document("mp3splt project - about page",
 	       "default.css",FALSE);
 

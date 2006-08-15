@@ -1,7 +1,8 @@
 <?php
-include './menu.php';
 
-function create_documentation_page()
+include 'menu.php';
+
+function create_main_page()
 {
   echo "
 <h2  class=\"pagetitle\">Documentation</h2>
@@ -32,10 +33,10 @@ mp3splt-gtk INSTALL file</a> (contains also windows installation)
 Libmp3splt and Mp3splt-gtk build :
 </div><br />
 <div class=\"indentdiv\">-
-<a href=\"documentation/gnu_build.php\">GNU/Linux Subversion build instructions</a>
+<a href=\"gnu_build.php\">GNU/Linux Subversion build instructions</a>
 </div>
 <div class=\"indentdiv\">-
-<a href=\"documentation/windows_build.php\">Windows Subversion build instructions</a>
+<a href=\"windows_build.php\">Windows Subversion build instructions</a>
 (includes cross compilation and windows installer instructions)</div>
 <br />
 
@@ -46,9 +47,7 @@ Libmp3splt and Mp3splt-gtk build :
 libmp3splt implementation</a></div>-->
 ";
 }
-?>
 
-<?php
 begin_document("mp3splt project - documentation page",
 	       "default.css",FALSE);
 

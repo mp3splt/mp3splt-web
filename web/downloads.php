@@ -1,9 +1,10 @@
 <?php
-include './menu.php';
 
-function create_download_page()
+include 'menu.php';
+
+function create_main_page()
 {
-echo "
+  echo "
 <h2  class=\"pagetitle\">Downloads</h2>
 <hr />
 Note : in order to compile mp3splt-gtk, you need libmp3splt.
@@ -402,15 +403,12 @@ libmp3splt v0.1.1 (src)</a>
 </tr>
 </table>
 ";
-
 }
-?>
 
-<?php
 begin_document("mp3splt project - download page",
 	       "default.css",FALSE);
 
-create_table_with_menu("download");
+create_table_with_menu("downloads");
 
 end_document();
 ?>

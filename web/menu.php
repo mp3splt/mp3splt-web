@@ -38,7 +38,7 @@ function end_document()
 }
 
 //function that creates and draws the menu
-function create_menu()
+function create_menu($page)
 {
   //table for the general menu
   $menu = array(0 => "Home",
@@ -62,10 +62,17 @@ function create_menu()
     {
       //convert to lower cases
       $link = strtolower($menu[$i].".php");
-      echo "<div class=\"menudiv\">
+      if (strcmp($page,strtolower($menu[$i])) == 0)
+	{
+	  echo "<div class=\"menudiv\">$menu[$i]</div>";
+	}
+      else
+	{
+	  echo "<div class=\"menudiv\">
            <a href=\"$link\">$menu[$i]</a></div>";
+	}
     }
-
+  
   //table for the developers menu
   //$menu2 = array(0 => "CVS");
   $menu2 = array();
@@ -93,19 +100,19 @@ function create_menu()
        Browse SVN</a></div>";
   //bugs external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476061&group_id=55130&func=browse\">
+           <a href=\"http://sourceforge.net/tracker/?atid=476061&amp;group_id=55130&amp;func=browse\">
        Bugs</a></div>";
   //support requests external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476062&group_id=55130&func=browse\">
+           <a href=\"http://sourceforge.net/tracker/?atid=476062&amp;group_id=55130&amp;func=browse\">
        Support Requests</a></div>";
   //patches external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476063&group_id=55130&func=browse\">
+           <a href=\"http://sourceforge.net/tracker/?atid=476063&amp;group_id=55130&amp;func=browse\">
        Patches</a></div>";
   //feature requests external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476064&group_id=55130&func=browse\">
+           <a href=\"http://sourceforge.net/tracker/?atid=476064&amp;group_id=55130&amp;func=browse\">
        Feature Requests</a></div>";
 
   echo "<br />";
@@ -138,30 +145,9 @@ function create_menu()
 }
 
 //creates the appropriate page switching $page
-function create_page($page)
+function create_page()
 {
-  if ($page == "about")
-    create_about_page();
-  elseif ($page == "news")
-    create_news_page();
-  elseif ($page == "home")
-    create_home_page();
-  elseif ($page == "download")
-    create_download_page();
-  elseif ($page == "screenshots")
-    create_screenshots_page();
-  elseif ($page == "license")
-    create_license_page();
-  elseif ($page == "contact")
-    create_contact_page();
-  elseif ($page == "documentation")
-    create_documentation_page();
-  elseif ($page == "contribute")
-    create_contribute_page();
-  elseif ($page == "subversion")
-    create_subversion_page();
-  elseif ($page == "gnu_linux")
-    create_gnu_linux_page();
+  create_main_page();
 }
 
 //creates a table with the menu and the page passed as parameter
@@ -176,15 +162,45 @@ function create_table_with_menu($page)
 <tr>
 <td id=\"main_menu_column\">
 ",
-    create_menu()
+    create_menu($page)
     ,"
 </td>
 <td id=\"main_page_column\">
-",
-    create_page($page)
-    ,"
+";
+  $child_or_not = FALSE;
+  $real_page = substr(strrchr($_SERVER['SCRIPT_FILENAME'],"/"),1,-4);
+  if (strcmp($real_page,$page) != 0)
+    {
+      $child_or_not = TRUE;
+    }
+  
+  #top link
+  if ($child_or_not)
+    {
+      echo "<div style=\"padding-top:5pt;padding-bottom:5pt;\"><a href=\"{$page}.php\">&lt;&lt;{$page}</a></div>";
+    }
+  
+  create_page();
+  
+  #bottom link
+  if ($child_or_not)
+    {
+      echo "<div style=\"padding-top:0pt;padding-bottom:5pt;\"><a href=\"{$page}.php\">&lt;&lt;{$page}</a></div>";
+    }
+
+echo "
 </td>
 </tr>
+
+<tr>
+<td colspan=\"2\">
+<div class=\"bottombar\">
+<a class=\"bottom\" href=\"http://validator.w3.org/check?uri={$_SERVER['HTTP_REFERER']}\">XHTML</a>
+<a class=\"bottom\" href=\"http://jigsaw.w3.org/css-validator/validator?uri={$_SERVER['HTTP_REFERER']}\">CSS2</a>
+</div>
+</td>
+</tr>
+
 </table>
 ";
 }

@@ -1,10 +1,12 @@
 <?php
-include '../menu.php';
 
-function create_windowsbuild_page()
+include 'menu.php';
+
+function create_main_page()
 {
+  echo "<div style=\"padding-top:5pt;\"><a href=\"documentation.php\">&lt;&lt;documentation</a></div>";
+  
   echo "
-<hr />
 <h2  class=\"pagetitle\">Libmp3splt and Mp3splt-gtk windows build</h2>
 <hr />
 
@@ -28,7 +30,7 @@ indicate the directory where it is installed, type in <span class=\"colorspan\">
 <p>3. Download <a href=\"http://prdownloads.sourceforge.net/mingw/msysDTK-1.0.1.exe\">msysDTK-1.0.1.exe</a>
 and install it in the same directory as mingw and msys (<span class=\"colorspan\">c:\mp3splt_mingw</span>)</p>
 
-<p>4. Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
+<p style=\"text-align:left\">4. Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</p>
 
@@ -68,7 +70,7 @@ apt-get install mingw32 mingw32-binutils mingw32-runtime nsis wine
 <pre style=\"padding-left:50pt\">
 mkdir libs
 </pre>
-<p>3. Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
+<p style=\"text-align:left\">3. Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a
 href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and
@@ -86,20 +88,14 @@ cd mp3splt && ./crosscompile_win32.sh
 <p>You will find an executable installer in the <span
 class=\"colorspan\">mp3splt</span> directory</p>
 ";
+  
+  echo "<div style=\"padding-top:5pt;\"><a href=\"documentation.php\">&lt;&lt;documentation</a></div>";
 }
 
 begin_document("mp3splt and libmp3splt",
-	       "../default.css",TRUE);
+	       "default.css",TRUE);
 
-echo "<br />
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href=\"../documentation.php\">&lt;&lt;back</a>";
-
-create_windowsbuild_page();
-
-echo "
-&nbsp;&nbsp;&nbsp;&nbsp;
-<a href=\"../documentation.php\">&lt;&lt;back</a>";
+create_table_with_menu("documentation");
 
 end_document();
 ?>

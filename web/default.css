@@ -11,6 +11,25 @@ a:hover {color:black;/*background-color:#829FD9;*/
          text-decoration: underline;
 }
 
+
+/* bottom links */
+a.bottom {  color:white;text-decoration: none; 
+    }
+a.bottom:visited { color:white;
+            text-decoration: none;
+            }
+a.bottom:link { color:white;
+         }
+a.bottom:hover {color:white;/*background-color:#829FD9;*/
+         text-decoration: underline;
+}
+
+.bottombar
+{ 
+  text-align:right;
+  padding-right:10pt;
+  }
+
 /* body of windows */
 #bodyid { 
           background-color:black;
@@ -93,11 +112,18 @@ a:hover {color:black;/*background-color:#829FD9;*/
 /* paragraph */
 P{ 
    text-align:justify;
-   text-indent:20pt;
+   text-indent:0pt;
    padding-left:20pt;
    margin-top:4pt;
    margin-bottom:4pt;
    }
+
+/* ordoned_list */
+LI{
+   margin-left:20pt;
+   margin-top:4pt;
+   margin-bottom:4pt;
+}
 
 /* news paragraph */
 .news{ 
@@ -153,7 +179,7 @@ P{
 
 /* indented div */
 .indentdiv{ 
-            text-indent:50pt;
+            text-indent:25pt;
             }
 
 /* features div */
