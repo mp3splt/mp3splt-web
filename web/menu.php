@@ -21,14 +21,7 @@ function begin_document($title, $css_file,$third)
 href=\"$css_file\" title=\"Normal\" />
 </head>";
   
-  if ($third)
-    {
-      echo "<body id=\"bodyid\" style=\"background-color:white\">";
-    }
-  else
-    {
-      echo "<body id=\"bodyid\">";
-    }
+  echo "<body id=\"bodyid\">";
 }
 
 //creates the end of the document

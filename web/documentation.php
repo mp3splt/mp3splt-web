@@ -29,9 +29,9 @@ mp3splt-gtk INSTALL file</a> (contains also windows installation)
 <br />
 <div class=\"title\">Subversion build :</div>
 <br />
-<div class=\"featdiv\">
+<div class=\"featdiv\" style=\"margin-bottom:5pt\">
 Mp3splt-project build :
-</div><br />
+</div>
 <div class=\"indentdiv\">-
 <a href=\"gnu_build.php\">Subversion build instructions</a> (for
 unix-like OSes)
