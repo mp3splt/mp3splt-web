@@ -19,13 +19,14 @@ and install it in the directory
 <li>Download 
 <a href=\"http://prdownloads.sourceforge.net/mingw/MSYS-1.0.10.exe\">MSYS-1.0.10.exe</a>
 and install it in the same directory as
-MinGW (<span class=\"colorspan\">c:\mp3splt_mingw</span>). </li>
+MinGW (<span class=\"colorspan\">c:\mp3splt_mingw</span>).
 
-<li>At the end of the installation, it will ask
+<p>At the end of the installation, it will ask
 you if you want to continue with the post-install. Select yes, and yes
 again when it ask if you have mingw installed. When it ask you to
 indicate the directory where it is installed, type in <span class=\"colorspan\">c:/mp3splt_mingw</span>
-(yes, with a forward slash as the program prefers it that way).</li>
+(yes, with a forward slash as the program prefers it that way).</p>
+</li>
 
 <li>Download <a href=\"http://prdownloads.sourceforge.net/mingw/msysDTK-1.0.1.exe\">msysDTK-1.0.1.exe</a>
 and install it in the same directory as mingw and msys (<span class=\"colorspan\">c:\mp3splt_mingw</span>)</li>
@@ -33,6 +34,8 @@ and install it in the same directory as mingw and msys (<span class=\"colorspan\
 <li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</li>
+
+<li>Download <a href=\"http://subversion.tigris.org/files/documents/15/21733/svn-win32-1.1.4.zip\">subversion-1.1.4.zip</a> and unzip it in the <span class=\"colorspan\">c:\mp3splt_mingw</span> directory</li>
 
 <li>Double click the msys icon that has been placed on your desktop
 during MSYS's installation</li>
@@ -42,6 +45,10 @@ during MSYS's installation</li>
 <code>
 svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
 </code>
+
+<p>
+When asked if to accept the certificate, type p.
+</p>
 </li>
 
 <li>Download <a href=\"http://nsis.sourceforge.net/Download\">nsis</a> and install it.</li>
@@ -50,15 +57,16 @@ svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-proje
 <span class=\"colorspan\">Program Files/nsis</span>)
 and put it in the <span class=\"colorspan\">mp3splt-project</span> directory.</li>
 
-<li>Now in the <span class=\"colorspan\">mp3splt-project</span> directory type
+<li>Now in the <span class=\"colorspan\">mp3splt-project</span> directory, type
 <br />
 <code>
 ./compile_win32.sh
 </code>
-</li>
 
-<li>You will find an executable installer in the
-<span class=\"colorspan\">mp3splt-project</span> directory.</li>
+<p>You will find two executables installers in the <span
+class=\"colorspan\">mp3splt-project</span> directory (one for the
+command line and the other for the gui)</p>
+</li>
 
 </ol>
 
@@ -101,8 +109,9 @@ svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-proje
 cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh
 </code>
 
-<p>You will find an executable installer in the <span
-class=\"colorspan\">mp3splt-project</span> directory</p>
+<p>You will find two executables installers in the <span
+class=\"colorspan\">mp3splt-project</span> directory (one for the
+command line and the other for the gui)</p>
 </li>
 
 </ol>
