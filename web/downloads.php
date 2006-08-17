@@ -7,401 +7,205 @@ function create_main_page()
   echo "
 <h2  class=\"pagetitle\">Downloads</h2>
 <hr />
-Note : in order to compile mp3splt-gtk, you need libmp3splt.
+<div>For older downloads, see the <a href=\"downloads_archive.php\">downloads archive</a>.</div>
+<div>Note : in order to compile mp3splt-gtk, you need libmp3splt.</div>
 <br />
 
-<table align=\"center\" style=\"width=100%pt\">
-<tr>
+<table class=\"mainpagedownloadtable\">
 
-<!-- mp3splt releases -->
-<td style=\"vertical-align:top\">
-<table align=\"center\" style=\"width=100%pt\" 
-class=\"downloadtable\">
-
+<!-- top stuff -->
 <tr>
-<td align=\"center\" class=\"dtablecell1\">
-<b>mp3splt</b>
+<td>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
+<div style=\"font-weight:bold\">Libmp3splt</div>
+<div style=\"font-style:italic\">0.3.1</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
+<div style=\"font-weight:bold\">Mp3splt</div>
+<div style=\"font-style:italic\">2.1</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
+<div style=\"font-weight:bold\">Mp3splt-gtk</div>
+<div style=\"font-style:italic\">0.3.1</div>
 </td>
 </tr>
 
+<!-- Source code -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1c-src.tar.gz?download\">
-mp3splt v2.1 (src)</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.1-1_i386.deb?download\">
-i386 debian package</a><br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-bin-i586.tar.gz?download\">
-mp3splt-bin-i586 v2.1</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.src.rpm?download\">
-rpm - mp3splt v2.1 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.i386.rpm?download\">
-rpm - mp3splt-i386 v2.1</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-win32.zip?download\">
-mp3splt-win32 v2.1</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/keyboard.png\" /><br />
+<span style=\"font-weight:bold\">Source code</span>
 </td>
-</tr>
-<tr>
-
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.0e-src.tar.gz?download\">
-mp3splt v2.0 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.0e-bin-i586.tar.gz?download\">
-mp3splt-bin-i586 v2.0</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.0d-1_i386.deb?download\">
-deb - mp3splt-i386 v2.0</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.0-5.src.rpm?download\">
-rpm - mp3splt v2.0 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.0-5.i386.rpm?download\">
-rpm - mp3splt-i386 v2.0</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.0e-win32.zip?download\">
-mp3splt-win32 v2.0</a>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- Debian -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.9-src.tar.gz?download\">
-mp3splt v1.9 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.9-bin-i586.tar.gz?download\">
-mp3splt-bin-i586 v1.9</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_1.9-1_i386.deb?download\">
-deb - mp3splt-i386 v1.9</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.9-2.src.rpm?download\">
-rpm - mp3splt v1.9 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.9-2.i386.rpm?download\">
-rpm - mp3splt-i386 v1.9</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.9-win32.zip?download\">
-mp3splt-win32 v1.9</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/debian.png\" /><img src=\"icons/ubuntu.png\" />
+<div class=\"osname\">Debian-based</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- Slackware -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.8-src.tar.gz?download\">
-mp3splt v1.8 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.8-bin-i586.tar.gz?download\">
-mp3splt-bin-i586 v1.8</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.8-3.src.rpm?download\">
-rpm - mp3splt v1.8 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.8-3.i586.rpm?download\">
-rpm - mp3splt-i586 v1.8</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.8-win32.zip?download\">
-mp3splt-win32 v1.8</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/slackware.png\" /><br />
+<div class=\"osname\">Slackware</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- Gentoo -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.7-src.tar.gz?download\">
-mp3splt v1.7 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.7-bin-i686.tar.gz?download\">
-mp3splt-bin-i686 v1.7</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.7-1tex.i586.rpm?download\">
-rpm - mp3splt-i586 v1.7</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/gentoo.png\" /><br />
+<div class=\"osname\">Gentoo</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- RPMs -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.4-src.tar.gz?download\">
-mp3splt v1.4 (src)</a>
-<br />
-<a 
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.4-bin-i686.tar.gz?download\">
-mp3splt-bin-i686 v1.4</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/fedora.png\" /><img src=\"icons/mandriva.png\" /><br />
+<div class=\"osname\">RPMs</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- GNU/Linux -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.3-src.tar.gz?download\">
-mp3splt v1.3 (src)</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/gnu.png\" /><img src=\"icons/penguin.png\" /><br />
+<div class=\"osname\">GNU/Linux</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- FreeBSD -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.2-src.tar.gz?download\">
-mp3splt v1.2 (src)</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/freebsd.png\" /><br />
+<div class=\"osname\">FreeBSD</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
 
+<!-- NetBSD -->
 <tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-1.1-src.tar.gz?download\">
-mp3splt v1.1 (src)</a>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/netbsd.png\" /><br />
+<div class=\"osname\">NetBSD</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
 </td>
 </tr>
+
+<!-- OpenBSD -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/openbsd.png\" /><br />
+<div class=\"osname\">OpenBSD</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- Windows -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center\">
+<img src=\"icons/winxp.png\" /><br />
+<div class=\"osname\">Windows</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
 </table>
 
-</td>
-
-<!-- mp3splt-gtk releases -->
-<td style=\"vertical-align:top\">
-<table align=\"center\" style=\"width=100%pt\" 
-class=\"downloadtable\">
-
-<tr>
-<td align=\"center\" class=\"dtablecell1\">
-<b>mp3splt-gtk</b>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.3.1.tar.gz?download\">
-mp3splt-gtk v0.3.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1_i386.deb?download\">
-i386 debian package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1.exe?download\">
-mp3splt-gtk-win32 v0.3.1</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.3.tar.gz?download\">
-mp3splt-gtk v0.3 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3_i386.deb?download\">
-i386 debian package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.exe?download\">
-mp3splt-gtk-win32 v0.3</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.2.1.tar.gz?download\">
-mp3splt-gtk v0.2.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.2.1_i386.deb?download\">
-i386 debian package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.2.1.exe?download\">
-mp3splt-gtk-win32 v0.2.1</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.2.tar.gz?download\">
-mp3splt-gtk v0.2 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.2_i386.deb?download\">
-i386 debian package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.2_win32-installer.exe?download\">
-mp3splt-gtk-win32 v0.2</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.4.tar.gz?download\">
-mp3splt-gtk v0.1.4 (src)</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.4_win32.tar.gz?download\">
-mp3splt-gtk-win32 v0.1.4</a>
 <br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.4_with_gtk_win32.tar.gz?download\">
-mp3splt-gtk-win32(+gtk) v0.1.4</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.3.tar.gz?download\">
-mp3splt-gtk v0.1.3 (src)</a>
+<div>Mp3splt-project do not own any of the icons from this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
 <br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.3_win32.tar.gz?download\">
-mp3splt-gtk-win32 v0.1.3</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.3_with_gtk_win32.tar.gz?download\">
-mp3splt-gtk-win32(+gtk) v0.1.3</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.2.tar.gz?download\">
-mp3splt-gtk v0.1.2 (src)</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.2_win32.tar.gz?download\">
-mp3splt-gtk-win32 v0.1.2</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.2_with_gtk_win32.tar.gz?download\">
-mp3splt-gtk-win32(+gtk) v0.1.2</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.1.tar.gz?download\">
-mp3splt-gtk v0.1.1 (src)</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.1_win32.tar.gz?download\">
-mp3splt-gtk-win32 v0.1.1</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.1_with_gtk_win32.tar.gz?download\">
-mp3splt-gtk-win32(+gtk) v0.1.1</a>
-</td>
-</tr>
-</table>
-
-</td>
-
-<!-- libmp3splt releases -->
-<td style=\"vertical-align:top\">
-<table align=\"center\" style=\"width=100%pt\" 
-class=\"downloadtable\">
-<tr>
-<td align=\"center\" class=\"dtablecell1\">
-<b>libmp3splt</b>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">
-libmp3splt v0.3.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.tar.gz?download\">
-libmp3splt v0.3 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.1.tar.gz?download\">
-libmp3splt v0.2.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.tar.gz?download\">
-libmp3splt v0.2 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.4.tar.gz?download\">
-libmp3splt v0.1.4 (src)</a><br />
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.3.tar.gz?download\">
-libmp3splt v0.1.3 (src)</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.2.tar.gz?download\">
-libmp3splt v0.1.2 (src)</a>
-</td>
-</tr>
-
-<tr>
-<td align=\"center\" class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.1.tar.gz?download\">
-libmp3splt v0.1.1 (src)</a>
-</td>
-</tr>
-</table>
-
-</td>
-
-</tr>
-</table>
 ";
 }
 

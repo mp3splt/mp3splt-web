@@ -10,24 +10,17 @@ function create_main_page()
 
 <div class=\"title\">Description :</div>
 <br />
-<div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3Splt</span> is a command line utility to split mp3 and ogg
+<div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3Splt-project</span> is a utility to split mp3 and ogg
 files selecting a begin and an end time position, <i>without
 decoding</i>. It's very useful to split large mp3/ogg to make smaller
 files or to split entire albums to obtain original tracks. If you want
 to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
-or from .cue files.
-Supports also automatic silence split, that can be
+or from .cue files. Supports also automatic silence split, that can be
 used also to adjust cddb/cue splitpoints. You can extract tracks from
-Mp3Wrap or AlbumWrap files in few seconds.</div>
-<div class=\"indentdiv\"><span
-style=\"font-weight:bold\">Libmp3splt</span> is a library created from
-mp3splt version 2.1c.</div>
-<div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3splt-gtk</span> is a GTK2 gui that uses
-libmp3splt. </div>
-<div style=\"margin:0pt;padding:0pt;text-align:right;padding-right:5pt;\">
-- see <a href=\"about.php\">the about section</a> for more details</div>
-<br />
+Mp3Wrap or AlbumWrap files in few seconds. Mp3splt-project is splitted in 3 parts :
+libmp3splt, mp3splt and mp3splt-gtk. </div>
+<div class=\"indentdiv\">See <a href=\"about.php\">the about section</a> for more details.</div>
 
 <table width=\"100%\">
 <tr>
@@ -36,9 +29,36 @@ libmp3splt. </div>
 <span style=\"font-weight:bold\">Environment</span> : Console (Text Based) / Graphic GTK2<br />
 <span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
 General Public License</a><br /><br />
+
+<div class=\"title\">Latest releases:</div>
 <br />
-<br />
-Non-windows users need libmp3splt for mp3splt-gtk.
+
+<table class=\"mainpagedownloadtable\">
+
+<!-- top stuff -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"text-align:center\">
+<div style=\"font-weight:bold\">Libmp3splt</div>
+<div style=\"font-style:italic\">0.3.1</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"text-align:center\">
+<div style=\"font-weight:bold\">Mp3splt</div>
+<div style=\"font-style:italic\">2.1</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"text-align:center\">
+<div style=\"font-weight:bold\">Mp3splt-gtk</div>
+<div style=\"font-style:italic\">0.3.1</div>
+</td>
+</tr>
+
+<tr>
+<td colspan=\"3\">
+<div style=\"text-align:center;font-size:140%\"><a href=\"downloads.php\">Download page</a></div>
+</td>
+</tr>
+
+</table>
+
 </td>
 <td>
 
@@ -50,158 +70,6 @@ href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
 </td>
 </tr>
 </table>
-
-<div class=\"title\">Latest releases:</div>
-<br />
-
-<table class=\"mainpagedownloadtable\">
-
-<!-- top stuff -->
-<tr>
-<td>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;none;text-align:center\">
-<span style=\"font-weight:bold\">Libmp3splt 0.3.1</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
-<span style=\"font-weight:bold\">Mp3splt 2.1</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
-<span style=\"font-weight:bold\">Mp3splt-gtk 0.3.1</span>
-</td>
-</tr>
-
-<!-- Source code -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">Source code</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- Debian -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">Debian-based</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- Slackware
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">Slackware</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- Gentoo -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">Gentoo</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- FreeBSD -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">FreeBSD</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
--->
-
-<!-- GNU/Linux -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">GNU/Linux</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- RPMs -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">RPMs</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-<!-- Windows -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
-<span style=\"font-weight:bold\">Windows</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-<a>Mp3splt</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
-Mp3splt-gtk
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
-Mp3splt-gtk
-</td>
-</tr>
-
-</table>
-
 
 <!--<table align=\"center\" class=\"downloadtable\">
 
@@ -289,13 +157,11 @@ compiles
 </table>
 -->
 
+Mp3splt-gtk uses SnackAmp as the default player.<br />
+Download SnackAmp <span style=\"font-weight:bold\">version >= 3.1.3
+Beta</span> from the <a
+href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a>.<br />
 <br />
-Thanks to Tom Wilkason for the (remote) socket server implemetation and for
-his support :)
-<br />You can download SnackAmp on the <a
-href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a> -
-(download version >= 3.1.3 Beta)
-<br /><br />
 
 <div class=\"title\">News :</div>
 <br />

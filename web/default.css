@@ -249,3 +249,10 @@ CODE{
   border: thin dotted gray;
   padding:5pt;
  }
+
+/* OS name in the download table */
+.osname
+{
+  font-weight:bold;
+  margin-top:3pt;
+  }
