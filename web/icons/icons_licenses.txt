@@ -1,0 +1,121 @@
+The mp3splt-project authors do not own any of those icons and cannot
+answer any question about their use. All the icons are owned by their
+authors. The mp3splt-project authors do not hold any trademarks or
+copyrights on those icons. Please report us any non-fair use of these
+icons and we will erase them.
+(http://you.undo.it:4425/~ion/mp3splt/authors.php)
+
+The debian logo
+***************
+downloaded from http://www.us.debian.org/logos/ on the 17/08/2006
+
+License :
+---------
+
+Debian Open Use Logo License
+
+Copyright (c) 1999 Software in the Public Interest
+This logo or a modified version may be used by anyone to refer to the
+Debian project, but does not indicate endorsement by the project.
+
+Note: we would appreciate that you make the image a link to
+http://www.debian.org/ if you use it on a web page.
+
+The keyboard logo, gentoo logo, linux logo, mac os X logo and windows logo
+**********************
+downloaded from http://www.gentoo.org/dyn/icons.xml on the 17/08/2006
+
+License :
+---------
+
+The initial design for these icons was provided by
+port001@w0r.mine.nu. Further additions were made to the icon set by
+several other forum users.
+
+Instructions and discussions regarding this icon set can be found on
+the Gentoo Forums.
+
+These icons are provided by various authors which allow the use of
+these icons for non-commercial purposes. Gentoo is allowed to put
+these icons online but does not own these icons and cannot answer any
+questions you might have on their use. Please locate and contact the
+author of the icons instead.
+
+The fedora logo
+*****************
+downloaded from http://www.kde-look.org/content/show.php?content=38111 on the 17/08/2006
+
+License :
+---------
+
+Copyright (C) Nicu Buculei
+
+This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.
+
+This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+The ubuntu logo
+****************
+downloaded from
+http://www.gnome-look.org/content/show.php?content=29218 on the 17/08/2006
+
+License :
+---------
+
+Copyright (C) crystal xp (fcys _at_ wanadoo.fr)
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+02110-1301, USA
+
+The slackware logo :
+********************
+downloaded from :
+http://www.slackware.com/~msimons/slackware/grfx/shared/bluepiSW.jpg
+on the 17/08/2006
+
+License :
+---------
+
+http://www.slackware.com/~msimons/slackware/grfx/grfxfaq.txt
+
+<citation of the first 2 questions of the license>
+Q: Can I use this _____ graphic on my webpage?
+
+A: Of course! What else do you think they are there for?
+
+Q: Should I link to the graphic i.e. IMG
+SRC="http://www.slackware.com/~msimons/slackware/grfx/shared/graphic"
+or can I download it and host it on my own site?
+
+A: By all means, you are free and welcome to download the graphic and
+host it out of your own site.  Infact, that is the best idea, as
+besides the fact that it won't cause us additional traffic, the
+graphic is not guaranteed to stay at the same location on our site, or
+even keep the same name neccessarily (although, I am striving to make
+the names sensical, not repetitive, AND include SW, Slack, or
+Slackware in some way; which is why some of the names are changing.
+</citation>
+
+Please read the full FAQ!
