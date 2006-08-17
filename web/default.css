@@ -233,3 +233,19 @@ PRE{
 CODE{ 
      padding-left:15pt;
  }
+
+/* main page download table */
+.mainpagedownloadtable
+{ 
+  margin-left:10pt;
+  margin-right:10pt;
+  border: none;
+  caption-side:bottom;
+  border-collapse:collapse;
+}
+
+.mainpagedownloadtd
+{ 
+  border: thin dotted gray;
+  padding:5pt;
+ }

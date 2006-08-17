@@ -54,7 +54,156 @@ href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
 <div class=\"title\">Latest releases:</div>
 <br />
 
-<table align=\"center\" class=\"downloadtable\">
+<table class=\"mainpagedownloadtable\">
+
+<!-- top stuff -->
+<tr>
+<td>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;none;text-align:center\">
+<span style=\"font-weight:bold\">Libmp3splt 0.3.1</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
+<span style=\"font-weight:bold\">Mp3splt 2.1</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
+<span style=\"font-weight:bold\">Mp3splt-gtk 0.3.1</span>
+</td>
+</tr>
+
+<!-- Source code -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">Source code</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- Debian -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">Debian-based</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- Slackware
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">Slackware</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- Gentoo -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">Gentoo</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- FreeBSD -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">FreeBSD</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+-->
+
+<!-- GNU/Linux -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">GNU/Linux</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- RPMs -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">RPMs</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+<!-- Windows -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;\">
+<span style=\"font-weight:bold\">Windows</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+<a>Mp3splt</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;\">
+Mp3splt-gtk
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;border-right:none\">
+Mp3splt-gtk
+</td>
+</tr>
+
+</table>
+
+
+<!--<table align=\"center\" class=\"downloadtable\">
 
 <tr>
 <td align=\"center\"><br /></td>
@@ -138,6 +287,7 @@ compiles
 </td>
 </tr>
 </table>
+-->
 
 <br />
 Thanks to Tom Wilkason for the (remote) socket server implemetation and for
