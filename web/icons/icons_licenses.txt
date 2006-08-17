@@ -4,6 +4,7 @@ authors. The mp3splt-project authors do not hold any trademarks or
 copyrights on those icons. Please report us any non-fair use of these
 icons and we will erase them.
 (http://you.undo.it:4425/~ion/mp3splt/authors.php)
+The icons have been resized with imagemagick.
 
 The debian logo
 ***************
