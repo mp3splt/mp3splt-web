@@ -22,7 +22,8 @@ Debian project, but does not indicate endorsement by the project.
 Note: we would appreciate that you make the image a link to
 http://www.debian.org/ if you use it on a web page.
 
-The keyboard logo, gentoo logo, linux logo, mac os X logo and windows logo
+The keyboard logo, gentoo logo, linux logo, mac os X logo,
+windows logo and gnu logo
 **********************
 downloaded from http://www.gentoo.org/dyn/icons.xml on the 17/08/2006
 
@@ -101,22 +102,64 @@ License :
 
 http://www.slackware.com/~msimons/slackware/grfx/grfxfaq.txt
 
-<citation of the first 2 questions of the license>
-Q: Can I use this _____ graphic on my webpage?
+The freebsd logo :
+******************
+downloaded from http://www.kde-look.org/content/show.php?content=44174
+on the 17/08/2006
 
-A: Of course! What else do you think they are there for?
+License :
+---------
 
-Q: Should I link to the graphic i.e. IMG
-SRC="http://www.slackware.com/~msimons/slackware/grfx/shared/graphic"
-or can I download it and host it on my own site?
+Copyright (C) Konrads Popovs
 
-A: By all means, you are free and welcome to download the graphic and
-host it out of your own site.  Infact, that is the best idea, as
-besides the fact that it won't cause us additional traffic, the
-graphic is not guaranteed to stay at the same location on our site, or
-even keep the same name neccessarily (although, I am striving to make
-the names sensical, not repetitive, AND include SW, Slack, or
-Slackware in some way; which is why some of the names are changing.
-</citation>
+BSD license :
+http://www.opensource.org/licenses/bsd-license.php
 
-Please read the full FAQ!
+The openbsd logo :
+******************
+downloaded from http://www.openbsd.org/art4.html
+on the 17/08/2006
+
+License :
+---------
+
+Most images provided here are copyright by OpenBSD, by Theo de Raadt,
+or by other members or developers of the OpenBSD group. However, it is
+our intent that anyone be able to use these images to represent
+OpenBSD in a positive light. So enjoy them and let the world see them,
+if that is your wish.
+
+The netbsd logo :
+*****************
+downloaded from http://www.netbsd.org/Misc/disclaimer.html#logo-usage
+on the 17/08/2006
+
+License :
+---------
+
+http://www.netbsd.org/Misc/disclaimer.html#logo-usage
+
+The mandriva logo :
+*******************
+downloaded from http://www.kde-files.org/content/show.php?content=28739
+on the 17/08/2006
+
+License:
+--------
+
+Copyright (C) Mathieu Hajder
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+02110-1301, USA
