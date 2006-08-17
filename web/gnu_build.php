@@ -125,9 +125,7 @@ type :
 
 <li>Install the program (optional) :
 <br />
-<code>
-make install
-</code>
+<code>make install</code>
 <p>You have to be root to install the program.</p>
 </li>
 
@@ -139,9 +137,7 @@ make install
 
 <li>Go in the <span class=\"colorspan\">mp3splt-project/mp3splt-gtk</span> directory and type
 <br />
-<code>
-./autogen.sh
-</code>
+<code>./autogen.sh</code>
 </li>
 
 <li>After that type :
@@ -159,9 +155,7 @@ enable bmp support with \"./configure --enable-bmp\"</p>
 
 <li>Install the program (optional) :
 <br />
-<code>
-make install
-</code>
+<code>make install</code>
 <p>You have to be root to install the program</p>
 </li>
 

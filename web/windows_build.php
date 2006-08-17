@@ -35,33 +35,28 @@ and install it in the same directory as mingw and msys (<span class=\"colorspan\
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</li>
 
-<li>Download <a href=\"http://subversion.tigris.org/files/documents/15/21733/svn-win32-1.1.4.zip\">subversion-1.1.4.zip</a> and unzip it in the <span class=\"colorspan\">c:\mp3splt_mingw</span> directory</li>
-
-<li>Double click the msys icon that has been placed on your desktop
-during MSYS's installation</li>
-
-<li>Download mp3splt-project subversion code :
-<br />
-<code>
-svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
-</code>
-
-<p>
-When asked if to accept the certificate, type p.
-</p>
+<li>Install <a href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&package_id=151948\">TortoiseSVN</a>. Go in the <span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> directory (with windows explorer) and create a directory called mp3splt-project.
 </li>
 
+<li>
+Go in the newly created <span
+class=\"colorspan\">mp3splt-project</span> directory, right click
+inside the window and select SVN Checkout. Type the following URL of
+repository in the newly opened window and then click \"ok\" :
+<br />
+<code>https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project</code>
+</li>
+ 
 <li>Download <a href=\"http://nsis.sourceforge.net/Download\">nsis</a> and install it.</li>
 
 <li>Copy the <span class=\"colorspan\">nsis</span> directory from the installation directory (usually 
 <span class=\"colorspan\">Program Files/nsis</span>)
 and put it in the <span class=\"colorspan\">mp3splt-project</span> directory.</li>
 
-<li>Now in the <span class=\"colorspan\">mp3splt-project</span> directory, type
+<li>Double click the msys icon that has been placed on your desktop
+during MSYS's installation and type :
 <br />
-<code>
-./compile_win32.sh
-</code>
+<code>cd mp3splt-project && ./compile_win32.sh</code>
 
 <p>You will find two executables installers in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
@@ -78,16 +73,12 @@ command line and the other for the gui)</p>
 
 <li>Install mingw, nsis and wine as root :
 <br />
-<code>
-apt-get install mingw32 mingw32-binutils mingw32-runtime nsis wine subversion
-</code>
+<code>apt-get install mingw32 mingw32-binutils mingw32-runtime nsis wine subversion</code>
 </li>
 
 <li>Create the <span class=\"colorspan\">libs</span> directory :
 <br />
-<code>
-mkdir libs
-</code>
+<code>mkdir libs</code>
 </li>
 
 <li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
@@ -98,16 +89,12 @@ put them in the <span class=\"colorspan\">libs</span> directory</li>
 
 <li>Download mp3splt-project subversion code :
 <br />
-<code>
-svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
-</code>
+<code>svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project</code>
 </li>
 
 <li>Type :
 <br />
-<code>
-cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh
-</code>
+<code>cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh</code>
 
 <p>You will find two executables installers in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
