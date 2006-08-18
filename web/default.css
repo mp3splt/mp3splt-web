@@ -1,27 +1,44 @@
 
 /* links */
-a {  color:#0000FF;text-decoration: none; 
+a {  
+    color:#0000FF;
+    text-decoration: none; 
+    background-color:inherit;
     }
-a:visited { color:#990099;
+a:visited { 
+            color:#990099;
             text-decoration: none;
+            background-color:inherit;
             }
-a:link { color:#0000CC;
+a:link { 
+         color:#0000CC;
+         background-color:inherit;
          }
-a:hover {color:black;/*background-color:#829FD9;*/
-         text-decoration: underline;
+a:hover {
+          color:black;
+          text-decoration: underline;
+          background-color:inherit;
 }
 
 
 /* bottom links */
-a.bottom {  color:white;text-decoration: none; 
+a.bottom {  
+           color:white;
+           text-decoration: none; 
+           background-color:inherit;
     }
 a.bottom:visited { color:white;
-            text-decoration: none;
+                   text-decoration: none;
+                   background-color:inherit;
             }
-a.bottom:link { color:white;
+a.bottom:link { 
+                color:white;
+                background-color:inherit;
          }
-a.bottom:hover {color:white;/*background-color:#829FD9;*/
-         text-decoration: underline;
+a.bottom:hover {
+                 color:white;
+                 text-decoration: underline;
+                 background-color:inherit;
 }
 
 .bottombar
@@ -32,6 +49,7 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
 
 /* body of windows */
 #bodyid { 
+          color:white;
           background-color:black;
           font-size:90%;
           margin: 0px;
@@ -57,6 +75,7 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
                    border-top-width:1px;
                    border-top-color:#FFFFCC;
                    
+                   color:black;
                    background-color:#FFFFCC;
                    
                    width:113pt;
@@ -75,6 +94,7 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
                    border-top-color:white;
                    
                    background-color:white;
+                   color:black;
                    
                    text-align:justify;
                    vertical-align: top;
@@ -85,14 +105,6 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
 
 /* property of the links in the main menu */
 .menudiv{ 
-          /*border-left-style: groove;
-          border-left-width: 1px;
-          border-left-color: red;
-
-          border-right-style: dotted;
-          border-right-width: 1px;
-          border-right-color: blue;*/
-
           margin-left:5pt;
           padding-left:4pt;
 
@@ -153,9 +165,6 @@ UL{
 /* the download table on the main page */
 .downloadtable{ 
                 border-collapse:collapse;
-/*                border-style:groove;
-                border-width:1px;
-                border-color:#0011DD;*/
                 }
 
 /* cell of the download table */
@@ -192,6 +201,7 @@ UL{
 .featdiv{ 
           padding-left:20pt;
           color:#00606B;
+          background-color:inherit;
           text-decoration:underline;
           font-style:italic;
           }
@@ -200,23 +210,27 @@ UL{
 .colorspan{ 
             color:#00505A;
             font-style:italic;
+            background-color:inherit;
           }
 
 /* li about feature */
 .lifeatures{ 
              color:black;
+            background-color:inherit;
              }
 
 .yes
 { 
   font-weight:bold;
   color:green;
+  background-color:inherit;
  }
 
 .no
 { 
   font-weight:bold;
   color:red;
+  background-color:inherit;
  }
 
 .section

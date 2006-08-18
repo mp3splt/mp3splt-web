@@ -18,7 +18,7 @@ mp3splt-project
 
 <div class=\"title\">windows :</div>
 <p>Install <a
-href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&package_id=151948\">TortoiseSVN</a>
+href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&amp;package_id=151948\">TortoiseSVN</a>
 and create a directory called mp3splt-project. Go in the newly created <span
 class=\"colorspan\">mp3splt-project</span> directory, right click
 inside the window and select SVN Checkout. Type the following URL of

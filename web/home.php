@@ -63,99 +63,13 @@ General Public License</a><br /><br />
 <td>
 
 <a
-href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
+href=\"screenshots.php\">
 <img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.3_gnu_linux.png\" />
 </a>
 
 </td>
 </tr>
 </table>
-
-<!--<table align=\"center\" class=\"downloadtable\">
-
-<tr>
-<td align=\"center\"><br /></td>
-<td class=\"dtablecell1\" align=\"center\"><span
-style=\"font-weight:bold\">Source code</span></td> 
-<td class=\"dtablecell1\" align=\"center\"><span style=\"font-weight:bold\">GNU/Linux</span></td>
-<td class=\"dtablecell1\" align=\"center\"><span style=\"font-weight:bold\">Windows</span></td>
-<td class=\"dtablecell1\" align=\"center\"><span style=\"font-weight:bold\">MacOSX</span></td>
-
-</tr>
-<tr>
-
-<td class=\"dtablecell1\" align=\"center\"><span style=\"font-weight:bold\">Command Line</span></td>
-<td class=\"dtablecell\" align=\"center\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1c-src.tar.gz?download\">
-mp3splt v2.1 (src)</a>
-</td>
-<td class=\"dtablecell\" align=\"center\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.1-1_i386.deb?download\">
-i386 debian package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.i386.rpm?download\">
-i386 rpm package</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.src.rpm?download\"
->rpm package (src)</a><br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-bin-i586.tar.gz?download\">
-i586 binary
-</a>
-</td>
-<td class=\"dtablecell\" align=\"center\"> <a
- href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-win32.zip?download\">
-mp3splt v2.1</a>
-</td>
-<td class=\"dtablecell\" align=\"center\"> <a
- href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
- Fink package</a> 
-</td>
-
-</tr>
-<tr>
-
-<td class=\"dtablecell1\" align=\"center\"> <span style=\"font-weight:bold\">Graphic (GUI)</span></td>
-<td class=\"dtablecell\" align=\"center\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.3.1.tar.gz?download\">
-mp3splt-gtk v0.3.1 (src)</a>
-</td>
-<td class=\"dtablecell\" align=\"center\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-<td class=\"dtablecell\" align=\"center\"> 
-<a	
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1.exe?download\">
-mp3splt-gtk v0.3.1</a><br />(installer)
-</td>
-<td class=\"dtablecell\" align=\"center\"> <a
-  href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a>
-<br />
-mp3splt-gtk compiles
-</td>
-</tr>
-
-<tr>
-<td class=\"dtablecell1\" align=\"center\"> <span style=\"font-weight:bold\">Library</span></td>
-<td class=\"dtablecell\" align=\"center\" colspan=\"1\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">
-libmp3splt v0.3.1 (src)</a>
-</td>
-<td class=\"dtablecell\" align=\"center\" colspan=\"1\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-<td class=\"dtablecell\" align=\"center\" colspan=\"1\">
-compiles
-</td>
-<td class=\"dtablecell\" align=\"center\" colspan=\"1\">
-compiles
-</td>
-</tr>
-</table>
--->
 
 Mp3splt-gtk uses SnackAmp as the default player.<br />
 Download SnackAmp <span style=\"font-weight:bold\">version >= 3.1.3

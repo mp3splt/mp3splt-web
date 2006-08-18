@@ -17,7 +17,7 @@ echo "
 <td>
 <a
 href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
-<img border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.3_gnu_linux.png\" />
+<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.3_gnu_linux.png\" />
 </a>
 <br />
 <div style=\"text-align:left\">mp3splt-gtk v0.3 on GNU/Linux</div>
@@ -29,7 +29,7 @@ href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
 <td>
 <a
 href=\"screenshots/mp3splt-gtk_v0.2.1_gnu_linux.png\">
-<img border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_v0.2.1_gnu_linux.png\" />
+<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_v0.2.1_gnu_linux.png\" />
 </a>
 <br />
 <div style=\"text-align:left\">mp3splt-gtk v0.2.1 on GNU/Linux</div>
@@ -41,7 +41,7 @@ href=\"screenshots/mp3splt-gtk_v0.2.1_gnu_linux.png\">
 <td>
 <a
 href=\"screenshots/mp3splt-gtk_0.2_gnu_linux.png\">
-<img border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.2_gnu_linux.png\" />
+<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.2_gnu_linux.png\" />
 </a>
 <br />
 <div style=\"text-align:left\">mp3splt-gtk v0.2 on GNU/Linux</div>

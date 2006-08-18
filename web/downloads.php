@@ -34,7 +34,7 @@ function create_main_page()
 <!-- Source code -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/keyboard.png\" /><br />
+<img alt=\"\" src=\"icons/keyboard.png\" /><br />
 <span style=\"font-weight:bold\">Source code</span>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -53,7 +53,7 @@ function create_main_page()
 <!-- Debian -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/debian.png\" /><img src=\"icons/ubuntu.png\" />
+<img alt=\"\" src=\"icons/debian.png\" /><img alt=\"\" src=\"icons/ubuntu.png\" />
 <div class=\"osname\">Debian-based</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -76,10 +76,10 @@ i386.deb</a>
 </tr>
 
 <!--
-<!-- Slackware -->
+Slackware
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/slackware.png\" /><br />
+<img alt=\"\" src=\"icons/slackware.png\" /><br />
 <div class=\"osname\">Slackware</div>
 </td>
 
@@ -93,10 +93,10 @@ i386.deb</a>
 </td>
 </tr>
 
-<!-- Gentoo -->
+Gentoo
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/gentoo.png\" /><br />
+<img alt=\"\" src=\"icons/gentoo.png\" /><br />
 <div class=\"osname\">Gentoo</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -114,7 +114,7 @@ i386.deb</a>
 <!-- RPMs -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/fedora.png\" /><img src=\"icons/mandriva.png\" /><br />
+<img alt=\"\" src=\"icons/fedora.png\" /><img alt=\"\" src=\"icons/mandriva.png\" /><br />
 <div class=\"osname\">RPMs</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -137,7 +137,7 @@ href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.src.rpm?download
 <!-- GNU/Linux -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/gnu.png\" /><img src=\"icons/penguin.png\" /><br />
+<img alt=\"\" src=\"icons/gnu.png\" /><img alt=\"\" src=\"icons/penguin.png\" /><br />
 <div class=\"osname\">GNU/Linux</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -154,10 +154,10 @@ i586.tar.gz</a>
 </tr>
 
 <!--
-<!-- FreeBSD -->
+FreeBSD
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/freebsd.png\" /><br />
+<img alt=\"\" src=\"icons/freebsd.png\" /><br />
 <div class=\"osname\">FreeBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -171,10 +171,10 @@ i586.tar.gz</a>
 </td>
 </tr>
 
-<!-- NetBSD -->
+NetBSD
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/netbsd.png\" /><br />
+<img alt=\"\" src=\"icons/netbsd.png\" /><br />
 <div class=\"osname\">NetBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -188,10 +188,10 @@ i586.tar.gz</a>
 </td>
 </tr>
 
-<!-- OpenBSD -->
+OpenBSD
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/openbsd.png\" /><br />
+<img alt=\"\" src=\"icons/openbsd.png\" /><br />
 <div class=\"osname\">OpenBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -209,7 +209,7 @@ i586.tar.gz</a>
 <!-- Mac OS X -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img src=\"icons/mac_os_x.png\" /><br />
+<img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
 <div class=\"osname\">Mac OS X</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -229,7 +229,7 @@ mp3splt-gtk compiles
 <!-- Windows -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center\">
-<img src=\"icons/winxp.png\" /><br />
+<img alt=\"\" src=\"icons/winxp.png\" /><br />
 <div class=\"osname\">Windows</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">

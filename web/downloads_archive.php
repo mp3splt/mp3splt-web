@@ -7,12 +7,12 @@ function create_main_page()
   echo "
 <h2  class=\"pagetitle\">Downloads archive</h2>
 <hr />
-<table style=\"width=100%pt;border-collapse:collapse\">
+<table style=\"width:100%;border-collapse:collapse\">
 <tr>
 
 <!-- mp3splt releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width=100%pt;\" 
+<table  style=\"width:100%;\" 
 class=\"downloadtable\">
 
 <tr>
@@ -185,7 +185,7 @@ mp3splt v1.1 (src)</a>
 
 <!-- mp3splt-gtk releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width=100%pt\" 
+<table  style=\"width:100%\" 
 class=\"downloadtable\">
 
 <tr>
@@ -314,7 +314,7 @@ mp3splt-gtk-win32(+gtk) v0.1.1</a>
 
 <!-- libmp3splt releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width=100%pt\" 
+<table  style=\"width:100%\" 
 class=\"downloadtable\">
 <tr>
 <td  class=\"dtablecell1\">

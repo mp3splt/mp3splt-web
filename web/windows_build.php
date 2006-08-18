@@ -35,7 +35,7 @@ and install it in the same directory as mingw and msys (<span class=\"colorspan\
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</li>
 
-<li>Install <a href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&package_id=151948\">TortoiseSVN</a>. Go in the <span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> directory (with windows explorer) and create a directory called mp3splt-project.
+<li>Install <a href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&amp;package_id=151948\">TortoiseSVN</a>. Go in the <span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> directory (with windows explorer) and create a directory called mp3splt-project.
 </li>
 
 <li>
@@ -56,7 +56,7 @@ and put it in the <span class=\"colorspan\">mp3splt-project</span> directory.</l
 <li>Double click the msys icon that has been placed on your desktop
 during MSYS's installation and type :
 <br />
-<code>cd mp3splt-project && ./compile_win32.sh</code>
+<code>cd mp3splt-project &amp;&amp; ./compile_win32.sh</code>
 
 <p>You will find two executables installers in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
