@@ -57,19 +57,18 @@ function create_main_page()
 <div class=\"osname\">Debian-based</div>
 </td>
 <td class=\"mainpagedownloadtd\">
+Debian testing,<br /> Ubuntu dapper :<br />
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
 i386.deb</a>
 </td>
 <td class=\"mainpagedownloadtd\">
-Debian testing,<br /> Ubuntu dapper :
-<br />
+Debian testing,<br /> Ubuntu dapper :<br />
 <a
 href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.1-1_i386.deb?download\">
 i386.deb</a><br />
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Debian testing,<br /> Ubuntu dapper :
-<br />
+Debian testing,<br /> Ubuntu dapper :<br />
 <a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1_i386.deb?download\">
 i386.deb</a>
 </td>
