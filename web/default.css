@@ -39,7 +39,7 @@ a.bottom:hover {color:white;/*background-color:#829FD9;*/
           }
 
 /* main window main table */
-#main_table { 
+#top { 
               width:100%;
               height:420pt;
               
@@ -152,6 +152,7 @@ UL{
 
 /* the download table on the main page */
 .downloadtable{ 
+                border-collapse:collapse;
 /*                border-style:groove;
                 border-width:1px;
                 border-color:#0011DD;*/
@@ -240,8 +241,8 @@ CODE{
   margin-left:10pt;
   margin-right:10pt;
   border: none;
-  caption-side:bottom;
   border-collapse:collapse;
+  empty-cells:hide;
 }
 
 .mainpagedownloadtd

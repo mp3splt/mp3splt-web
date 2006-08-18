@@ -148,10 +148,10 @@ function create_table_with_menu($page)
 {
   echo "
 <div style=\"width:100%;background-color:black;text-align:center\">
- <img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt =\"project\" />
+<img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt=\"project\" />
 </div>
 
-<table id=\"main_table\" style=\"border-collapse:collapse\">
+<table id=\"top\" style=\"border-collapse:collapse\">
 <tr>
 <td id=\"main_menu_column\">
 ",
@@ -187,7 +187,7 @@ function create_table_with_menu($page)
       $the_page .= $_SERVER['SERVER_PORT'];
     }
   $the_page .= $_SERVER['PHP_SELF'];
-  
+
 echo "
 </td>
 </tr>

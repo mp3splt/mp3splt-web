@@ -11,6 +11,7 @@ echo "
 <div class=\"title\">mp3splt :</div>
 <ul>
 <li> Matteo Trotta : author and main mantainer of Mp3Splt Project</li>
+<li> Munteanu Alexandru : maintainer of mp3splt</li>
 </ul>
 
 People who contributed to mp3splt development :

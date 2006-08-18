@@ -7,15 +7,12 @@ function create_main_page()
   echo "
 <h2  class=\"pagetitle\">Downloads archive</h2>
 <hr />
-Note : in order to compile mp3splt-gtk, you need libmp3splt.
-<br />
-
-<table style=\"width=100%pt\">
+<table style=\"width=100%pt;border-collapse:collapse\">
 <tr>
 
 <!-- mp3splt releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width=100%pt\" 
+<table  style=\"width=100%pt;\" 
 class=\"downloadtable\">
 
 <tr>

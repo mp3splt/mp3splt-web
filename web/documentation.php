@@ -20,6 +20,11 @@ libmp3splt INSTALL file</a>
 href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/mp3splt-gtk/INSTALL?view=markup\">
 mp3splt-gtk INSTALL file</a> (contains also windows installation)
 </div>
+<div class=\"indentdiv\">- 
+<a
+href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/newmp3splt/INSTALL?view=markup\">
+mp3splt INSTALL file</a>
+</div>
 <br />
 
 <div class=\"title\">Usage :</div>

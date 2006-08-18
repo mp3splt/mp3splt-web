@@ -8,7 +8,7 @@ function create_main_page()
 <h2  class=\"pagetitle\">Downloads</h2>
 <hr />
 <div>For older downloads, see the <a href=\"downloads_archive.php\">downloads archive</a>.</div>
-<div>Note : in order to compile mp3splt-gtk, you need libmp3splt.</div>
+<div>For installation issuses, please read <a href=\"documentation.php\">the documentation</a>.</div>
 <br />
 
 <table class=\"mainpagedownloadtable\">
@@ -38,13 +38,15 @@ function create_main_page()
 <span style=\"font-weight:bold\">Source code</span>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">.tar.gz</a>
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1c-src.tar.gz?download\">
+.tar.gz</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.3.1.tar.gz?download\">
+.tar.gz</a>
 </td>
 </tr>
 
@@ -55,30 +57,39 @@ Mp3splt-gtk
 <div class=\"osname\">Debian-based</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
+i386.deb</a>
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+Debian testing,<br /> Ubuntu dapper :
+<br />
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.1-1_i386.deb?download\">
+i386.deb</a><br />
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+Debian testing,<br /> Ubuntu dapper :
+<br />
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1_i386.deb?download\">
+i386.deb</a>
 </td>
 </tr>
 
+<!--
 <!-- Slackware -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img src=\"icons/slackware.png\" /><br />
 <div class=\"osname\">Slackware</div>
 </td>
+
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
 
@@ -89,15 +100,16 @@ Mp3splt-gtk
 <div class=\"osname\">Gentoo</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
+-->
 
 <!-- RPMs -->
 <tr>
@@ -106,13 +118,19 @@ Mp3splt-gtk
 <div class=\"osname\">RPMs</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.i386.rpm?download\">
+i386.rpm</a>
+<br />
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.src.rpm?download\"
+>i386-src.rpm</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
 
@@ -123,16 +141,19 @@ Mp3splt-gtk
 <div class=\"osname\">GNU/Linux</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-bin-i586.tar.gz?download\">
+i586.tar.gz</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
 
+<!--
 <!-- FreeBSD -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
@@ -140,13 +161,13 @@ Mp3splt-gtk
 <div class=\"osname\">FreeBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
 
@@ -157,13 +178,13 @@ Mp3splt-gtk
 <div class=\"osname\">NetBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
 </td>
 </tr>
 
@@ -174,13 +195,34 @@ Mp3splt-gtk
 <div class=\"osname\">OpenBSD</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\">
-Mp3splt-gtk
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Mp3splt-gtk
+
+</td>
+</tr>
+-->
+
+<!-- Mac OS X -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img src=\"icons/mac_os_x.png\" /><br />
+<div class=\"osname\">Mac OS X</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+
+</td>
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
+ Fink package</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<a
+  href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
+mp3splt-gtk compiles
 </td>
 </tr>
 
@@ -191,21 +233,24 @@ Mp3splt-gtk
 <div class=\"osname\">Windows</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
-<a>Mp3splt</a>
+
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
-Mp3splt-gtk
+<a
+ href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-win32.zip?download\">
+win32.zip</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none\">
-Mp3splt-gtk
+<a	
+href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1.exe?download\">
+installer.exe</a>
 </td>
 </tr>
 
 </table>
 
 <br />
-<div>Mp3splt-project do not own any of the icons from this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
-<br />
+<div style=\"font-size:80%\">Mp3splt-project do not own any of the logo icons of this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
 ";
 }
 

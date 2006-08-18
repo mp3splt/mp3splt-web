@@ -47,6 +47,7 @@ href=\"screenshots/mp3splt-gtk_0.2_gnu_linux.png\">
 <div style=\"text-align:left\">mp3splt-gtk v0.2 on GNU/Linux</div>
 </td>
 
+<!--
 <td colspan=\"2\">
 <a
 href=\"screenshots/mp3splt-gtk-0.1.4.jpg\">
@@ -96,10 +97,10 @@ href=\"screenshots/mp3splt-0.1.1_win32.jpg\">
 </a>
 <br />
 <div style=\"text-align:left\">mp3splt-gtk v0.1.1 on win32</div>
-</td>
+</td>-->
+
 </tr>
 </table>
-
 ";
 }
 

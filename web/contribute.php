@@ -18,14 +18,9 @@ People are needed for the following tasks :
 
 <div class=\"title\">Testing :</div>
 <div class=\"indentdiv\">Testing the program is a very important part
-of making a software. Sometimes developers don't test the program very
-much because they enjoy programming and testing can sometimes be
-annoying. You are welcome to test the releases or the subversion version and
-report us bugs or requests. Free software developers will always thank
-you for reporting a bug. Even if you don't test the software but
+of making a software. You are welcome to test the releases or the subversion code and
+report us bugs or requests. Even if you don't test the software but
 find a bug when using it, you are also welcome to report the bug.
-Please use the <a href=\"http://sourceforge.net/mail/?group_id=55130\">
- mailing list</a> for bug reporting.
 </div>
 
 <br />
@@ -51,9 +46,7 @@ you want to help don't hesitate.</div>
 <div class=\"indentdiv\">Packaging is also important. Binary or not
 binary packages are easy to install for the user. A user who tries to
 install a software and all the dependencies of the program will get
-tired if this takes too long and will finally quit. We maintain the
-debian testing packages and the windows installer for libmp3splt and
-mp3splt-gtk.</div>
+tired if this takes too long and will finally quit.</div>
 
 
 <br />
