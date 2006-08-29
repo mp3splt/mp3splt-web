@@ -74,8 +74,7 @@ i386.deb</a>
 </td>
 </tr>
 
-<!--
-Slackware
+<!-- Slackware -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/slackware.png\" /><br />
@@ -92,7 +91,7 @@ Slackware
 </td>
 </tr>
 
-Gentoo
+<!-- Gentoo -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/gentoo.png\" /><br />
@@ -108,12 +107,12 @@ Gentoo
 
 </td>
 </tr>
--->
 
 <!-- RPMs -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/fedora.png\" /><img alt=\"\" src=\"icons/mandriva.png\" /><br />
+<img style=\"margin-top:4pt\" alt=\"\" src=\"icons/opensuse.png\" />
 <div class=\"osname\">RPMs</div>
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -260,4 +259,3 @@ create_table_with_menu("downloads");
 
 end_document();
 ?>
-

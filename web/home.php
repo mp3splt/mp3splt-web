@@ -25,6 +25,7 @@ libmp3splt, mp3splt and mp3splt-gtk. </div>
 <table width=\"100%\">
 <tr>
 <td>
+<br />
 <span style=\"font-weight:bold\">OS</span> : GNU Linux (*BSD - MacOS X - BeOS) / Windows<br />
 <span style=\"font-weight:bold\">Environment</span> : Console (Text Based) / Graphic GTK2<br />
 <span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
@@ -53,7 +54,24 @@ General Public License</a><br /><br />
 
 <tr>
 <td colspan=\"3\">
-<div style=\"text-align:center;font-size:140%\"><a href=\"downloads.php\">Download page</a></div>
+<div style=\"text-align:center;font-size:140%\">
+<a
+onmouseover=\"var download_link=document.getElementById('download_link');
+download_link.style.backgroundColor='#FFFFCC';
+download_link.style.textDecoration='underline';\"
+onmouseout=\"var download_link=document.getElementById('download_link');
+download_link.style.backgroundColor='white';
+download_link.style.textDecoration='none';\"
+href=\"downloads.php\">
+<img border=\"0\" style=\"display:inline;vertical-align:middle;padding-top:4pt\" alt=\"\"
+src=\"icons/download.png\" /></a><a 
+onmouseover=\"var download_link=this;
+download_link.style.backgroundColor='#FFFFCC';
+download_link.style.textDecoration='underline';\"
+onmouseout=\"var download_link=this;
+download_link.style.backgroundColor='white';
+download_link.style.textDecoration='none';\"
+id=\"download_link\" href=\"downloads.php\">Download page</a></div>
 </td>
 </tr>
 
@@ -84,7 +102,9 @@ href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a>.<br />
   include "news.html";
 
   echo "
-<br />";
+<br />
+<div style=\"font-size:80%\">Mp3splt-project do not own the download icon of this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
+";
 }
 
 begin_document("mp3 and ogg splitter - mp3splt project home page",

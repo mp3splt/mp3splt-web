@@ -163,3 +163,37 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
 02110-1301, USA
+
+The opensuse logo :
+*******************
+downloaded from http://en.opensuse.org/Artwork/Buttons_and_Banners
+on the 29/08/2006
+
+License:
+--------
+
+Use of openSUSE graphics (offical artwork only)
+
+Please leave them as they are. Altering the graphics in any way dilutes the recognition of openSUSE graphics.
+
+    * Do not change the logo.
+    * Do not change any letters in the logo to a different font, casement, form or color.
+    * Do not italicize, skew or stretch the logo.
+    * Do not deviate from the spacing or sizing relationships already established in the logo.
+    * Do not use unauthorized icons or words in conjunction with the logo. 
+
+Use the the openSUSE graphics only in conjunction with pieces related to the openSUSE.org project.
+It should not be used in any other instance. 
+
+The download icon :
+*******************
+downloaded from http://commons.wikimedia.org/wiki/Image:B_down.svg
+on the 29/08/2006
+
+License:
+--------
+
+This image is from the Open Clip Art Library.
+(http://www.openclipart.org/)
+All works included in the library are public domain.
+(http://en.wikipedia.org/wiki/public_domain)
