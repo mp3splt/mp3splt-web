@@ -20,6 +20,26 @@ a:hover {
           background-color:inherit;
 }
 
+/* download link */
+a.download {  
+    color:#6340FF;
+    text-decoration: none; 
+    background-color:inherit;
+    }
+a.download:visited { 
+            color:#6340FF;
+            text-decoration: none;
+            background-color:inherit;
+            }
+a.download:link { 
+         color:#6340FF;
+         background-color:inherit;
+         }
+a.download:hover {
+          color:black;
+          text-decoration: none;
+          background-color:inherit;
+}
 
 /* bottom links */
 a.bottom {  

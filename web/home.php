@@ -55,23 +55,22 @@ General Public License</a><br /><br />
 <tr>
 <td colspan=\"3\">
 <div style=\"text-align:center;font-size:140%\">
-<a
-onmouseover=\"var download_link=document.getElementById('download_link');
-download_link.style.backgroundColor='#FFFFCC';
-download_link.style.textDecoration='underline';\"
-onmouseout=\"var download_link=document.getElementById('download_link');
-download_link.style.backgroundColor='white';
-download_link.style.textDecoration='none';\"
-href=\"downloads.php\">
-<img border=\"0\" style=\"display:inline;vertical-align:middle;padding-top:4pt\" alt=\"\"
-src=\"icons/download.png\" /></a><a 
+<a 
 onmouseover=\"var download_link=this;
 download_link.style.backgroundColor='#FFFFCC';
-download_link.style.textDecoration='underline';\"
+download_link.style.color='black';
+\"
 onmouseout=\"var download_link=this;
 download_link.style.backgroundColor='white';
-download_link.style.textDecoration='none';\"
-id=\"download_link\" href=\"downloads.php\">Download page</a></div>
+download_link.style.textDecoration='none';
+download_link.style.color='#6340FF';
+\"
+class=\"download\"
+id=\"download_link\"
+style=\"margin:0pt;padding-top:10pt;padding-bottom:14pt;padding-right:9pt\"
+href=\"downloads.php\">
+<img border=\"0\" style=\"display:inline;vertical-align:middle;padding-top:4pt\" alt=\"\"
+src=\"icons/download.png\" />Download page</a></div>
 </td>
 </tr>
 
