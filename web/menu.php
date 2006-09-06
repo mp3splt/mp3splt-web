@@ -62,7 +62,13 @@ function create_menu($page)
       else
 	{
 	  echo "<div class=\"menudiv\">
-           <a href=\"$link\">$menu[$i]</a></div>";
+           <a href=\"$link\"
+style=\"display:block;padding-left:6pt;\"
+onmouseover=\"var link=this;
+link.style.backgroundColor='#F0C08B';\"
+onmouseout=\"var link=this;
+link.style.backgroundColor='#FFFFCC';\">
+$menu[$i]</a></div>";
 	}
     }
   
@@ -81,43 +87,56 @@ function create_menu($page)
       
       echo "<div class=\"menudiv\">
            <a href=\"$link\"> $menu2[$i]</a></div>";
-    } 
+    }
+
+  $astyle2="style=\"display:block;padding-left:6pt;\"
+onmouseover=\"var link=this;
+link.style.backgroundColor='#A9E999';\"
+onmouseout=\"var link=this;
+link.style.backgroundColor='#FFFFCC';\"";
 
   //mailing list external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/mail/?group_id=55130\">
-       Mailing list</a></div>";
+           <a href=\"http://sourceforge.net/mail/?group_id=55130\"
+${astyle2}>Mailing list</a></div>";
   //browse CVS external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/\">
-       Browse SVN</a></div>";
+           <a href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/\"
+${astyle2}>Browse SVN</a></div>";
   //bugs external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476061&amp;group_id=55130&amp;func=browse\">
-       Bugs</a></div>";
+           <a
+  href=\"http://sourceforge.net/tracker/?atid=476061&amp;group_id=55130&amp;func=browse\"
+${astyle2}>Bugs</a></div>";
   //support requests external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476062&amp;group_id=55130&amp;func=browse\">
-       Support Requests</a></div>";
+           <a href=\"http://sourceforge.net/tracker/?atid=476062&amp;group_id=55130&amp;func=browse\"
+${astyle2}>Support Requests</a></div>";
   //patches external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476063&amp;group_id=55130&amp;func=browse\">
-       Patches</a></div>";
+           <a href=\"http://sourceforge.net/tracker/?atid=476063&amp;group_id=55130&amp;func=browse\"
+${astyle2}>Patches</a></div>";
   //feature requests external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/tracker/?atid=476064&amp;group_id=55130&amp;func=browse\">
-       Feature Requests</a></div>";
+           <a href=\"http://sourceforge.net/tracker/?atid=476064&amp;group_id=55130&amp;func=browse\"
+${astyle2}>Feature Requests</a></div>";
+
+  $astyle3="style=\"display:block;padding-left:6pt;\"
+onmouseover=\"var link=this;
+link.style.backgroundColor='#C0E0FB';\"
+onmouseout=\"var link=this;
+link.style.backgroundColor='#FFFFCC';\"";
 
   echo "<br />";
   echo "<div class=\"titlemenu\">Links</div>";
   //sourceforge page link
   echo "<div class=\"menudiv\">
-           <a href=\"http://sourceforge.net/projects/mp3splt\">
-       Sf.net page</a></div>";
+           <a href=\"http://sourceforge.net/projects/mp3splt\"
+${astyle3}>Sf.net page</a></div>";
   //mp3wrap link
   echo "<div class=\"menudiv\">
-           <a href=\"http://mp3wrap.sourceforge.net/\">
-       Mp3Wrap</a></div>";
+           <a href=\"http://mp3wrap.sourceforge.net/\"
+${astyle3}>Mp3Wrap</a></div>";
 
   echo "<br />";
   //support logo
@@ -147,8 +166,8 @@ function create_page()
 function create_table_with_menu($page)
 {
   echo "
-<div style=\"width:100%;background-color:black;text-align:center\">
-<img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt=\"project\" />
+<div style=\"width:100%;background-color:black;text-align:center;\">
+<a href=\"home.php\" style=\"display:block\"><img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt=\"project\" /></a>
 </div>
 
 <table id=\"top\" style=\"border-collapse:collapse\">

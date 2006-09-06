@@ -126,8 +126,7 @@ a.bottom:hover {
 /* property of the links in the main menu */
 .menudiv{ 
           margin-left:5pt;
-          padding-left:4pt;
-
+	  display:block;
           margin-right:5pt;
           margin-top: 2px;
           }
