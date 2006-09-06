@@ -74,7 +74,7 @@ i386.deb</a>
 </td>
 </tr>
 
-<!-- Slackware -->
+<!-- Slackware
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/slackware.png\" /><br />
@@ -91,7 +91,7 @@ i386.deb</a>
 </td>
 </tr>
 
-<!-- Gentoo -->
+Gentoo
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/gentoo.png\" /><br />
@@ -107,6 +107,7 @@ i386.deb</a>
 
 </td>
 </tr>
+-->
 
 <!-- RPMs -->
 <tr>

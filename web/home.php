@@ -26,8 +26,8 @@ libmp3splt, mp3splt and mp3splt-gtk. </div>
 <tr>
 <td>
 <br />
-<span style=\"font-weight:bold\">OS</span> : GNU Linux (*BSD - MacOS X - BeOS) / Windows<br />
-<span style=\"font-weight:bold\">Environment</span> : Console (Text Based) / Graphic GTK2<br />
+<span style=\"font-weight:bold\">OS</span> : GNU Linux, *BSD, MacOS X, BeOS, Windows<br />
+<span style=\"font-weight:bold\">Environment</span> : Console (Text Based), Graphic GTK2<br />
 <span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
 General Public License</a><br /><br />
 
@@ -67,9 +67,9 @@ download_link.style.color='#6340FF';
 \"
 class=\"download\"
 id=\"download_link\"
-style=\"margin:0pt;padding-top:10pt;padding-bottom:14pt;padding-right:9pt\"
+style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
 href=\"downloads.php\">
-<img border=\"0\" style=\"display:inline;vertical-align:middle;padding-top:4pt\" alt=\"\"
+<img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
 src=\"icons/download.png\" />Download page</a></div>
 </td>
 </tr>
@@ -92,9 +92,8 @@ Mp3splt-gtk uses SnackAmp as the default player.<br />
 Download SnackAmp <span style=\"font-weight:bold\">version >= 3.1.3
 Beta</span> from the <a
 href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a>.<br />
-<br />
 
-<div class=\"title\">News :</div>
+<div class=\"title\" style=\"padding-top:5pt;\">News :</div>
 <br />
 ";
 

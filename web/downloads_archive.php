@@ -7,12 +7,96 @@ function create_main_page()
   echo "
 <h2  class=\"pagetitle\">Downloads archive</h2>
 <hr />
-<table style=\"width:100%;border-collapse:collapse\">
+<table style=\"border-collapse:collapse\">
 <tr>
+
+<!-- libmp3splt releases -->
+<td style=\"vertical-align:top\">
+<table class=\"downloadtable\">
+<tr>
+<td  class=\"dtablecell1\">
+<b>libmp3splt</b>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">
+libmp3splt v0.3.1 (src)</a><br />
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
+i386 debian package</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.tar.gz?download\">
+libmp3splt v0.3 (src)</a><br />
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3_i386.deb?download\">
+i386 debian package</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.1.tar.gz?download\">
+libmp3splt v0.2.1 (src)</a><br />
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2.1_i386.deb?download\">
+i386 debian package</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.tar.gz?download\">
+libmp3splt v0.2 (src)</a><br />
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2_i386.deb?download\">
+i386 debian package</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.4.tar.gz?download\">
+libmp3splt v0.1.4 (src)</a><br />
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.3.tar.gz?download\">
+libmp3splt v0.1.3 (src)</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.2.tar.gz?download\">
+libmp3splt v0.1.2 (src)</a>
+</td>
+</tr>
+
+<tr>
+<td  class=\"dtablecell\">
+<a
+href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.1.tar.gz?download\">
+libmp3splt v0.1.1 (src)</a>
+</td>
+</tr>
+</table>
+
+</td>
 
 <!-- mp3splt releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width:100%;\" 
+<table
 class=\"downloadtable\">
 
 <tr>
@@ -185,8 +269,7 @@ mp3splt v1.1 (src)</a>
 
 <!-- mp3splt-gtk releases -->
 <td style=\"vertical-align:top\">
-<table  style=\"width:100%\" 
-class=\"downloadtable\">
+<table class=\"downloadtable\">
 
 <tr>
 <td  class=\"dtablecell1\">
@@ -306,91 +389,6 @@ mp3splt-gtk-win32 v0.1.1</a>
 <a
 href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.1.1_with_gtk_win32.tar.gz?download\">
 mp3splt-gtk-win32(+gtk) v0.1.1</a>
-</td>
-</tr>
-</table>
-
-</td>
-
-<!-- libmp3splt releases -->
-<td style=\"vertical-align:top\">
-<table  style=\"width:100%\" 
-class=\"downloadtable\">
-<tr>
-<td  class=\"dtablecell1\">
-<b>libmp3splt</b>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">
-libmp3splt v0.3.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.tar.gz?download\">
-libmp3splt v0.3 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.1.tar.gz?download\">
-libmp3splt v0.2.1 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2.1_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.2.tar.gz?download\">
-libmp3splt v0.2 (src)</a><br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.2_i386.deb?download\">
-i386 debian package</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.4.tar.gz?download\">
-libmp3splt v0.1.4 (src)</a><br />
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.3.tar.gz?download\">
-libmp3splt v0.1.3 (src)</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.2.tar.gz?download\">
-libmp3splt v0.1.2 (src)</a>
-</td>
-</tr>
-
-<tr>
-<td  class=\"dtablecell\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.1.1.tar.gz?download\">
-libmp3splt v0.1.1 (src)</a>
 </td>
 </tr>
 </table>
