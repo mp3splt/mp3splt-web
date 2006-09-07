@@ -55,19 +55,24 @@ function create_menu($page)
     {
       //convert to lower cases
       $link = strtolower($menu[$i].".php");
+      $img = strtolower($menu[$i]).".png";
       if (strcmp($page,strtolower($menu[$i])) == 0)
 	{
-	  echo "<div class=\"menudiv\">$menu[$i]</div>";
+	  echo "<div class=\"menudiv\"
+style=\"background-color:white;padding-left:5pt;\">
+<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>
+$menu[$i]</div>";
 	}
       else
 	{
 	  echo "<div class=\"menudiv\">
            <a href=\"$link\"
-style=\"display:block;padding-left:6pt;\"
+style=\"display:block;padding-left:5pt;\"
 onmouseover=\"var link=this;
-link.style.backgroundColor='#F0C08B';\"
+link.style.backgroundColor='#E0F0FB';\"
 onmouseout=\"var link=this;
 link.style.backgroundColor='#FFFFCC';\">
+<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>
 $menu[$i]</a></div>";
 	}
     }
@@ -89,9 +94,9 @@ $menu[$i]</a></div>";
            <a href=\"$link\"> $menu2[$i]</a></div>";
     }
 
-  $astyle2="style=\"display:block;padding-left:6pt;\"
+  $astyle2="style=\"display:block;padding-left:6pt;padding-left:8pt;\"
 onmouseover=\"var link=this;
-link.style.backgroundColor='#A9E999';\"
+link.style.backgroundColor='#C9F9B9';\"
 onmouseout=\"var link=this;
 link.style.backgroundColor='#FFFFCC';\"";
 
@@ -121,9 +126,9 @@ ${astyle2}>Patches</a></div>";
            <a href=\"http://sourceforge.net/tracker/?atid=476064&amp;group_id=55130&amp;func=browse\"
 ${astyle2}>Feature Requests</a></div>";
 
-  $astyle3="style=\"display:block;padding-left:6pt;\"
+  $astyle3="style=\"display:block;padding-left:6pt;padding-left:8pt;\"
 onmouseover=\"var link=this;
-link.style.backgroundColor='#C0E0FB';\"
+link.style.backgroundColor='#FFE3BA';\"
 onmouseout=\"var link=this;
 link.style.backgroundColor='#FFFFCC';\"";
 
@@ -213,10 +218,20 @@ echo "
 
 <tr>
 <td colspan=\"2\">
+<table style=\"width:100%\">
+<tr>
+<td>
+<div style=\"font-size:80%\">Mp3splt-project do not own the logos or
+the icons of this page. Please see the <a class=\"bottom\" href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
+</td>
+<td style=\"text-align:right\">
 <div class=\"bottombar\">
 <a class=\"bottom\" href=\"http://validator.w3.org/check?uri={$the_page}\">XHTML</a>
 <a class=\"bottom\" href=\"http://jigsaw.w3.org/css-validator/validator?uri={$the_page}\">CSS2</a>
 </div>
+</td>
+</tr>
+</table>
 </td>
 </tr>
 

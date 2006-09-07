@@ -70,7 +70,7 @@ id=\"download_link\"
 style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
 href=\"downloads.php\">
 <img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
-src=\"icons/download.png\" />Download page</a></div>
+src=\"icons/download_big.png\" />Download page</a></div>
 </td>
 </tr>
 
@@ -100,9 +100,7 @@ href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a>.<br />
   include "news.html";
 
   echo "
-<br />
-<div style=\"font-size:80%\">Mp3splt-project do not own the download icon of this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
-";
+<br />";
 }
 
 begin_document("mp3 and ogg splitter - mp3splt project home page",

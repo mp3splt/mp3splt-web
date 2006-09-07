@@ -249,7 +249,6 @@ installer.exe</a>
 </table>
 
 <br />
-<div style=\"font-size:80%\">Mp3splt-project do not own any of the logo icons of this page. Please see the <a href=\"icons/icons_licenses.txt\">icons licenses</a>.</div>
 ";
 }
 
