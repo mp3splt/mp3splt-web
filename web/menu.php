@@ -59,9 +59,12 @@ function create_menu($page)
       if (strcmp($page,strtolower($menu[$i])) == 0)
 	{
 	  echo "<div class=\"menudiv\"
-style=\"background-color:white;padding-left:5pt;\">
-<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>
-$menu[$i]</div>";
+style=\"background-color:white;padding-left:5pt;\">";
+          if (is_file("icons/$img"))
+            {
+              echo "<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>";
+            }
+          echo "$menu[$i]</div>";
 	}
       else
 	{
@@ -71,9 +74,12 @@ style=\"display:block;padding-left:5pt;\"
 onmouseover=\"var link=this;
 link.style.backgroundColor='#E0F0FB';\"
 onmouseout=\"var link=this;
-link.style.backgroundColor='#FFFFCC';\">
-<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>
-$menu[$i]</a></div>";
+link.style.backgroundColor='#FFFFCC';\">";
+          if (is_file("icons/$img"))
+            {
+              echo "<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>";
+            }
+          echo "$menu[$i]</a></div>";
 	}
     }
   
