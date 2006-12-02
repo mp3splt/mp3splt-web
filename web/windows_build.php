@@ -94,7 +94,7 @@ put them in the <span class=\"colorspan\">libs</span> directory</li>
 
 <li>Type :
 <br />
-<code>cd mp3splt-project &amp;&amp; ./crosscompile_win32.sh</code>
+<code>cd mp3splt-project &amp;&amp; make windows_cross_installers</code>
 
 <p>You will find two executables installers in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
