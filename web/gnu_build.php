@@ -41,7 +41,7 @@ MAD sourceforge page</a></li>
 <li>Get the subversion code :
 <br />
 <code>
-svn co https://svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
+svn co https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
 </code>
 </li>
 
