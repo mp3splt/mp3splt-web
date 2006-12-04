@@ -144,11 +144,11 @@ sid_amd64.deb</a><br />
 
 <!-- Ubuntu -->
 <tr id=\"ubuntu\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;\">
 <img alt=\"\" src=\"icons/ubuntu.png\" />
 <div class=\"osname\">Ubuntu</div>
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.dapper_i386.deb${download_suffix}\">
@@ -163,7 +163,7 @@ dapper_amd64.deb</a><br />
 edgy_amd64.deb</a><br />
 
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
 <a href=\"${download_url}mp3splt_${mp3splt_version}.dapper_i386.deb${download_suffix}\">
@@ -178,7 +178,7 @@ dapper_amd64.deb</a><br />
 edgy_amd64.deb</a><br />
 
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
 
 <!-- i386 -->
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.dapper_i386.deb${download_suffix}\">
