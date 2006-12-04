@@ -207,3 +207,11 @@ License:
 This image is from the Open Clip Art Library.
 (http://www.openclipart.org/)
 All works included in the library are public domain.
+
+The archlinux icon :
+********************
+downloaded from http://archlinux.org/art/ on the 04/12/06
+
+License:
+--------
+ no license ?

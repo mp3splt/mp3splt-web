@@ -11,19 +11,9 @@ function create_main_page()
 <div class=\"title\">Installation :</div>
 <br />
 <div class=\"indentdiv\">- 
-<a
-href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/libmp3splt/INSTALL?view=markup\">
-libmp3splt INSTALL file</a>
-</div>
-<div class=\"indentdiv\">- 
-<a
-href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/mp3splt-gtk/INSTALL?view=markup\">
-mp3splt-gtk INSTALL file</a> (contains also windows installation)
-</div>
-<div class=\"indentdiv\">- 
-<a
-href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/newmp3splt/INSTALL?view=markup\">
-mp3splt INSTALL file</a>
+<a href=\"installation.php\">Installation instructions</a>
+<br />
+(debian-based, archlinux, gentoo, slackware, rpm-based, bsd flavors, windows, ...)
 </div>
 <br />
 

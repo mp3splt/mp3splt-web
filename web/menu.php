@@ -59,7 +59,7 @@ function create_menu($page)
       if (strcmp($page,strtolower($menu[$i])) == 0)
 	{
 	  echo "<div class=\"menudiv\"
-style=\"background-color:white;padding-left:5pt;\">";
+style=\"background-color:white;color:black;padding-left:5pt;\">";
           if (is_file("icons/$img"))
             {
               echo "<img alt=\"\" border=\"0\" src=\"icons/$img\" style=\"vertical-align:middle\"/>";
@@ -100,7 +100,7 @@ link.style.backgroundColor='#FFFFCC';\">";
            <a href=\"$link\"> $menu2[$i]</a></div>";
     }
 
-  $astyle2="style=\"display:block;padding-left:6pt;padding-left:8pt;\"
+  $astyle2="style=\"display:block;padding-left:8pt;\"
 onmouseover=\"var link=this;
 link.style.backgroundColor='#C9F9B9';\"
 onmouseout=\"var link=this;
@@ -132,7 +132,7 @@ ${astyle2}>Patches</a></div>";
            <a href=\"http://sourceforge.net/tracker/?atid=476064&amp;group_id=55130&amp;func=browse\"
 ${astyle2}>Feature Requests</a></div>";
 
-  $astyle3="style=\"display:block;padding-left:6pt;padding-left:8pt;\"
+  $astyle3="style=\"display:block;padding-left:8pt;\"
 onmouseover=\"var link=this;
 link.style.backgroundColor='#FFE3BA';\"
 onmouseout=\"var link=this;
@@ -177,7 +177,7 @@ function create_page()
 function create_table_with_menu($page)
 {
   echo "
-<div style=\"width:100%;background-color:black;text-align:center;\">
+<div style=\"width:100%;background-color:black;color:white;text-align:center;\">
 <a href=\"home.php\" style=\"display:block\"><img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt=\"project\" /></a>
 </div>
 

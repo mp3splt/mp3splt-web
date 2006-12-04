@@ -20,6 +20,27 @@ a:hover {
           background-color:inherit;
 }
 
+/* x86_64 links */
+a.amd64 {
+    color:#1370BF;
+    text-decoration: none; 
+    background-color:inherit;
+    }
+a.amd64:visited { 
+            color:#883399;
+            text-decoration: none;
+            background-color:inherit;
+            }
+a.amd64:link { 
+         color:#1370BF;
+         background-color:inherit;
+         }
+a.amd64:hover {
+          color:#555555;
+          text-decoration: underline;
+          background-color:inherit;
+}
+
 /* download link */
 a.download {  
     color:#6340FF;
@@ -87,14 +108,6 @@ a.bottom:hover {
 
 /* main window menu column*/
 #main_menu_column{ 
-                   border-right-style:solid;
-                   border-right-width:1px;
-                   border-right-color:#FFFFCC;
-                   
-                   border-top-style:solid;
-                   border-top-width:1px;
-                   border-top-color:#FFFFCC;
-                   
                    color:black;
                    background-color:#FFFFCC;
                    
@@ -108,10 +121,6 @@ a.bottom:hover {
                    border-left-style:groove;
                    border-left-width:2pt;
                    border-left-color:black;
-                   
-                   border-top-style:solid;
-                   border-top-width:1px;
-                   border-top-color:white;
                    
                    background-color:white;
                    color:black;
