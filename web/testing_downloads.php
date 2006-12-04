@@ -28,8 +28,8 @@ function create_main_page()
 
 <!-- links to downloads on this same page
 <a href=\"#source_code\"><img border=0 src=\"icons/thumb/keyboard_thumb.png\" />Source code</a>,
-<a href=\"#debian\"><img border=0 src=\"icons/thumb/debian_thumb.png\" />Debian &
-<img border=0 src=\"icons/thumb/ubuntu_thumb.png\" />Ubuntu</a>,
+<a href=\"#debian\"><img border=0 src=\"icons/thumb/debian_thumb.png\" />Debian</a>,
+<a href=\"#ubuntu\"><img border=0 src=\"icons/thumb/ubuntu_thumb.png\" />Ubuntu</a>,
 <a href=\"#arch\"><img border=0 src=\"icons/thumb/arch_thumb.png\" />Arch Linux</a>,
 <a href=\"#slackware\"><img border=0 src=\"icons/thumb/slackware_thumb.png\" />Slackware</a>,
 <a href=\"#gentoo\"><img border=0 src=\"icons/thumb/gentoo_thumb.png\" />Gentoo</a>,
@@ -71,14 +71,14 @@ function create_main_page()
 <span style=\"font-weight:bold\">Source code</span>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a href=\"${download_url}libmp3splt-${libmp3splt_version}.tar.gz${download_suffix}\">.tar.gz</a>
+<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}.tar.gz${download_suffix}\">.tar.gz</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a href=\"${download_url}mp3splt-${mp3splt_version}.tar.gz${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}.tar.gz${download_suffix}\">
 .tar.gz</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
-<a href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
 .tar.gz</a>
 </td>
 </tr>
@@ -86,8 +86,8 @@ function create_main_page()
 <!-- Debian -->
 <tr id=\"debian\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
-<img alt=\"\" src=\"icons/debian.png\" /><img alt=\"\" src=\"icons/ubuntu.png\" />
-<div class=\"osname\">Debian-based</div>
+<img alt=\"\" src=\"icons/debian.png\" />
+<div class=\"osname\">Debian</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 
@@ -98,23 +98,12 @@ sarge_i386.deb</a><br />
 etch_i386.deb</a><br />
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.sid_i386.deb${download_suffix}\">
 sid_i386.deb</a><br />
-<hr size=\"1\"/>
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.dapper_i386.deb${download_suffix}\">
-dapper_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.edgy_i386.deb${download_suffix}\">
-edgy_i386.deb</a><br />
-<hr size=\"1\"/>
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.etch_amd64.deb${download_suffix}\">
 etch_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.sid_amd64.deb${download_suffix}\">
 sid_amd64.deb</a><br />
-<hr size=\"1\"/>
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.dapper_amd64.deb${download_suffix}\">
-dapper_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.edgy_amd64.deb${download_suffix}\">
-edgy_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
@@ -126,23 +115,12 @@ sarge_i386.deb</a><br />
 etch_i386.deb</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}.sid_i386.deb${download_suffix}\">
 sid_i386.deb</a><br />
-<hr size=\"1\"/>
-<a href=\"${download_url}mp3splt_${mp3splt_version}.dapper_i386.deb${download_suffix}\">
-dapper_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.edgy_i386.deb${download_suffix}\">
-edgy_i386.deb</a><br />
-<hr size=\"1\"/>
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.etch_amd64.deb${download_suffix}\">
 etch_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.sid_amd64.deb${download_suffix}\">
 sid_amd64.deb</a><br />
-<hr size=\"1\"/>
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.dapper_amd64.deb${download_suffix}\">
-dapper_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.edgy_amd64.deb${download_suffix}\">
-edgy_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
@@ -154,19 +132,61 @@ sarge_i386.deb</a><br />
 etch_i386.deb</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.sid_i386.deb${download_suffix}\">
 sid_i386.deb</a><br />
-<hr size=\"1\"/>
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.dapper_i386.deb${download_suffix}\">
-dapper_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.edgy_i386.deb${download_suffix}\">
-edgy_i386.deb</a><br />
-<hr size=\"1\"/>
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.etch_amd64.deb${download_suffix}\">
 etch_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.sid_amd64.deb${download_suffix}\">
 sid_amd64.deb</a><br />
-<hr size=\"1\"/>
+
+</td>
+</tr>
+
+<!-- Ubuntu -->
+<tr id=\"ubuntu\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
+<img alt=\"\" src=\"icons/ubuntu.png\" />
+<div class=\"osname\">Ubuntu</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+
+<!-- i386 -->
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.dapper_i386.deb${download_suffix}\">
+dapper_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.edgy_i386.deb${download_suffix}\">
+edgy_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.dapper_amd64.deb${download_suffix}\">
+dapper_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.edgy_amd64.deb${download_suffix}\">
+edgy_amd64.deb</a><br />
+
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+
+<!-- i386 -->
+<a href=\"${download_url}mp3splt_${mp3splt_version}.dapper_i386.deb${download_suffix}\">
+dapper_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.edgy_i386.deb${download_suffix}\">
+edgy_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.dapper_amd64.deb${download_suffix}\">
+dapper_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.edgy_amd64.deb${download_suffix}\">
+edgy_amd64.deb</a><br />
+
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
+
+<!-- i386 -->
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.dapper_i386.deb${download_suffix}\">
+dapper_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.edgy_i386.deb${download_suffix}\">
+edgy_i386.deb</a><br />
+
+<!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.dapper_amd64.deb${download_suffix}\">
 dapper_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.edgy_amd64.deb${download_suffix}\">
@@ -235,15 +255,15 @@ x86_64.tgz</a><br />
 <div class=\"osname\">Gentoo</div>
 </td>
 <td class=\"mainpagedownloadtd\">
-<a href=\"${download_url}libmp3splt-${libmp3splt_version}_ebuild.tar.gz${download_suffix}\">
+<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}_ebuild.tar.gz${download_suffix}\">
 ebuild.tar.gz</a><br />
 </td>
 <td class=\"mainpagedownloadtd\">
-<a href=\"${download_url}mp3splt-${mp3splt_version}_ebuild.tar.gz${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}_ebuild.tar.gz${download_suffix}\">
 ebuild.tar.gz</a><br />
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-<a href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}_ebuild.tar.gz${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}_ebuild.tar.gz${download_suffix}\">
 ebuild.tar.gz</a><br />
 </td>
 </tr>
@@ -260,7 +280,7 @@ ebuild.tar.gz</a><br />
 i386.rpm</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt-${libmp3splt_version}-1.x86_64.rpm${download_suffix}\">
 x86_64.rpm</a><br />
-<a href=\"${download_url}libmp3splt-${libmp3splt_version}-1.src.rpm${download_suffix}\">
+<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}-1.src.rpm${download_suffix}\">
 src.rpm</a><br />
 </td>
 <td class=\"mainpagedownloadtd\">
@@ -268,7 +288,7 @@ src.rpm</a><br />
 i386.rpm</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-${mp3splt_version}-1.x86_64.rpm${download_suffix}\">
 x86_64.rpm</a><br />
-<a href=\"${download_url}mp3splt-${mp3splt_version}-1.src.rpm${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}-1.src.rpm${download_suffix}\">
 src.rpm</a><br />
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
@@ -276,7 +296,7 @@ src.rpm</a><br />
 i386.rpm</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}-1.x86_64.rpm${download_suffix}\">
 x86_64.rpm</a><br />
-<a href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}-1.src.rpm${download_suffix}\">
+<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}-1.src.rpm${download_suffix}\">
 src.rpm</a><br />
 </td>
 </tr>

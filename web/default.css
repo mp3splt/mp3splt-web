@@ -41,6 +41,27 @@ a.amd64:hover {
           background-color:inherit;
 }
 
+/* source links */
+a.source {
+    color:#E3004F;
+    text-decoration: none; 
+    background-color:inherit;
+    }
+a.source:visited { 
+            color:#C11399;
+            text-decoration: none;
+            background-color:inherit;
+            }
+a.source:link { 
+         color:#C3004F;
+         background-color:inherit;
+         }
+a.source:hover {
+          color:#555555;
+          text-decoration: underline;
+          background-color:inherit;
+}
+
 /* download link */
 a.download {  
     color:#6340FF;
