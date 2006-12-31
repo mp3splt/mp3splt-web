@@ -5,8 +5,7 @@ include 'menu.php';
 function create_main_page()
 {
   //download urls
-  //$download_url="http://prdownloads.sourceforge.net/mp3splt/";
-  $download_url="http://mp3splt.sourceforge.net/mp3splt_downloads/";
+  $download_url="http://prdownloads.sourceforge.net/mp3splt/";
   //$download_suffix="?download";
   $download_suffix="";
   //versions
@@ -411,6 +410,26 @@ i386.tbz</a><br />
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
 <a href=\"${download_url}mp3splt-gtk_fbsd_i386-${fbsd_mp3splt_gtk_version}.tbz${download_suffix}\">
 i386.tbz</a><br />
+</td>
+</tr>
+
+<!-- Nexenta -->
+<tr id=\"nexenta\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<div class=\"osname\">Nexenta<br />
+GNU/OpenSolaris</div>
+</td>
+<td class=\"mainpagedownloadtd\">
+<a
+href=\"${download_url}libmp3splt_${libmp3splt_version}_solaris-i386.deb${download_suffix}\">i386.deb</a><br />
+</td>
+<td class=\"mainpagedownloadtd\">
+<a
+href=\"${download_url}mp3splt_${mp3splt_version}_solaris-i386.deb${download_suffix}\">i386.deb</a><br />
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<a
+href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_solaris-i386.deb${download_suffix}\">i386.deb</a><br />
 </td>
 </tr>
 
