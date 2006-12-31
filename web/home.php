@@ -54,6 +54,27 @@ General Public License</a><br /><br />
 
 <tr>
 <td colspan=\"3\">
+
+<!-- unstable releases -->
+<div style=\"text-align:center;font-size:140%\">
+<a 
+onmouseover=\"var download_link=this;
+download_link.style.backgroundColor='#FFFFCC';
+download_link.style.color='black';
+\"
+onmouseout=\"var download_link=this;
+download_link.style.backgroundColor='white';
+download_link.style.textDecoration='none';
+download_link.style.color='#6340FF';
+\"
+class=\"download\"
+id=\"download_link\"
+style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
+href=\"unstable_downloads.php\">
+<img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
+src=\"icons/download_big.png\" />Unstable downloads</a></div>
+
+<!-- stable releases -->
 <div style=\"text-align:center;font-size:140%\">
 <a 
 onmouseover=\"var download_link=this;
@@ -70,7 +91,7 @@ id=\"download_link\"
 style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
 href=\"downloads.php\">
 <img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
-src=\"icons/download_big.png\" />Download page</a></div>
+src=\"icons/download_big.png\" />Stable downloads</a></div>
 </td>
 </tr>
 

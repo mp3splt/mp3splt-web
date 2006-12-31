@@ -429,6 +429,7 @@ i386.tbz</a><br />
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
 <a href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
+(other program)
 </td>
 </tr>
 

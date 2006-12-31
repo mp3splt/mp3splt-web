@@ -7,6 +7,8 @@ function create_main_page()
   echo "
 <h2  class=\"pagetitle\">Downloads</h2>
 <hr />
+<div>For unstable downloads, see the <a
+href=\"unstable_downloads.php\">unstable downloads page</a>.</div>
 <div>For older downloads, see the <a href=\"downloads_archive.php\">downloads archive</a>.</div>
 <div>For installation issues, please read <a href=\"documentation.php\">the documentation</a>.</div>
 <br />
