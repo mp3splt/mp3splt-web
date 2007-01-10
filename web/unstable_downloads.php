@@ -22,7 +22,7 @@ function create_main_page()
   $fbsd_mp3splt_gtk_version=str_replace("rc","r",$fbsd_mp3splt_gtk_version);
   
   echo "
-<h2  class=\"pagetitle\">Testing downloads (unstable)</h2>
+<h2  class=\"pagetitle\">Unstable downloads (testing)</h2>
 <hr />
 
 <!-- links to downloads on this same page
@@ -41,7 +41,16 @@ function create_main_page()
 <a href=\"#macosx\"><img border=0 src=\"icons/thumb/mac_os_x_thumb.png\" />Mac OS X</a>,
 <a href=\"#windows\"><img border=0 src=\"icons/thumb/winxp_thumb.png\" />Windows</a>
 <hr /> -->
-<br />
+
+<div>Those releases are unstable.<br />
+They are here because the latest version does not work any more with freedb, and for testing
+purposes.<br />
+You may have problems using those releases (such as crashes
+- segmentation faults), becase they haven't been tested.<br />
+Also, many of the packages that you find here have not been tested; feel free to
+report if a package works or not works.<br />
+Mac OS X packages are not available due to lack of time.<br />
+Please report the bugs that you find.</div>
 
 <table class=\"mainpagedownloadtable\">
 
