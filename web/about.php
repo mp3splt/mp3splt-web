@@ -19,7 +19,7 @@ to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
 or from .cue files. Supports also automatic silence split, that can be
 used also to adjust cddb/cue splitpoints. You can extract tracks from
-Mp3Wrap or AlbumWrap files in few seconds. Mp3splt-project is splitted in 3 parts :
+Mp3Wrap or AlbumWrap files in few seconds. Mp3splt-project is split in 3 parts :
 libmp3splt, mp3splt and mp3splt-gtk.</div>
 <br />
 <!-- mp3splt project common features -->
@@ -34,7 +34,7 @@ an end time <i>without decoding</i></li>
 <li class=\"lifeatures\">split files created with Mp3Wrap or AlbumWrap</li>
 <li class=\"lifeatures\">split concatenated mp3 files</li>
 <li class=\"lifeatures\">support for mp3 VBR (variable bit rate)</li>
-<li class=\"lifeatures\">specify output directory for splitted files</li>
+<li class=\"lifeatures\">specify output directory for split files</li>
 </ul>
 
 <!-- mp3splt -->
@@ -45,7 +45,7 @@ an end time <i>without decoding</i></li>
 <!--<br />
 <div class=\"featdiv\">mp3splt features :</div>
 <ul>
-<li class=\"lifeatures\">specify output directory for splitted files</li>
+<li class=\"lifeatures\">specify output directory for split files</li>
 </ul>-->
 
 <br />
