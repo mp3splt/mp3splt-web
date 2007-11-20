@@ -112,7 +112,7 @@ link.style.backgroundColor='#FFFFCC';\"";
 ${astyle2}>Mailing list</a></div>";
   //browse CVS external link
   echo "<div class=\"menudiv\">
-           <a href=\"http://svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/\"
+           <a href=\"http://mp3splt.svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/\"
 ${astyle2}>Browse SVN</a></div>";
   //bugs external link
   echo "<div class=\"menudiv\">
