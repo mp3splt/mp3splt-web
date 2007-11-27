@@ -49,6 +49,7 @@ You may have problems using those releases (such as crashes
 - segmentation faults), becase they haven't been tested.<br />
 Also, many of the packages that you find here have not been tested; feel free to
 report if a package works or not works.<br />
+<span style=\"color:red\">Note : GNU/Linux static packages are broken.</span><br />
 Mac OS X packages are not available due to lack of time.<br />
 Please report the bugs that you find.</div>
 
