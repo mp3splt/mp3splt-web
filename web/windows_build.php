@@ -44,7 +44,7 @@ class=\"colorspan\">mp3splt-project</span> directory, right click
 inside the window and select SVN Checkout. Type the following URL of
 repository in the newly opened window and then click \"ok\" :
 <br />
-<code>https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project</code>
+<code>https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk</code>
 </li>
  
 <li>Download <a href=\"http://nsis.sourceforge.net/Download\">nsis</a> and install it.</li>
