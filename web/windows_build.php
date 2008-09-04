@@ -66,10 +66,10 @@ command line and the other for the gui)</p>
 </ol>
 
 Info : some sources of the dependencies libraries can be found : 
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs_sources\">
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs_sources.tar.bz2\">
 libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs_sources.tar.bz2\">
-mp3splt-gtk_mingw_required_libs_sources.tar.bz2</a>.
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
+mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
 <br /><br />
 
 <!--<div class=\"title\">Cross compiling :</div>
