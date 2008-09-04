@@ -33,15 +33,15 @@ MAD sourceforge page</a></li>
 
 <li>You can also install the following programs :
 <ul>
-<li><span class=\"colorspan\">beep-media-player</span> : download it from the 
-<a href=\"http://sourceforge.net/project/showfiles.php?group_id=95272\">bmp download page</a></li>
+<li><span class=\"colorspan\">audacious</span> : download it from the 
+<a href=\"http://audacious-media-player.org/index.php?title=Main_Page\">audacious home page</a></li>
 </ul>
 </li>
 
 <li>Get the subversion code :
 <br />
 <code>
-svn co https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project mp3splt-project
+svn co https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk mp3splt-project
 </code>
 </li>
 
@@ -143,8 +143,6 @@ type :
 <li>After that type :
 <br />
 <code>./configure</code>
-<p>By default, the compilation is without beep-media-player (bmp) support; you can
-enable bmp support with \"./configure --enable-bmp\"</p>
 </li>
 
 <li>Compile the program :

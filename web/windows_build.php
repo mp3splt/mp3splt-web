@@ -65,7 +65,14 @@ command line and the other for the gui)</p>
 
 </ol>
 
-<div class=\"title\">Cross compiling :</div>
+Info : some sources of the dependencies libraries can be found : 
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs_sources\">
+libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs_sources.tar.bz2\">
+mp3splt-gtk_mingw_required_libs_sources.tar.bz2</a>.
+<br /><br />
+
+<!--<div class=\"title\">Cross compiling :</div>
 <p>This section explains how to compile mp3splt-project for Windows on a
 <span style=\"font-weight:bold\">Debian GNU/linux</span> operating system.</p>
 
@@ -101,7 +108,7 @@ class=\"colorspan\">mp3splt-project</span> directory (one for the
 command line and the other for the gui)</p>
 </li>
 
-</ol>
+</ol>-->
 ";
 }
 

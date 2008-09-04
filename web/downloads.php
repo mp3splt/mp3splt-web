@@ -4,14 +4,26 @@ include 'menu.php';
 
 function create_main_page()
 {
+  //download urls
+  $download_url="http://prdownloads.sourceforge.net/mp3splt/";
+  //$download_suffix="?download";
+  $download_suffix="";
+  //versions
+  $libmp3splt_version="0.5";
+  $mp3splt_version="2.2";
+  $mp3splt_gtk_version="0.5";
+  
+  //freebsd versions
+  $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
+  $fbsd_libmp3splt_version=str_replace("rc","r",$fbsd_libmp3splt_version);
+  $fbsd_mp3splt_version=str_replace("_",".",$mp3splt_version);
+  $fbsd_mp3splt_version=str_replace("rc","r",$fbsd_mp3splt_version);
+  $fbsd_mp3splt_gtk_version=str_replace("_",".",$mp3splt_gtk_version);
+  $fbsd_mp3splt_gtk_version=str_replace("rc","r",$fbsd_mp3splt_gtk_version);
+  
   echo "
 <h2  class=\"pagetitle\">Downloads</h2>
 <hr />
-<div>For unstable downloads, see the <a
-href=\"unstable_downloads.php\">unstable downloads page</a>.</div>
-<div>For older downloads, see the <a href=\"downloads_archive.php\">downloads archive</a>.</div>
-<div>For installation issues, please read <a href=\"documentation.php\">the documentation</a>.</div>
-<br />
 
 <table class=\"mainpagedownloadtable\">
 
@@ -21,194 +33,133 @@ href=\"unstable_downloads.php\">unstable downloads page</a>.</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.3.1</div>
+<div style=\"font-style:italic\">${libmp3splt_version}</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.1</div>
+<div style=\"font-style:italic\">${mp3splt_version}</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.3.1</div>
+<div style=\"font-style:italic\">${mp3splt_gtk_version}</div>
 </td>
 </tr>
 
 <!-- Source code -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<tr id=\"source_code\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/keyboard.png\" /><br />
 <span style=\"font-weight:bold\">Source code</span>
 </td>
-<td class=\"mainpagedownloadtd\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt-0.3.1.tar.gz?download\">.tar.gz</a>
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}.tar.gz${download_suffix}\">.tar.gz</a>
 </td>
-<td class=\"mainpagedownloadtd\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1c-src.tar.gz?download\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}.tar.gz${download_suffix}\">
 .tar.gz</a>
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk-0.3.1.tar.gz?download\">
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
+<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
 .tar.gz</a>
 </td>
 </tr>
 
 <!-- Debian -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/debian.png\" /><img alt=\"\" src=\"icons/ubuntu.png\" />
-<div class=\"osname\">Debian-based</div>
+<tr id=\"debian\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
+<img alt=\"\" src=\"icons/debian.png\" />
+<div class=\"osname\">Debian</div>
 </td>
-<td class=\"mainpagedownloadtd\">
-Debian testing,<br /> Ubuntu dapper :<br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_0.3.1_i386.deb?download\">
-i386.deb</a>
-</td>
-<td class=\"mainpagedownloadtd\">
-Debian testing,<br /> Ubuntu dapper :<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt_2.1-1_i386.deb?download\">
-i386.deb</a><br />
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-Debian testing,<br /> Ubuntu dapper :<br />
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1_i386.deb?download\">
-i386.deb</a>
-</td>
-</tr>
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 
-<!-- Slackware
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/slackware.png\" /><br />
-<div class=\"osname\">Slackware</div>
-</td>
+<!-- i386 -->
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_i386.deb${download_suffix}\">
+lenny_i386.deb</a><br />
 
-<td class=\"mainpagedownloadtd\">
-</td>
-<td class=\"mainpagedownloadtd\">
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_amd64.deb${download_suffix}\">
+lenny_amd64.deb</a><br />
 
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+
+<!-- i386 -->
+<a href=\"${download_url}mp3splt_${mp3splt_version}.lenny_i386.deb${download_suffix}\">
+lenny_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.lenny_amd64.deb${download_suffix}\">
+lenny_amd64.deb</a><br />
 
 </td>
-</tr>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
 
-Gentoo
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/gentoo.png\" /><br />
-<div class=\"osname\">Gentoo</div>
-</td>
-<td class=\"mainpagedownloadtd\">
+<!-- i386 -->
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_i386.deb${download_suffix}\">
+lenny_i386.deb</a><br />
 
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-
-</td>
-</tr>
--->
-
-<!-- RPMs -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/fedora.png\" /><img alt=\"\" src=\"icons/mandriva.png\" /><br />
-<img style=\"margin-top:4pt\" alt=\"\" src=\"icons/opensuse.png\" />
-<div class=\"osname\">RPMs</div>
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.i386.rpm?download\">
-i386.rpm</a>
-<br />
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-1.src.rpm?download\"
->i386-src.rpm</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_amd64.deb${download_suffix}\">
+lenny_amd64.deb</a><br />
 
 </td>
 </tr>
 
-<!-- GNU/Linux -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/gnu.png\" /><img alt=\"\" src=\"icons/penguin.png\" /><br />
-<div class=\"osname\">GNU/Linux</div>
+<!-- Ubuntu -->
+<tr id=\"ubuntu\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;\">
+<img alt=\"\" src=\"icons/ubuntu.png\" />
+<div class=\"osname\">Ubuntu</div>
 </td>
 <td class=\"mainpagedownloadtd\">
 
+<!-- i386 -->
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.gutsy_i386.deb${download_suffix}\">
+gutsy_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.hardy_i386.deb${download_suffix}\">
+hardy_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.gutsy_amd64.deb${download_suffix}\">
+gutsy_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.hardy_amd64.deb${download_suffix}\">
+hardy_amd64.deb</a><br />
+
 </td>
 <td class=\"mainpagedownloadtd\">
-<a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-bin-i586.tar.gz?download\">
-i586.tar.gz</a>
+
+<!-- i386 -->
+<a href=\"${download_url}mp3splt_${mp3splt_version}.gutsy_i386.deb${download_suffix}\">
+gutsy_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.hardy_i386.deb${download_suffix}\">
+hardy_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.gutsy_amd64.deb${download_suffix}\">
+gutsy_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.hardy_amd64.deb${download_suffix}\">
+hardy_amd64.deb</a><br />
+
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
+
+<!-- i386 -->
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.gutsy_i386.deb${download_suffix}\">
+gutsy_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_i386.deb${download_suffix}\">
+hardy_i386.deb</a><br />
+
+<!-- amd64 -->
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.gutsy_amd64.deb${download_suffix}\">
+gutsy_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_amd64.deb${download_suffix}\">
+hardy_amd64.deb</a><br />
 
 </td>
 </tr>
-
-<!--
-FreeBSD
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/freebsd.png\" /><br />
-<div class=\"osname\">FreeBSD</div>
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-
-</td>
-</tr>
-
-NetBSD
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/netbsd.png\" /><br />
-<div class=\"osname\">NetBSD</div>
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-
-</td>
-</tr>
-
-OpenBSD
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/openbsd.png\" /><br />
-<div class=\"osname\">OpenBSD</div>
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\">
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-
-</td>
-</tr>
--->
 
 <!-- Mac OS X -->
-<tr>
+<tr id=\"macosx\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
 <div class=\"osname\">Mac OS X</div>
@@ -218,33 +169,30 @@ OpenBSD
 </td>
 <td class=\"mainpagedownloadtd\">
 <a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
- Fink package</a>
+ Fink package</a><br />(older version)
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-<a
-  href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
-mp3splt-gtk compiles
+<a href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
+(other program)
 </td>
 </tr>
 
 <!-- Windows -->
-<tr>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center\">
+<tr id=\"windows\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
 <img alt=\"\" src=\"icons/winxp.png\" /><br />
 <div class=\"osname\">Windows</div>
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
 
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
-<a
- href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-2.1-win32.zip?download\">
-win32.zip</a>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
+<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.exe${download_suffix}\">
+installer.exe</a><br />
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none\">
-<a	
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_0.3.1.exe?download\">
-installer.exe</a>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;border-top:solid;border-top-width:1pt;\">
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
+installer.exe</a><br />
 </td>
 </tr>
 

@@ -11,7 +11,7 @@ echo "
 <div class=\"title\">mp3splt :</div>
 <ul>
 <li> Matteo Trotta : author and main mantainer of Mp3Splt Project</li>
-<li> Munteanu Alexandru : maintainer of mp3splt</li>
+<li> Alexandru Munteanu : maintainer of mp3splt</li>
 </ul>
 
 People who contributed to mp3splt development :
@@ -26,12 +26,12 @@ People who contributed to mp3splt development :
 
 <div class=\"title\">libmp3splt :</div>
 <ul>
-<li> Munteanu Alexandru : author and main maintainer of libmp3splt</li>
+<li> Alexandru Munteanu : author and main maintainer of libmp3splt</li>
 </ul>
 
 <div class=\"title\">mp3splt-gtk :</div>
 <ul>
-<li> Munteanu Alexandru : author and main maintainer of mp3splt-gtk</li>
+<li> Alexandru Munteanu : author and main maintainer of mp3splt-gtk</li>
 </ul>";
 }
 

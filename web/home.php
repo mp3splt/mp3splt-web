@@ -40,15 +40,15 @@ General Public License</a><br /><br />
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.3.1</div>
+<div style=\"font-style:italic\">0.5</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.1</div>
+<div style=\"font-style:italic\">2.2</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.3.1</div>
+<div style=\"font-style:italic\">0.5</div>
 </td>
 </tr>
 
@@ -72,9 +72,9 @@ id=\"download_link\"
 style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
 href=\"downloads.php\">
 <img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
-src=\"icons/download_big.png\" />Stable downloads</a></div>
+src=\"icons/download_big.png\" />Download</a></div>
 
-<!-- unstable releases -->
+<!-- unstable releases 
 <div style=\"text-align:center;font-size:140%\">
 <a 
 onmouseover=\"var download_link=this;
@@ -91,7 +91,7 @@ id=\"download_link\"
 style=\"display:block;border:none;margin:0pt;padding:0pt;padding-top:4pt;padding-bottom:2pt\"
 href=\"unstable_downloads.php\">
 <img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
-src=\"icons/download_big.png\" />Unstable downloads</a></div>
+src=\"icons/download_big.png\" />Unstable downloads</a></div> -->
 
 </td>
 </tr>
@@ -110,6 +110,7 @@ href=\"screenshots.php\">
 </tr>
 </table>
 
+Mp3splt-gtk supports the Audacious player on most operating systems.<br />
 Mp3splt-gtk uses SnackAmp as the default player.<br />
 Download SnackAmp <span style=\"font-weight:bold\">version >= 3.1.3
 Beta</span> from the <a

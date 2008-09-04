@@ -8,19 +8,19 @@ function create_main_page()
 <h2  class=\"pagetitle\">Documentation</h2>
 <hr />
 
-<div class=\"title\">Installation :</div>
+<!--<div class=\"title\">Installation :</div>
 <br />
 <div class=\"indentdiv\">- 
 <a href=\"installation.php\">Installation instructions</a>
 <br />
 (debian-based, archlinux, gentoo, slackware, rpm-based, bsd flavors, windows, ...)
 </div>
-<br />
+<br /> -->
 
 <div class=\"title\">Usage :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
-(2.1)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
+(2.2)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">Subversion build :</div>
