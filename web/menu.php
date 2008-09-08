@@ -165,6 +165,16 @@ ${astyle3}>Mp3Wrap</a></div>";
  </a> </center>
 </div>
 ";
+
+  //tracktype logo
+  echo "
+<br />
+<center><a href=\"http://tracktype.org\"> <img src=\"tracktype.png\"
+border=\"0\" alt=\"Tracktype web site\" />
+ </a> </center>
+</div>
+";
+
 }
 
 //creates the appropriate page switching $page
