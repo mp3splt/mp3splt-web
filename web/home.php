@@ -40,15 +40,15 @@ General Public License</a><br /><br />
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.5</div>
+<div style=\"font-style:italic\">0.5.1</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.2</div>
+<div style=\"font-style:italic\">2.2.1</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.5</div>
+<div style=\"font-style:italic\">0.5.1</div>
 </td>
 </tr>
 
@@ -110,11 +110,7 @@ href=\"screenshots.php\">
 </tr>
 </table>
 
-Mp3splt-gtk supports the Audacious player on most operating systems.<br />
-Mp3splt-gtk uses SnackAmp as the default player.<br />
-Download SnackAmp <span style=\"font-weight:bold\">version >= 3.1.3
-Beta</span> from the <a
-href=\"http://snackamp.sourceforge.net\">SnackAmp web site</a>.<br />
+Mp3splt-gtk now supports an 'internal' player using gstreamer.<br />
 
 <div class=\"title\" style=\"padding-top:5pt;\">News :</div>
 <br />

@@ -33,6 +33,8 @@ MAD sourceforge page</a></li>
 
 <li>You can also install the following programs :
 <ul>
+<li><span class=\"colorspan\">gstreamer</span> : download it from the 
+<a href=\"http://www.gstreamer.net/\">gstreamer home page</a></li>
 <li><span class=\"colorspan\">audacious</span> : download it from the 
 <a href=\"http://audacious-media-player.org/index.php?title=Main_Page\">audacious home page</a></li>
 </ul>
@@ -143,6 +145,8 @@ type :
 <li>After that type :
 <br />
 <code>./configure</code>
+<p>You can also use the '--enable-gstreamer' and '--enable-audacious'
+parameters to configure. It is recommended to use '--enable-gstreamer'.</p>
 </li>
 
 <li>Compile the program :
