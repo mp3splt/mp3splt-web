@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.1";
+  $libmp3splt_version="0.5.2";
   $mp3splt_version="2.2.1";
-  $mp3splt_gtk_version="0.5.1";
+  $mp3splt_gtk_version="0.5.2";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -43,9 +43,9 @@ function create_main_page()
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
 <div style=\"font-style:italic\">${mp3splt_gtk_version}</div>
 </td>
-</tr>
+</tr>";
 
-<!-- Source code -->
+echo "<!-- Source code -->
 <tr id=\"source_code\">
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/keyboard.png\" /><br />
@@ -62,9 +62,9 @@ function create_main_page()
 <a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
 .tar.gz</a>
 </td>
-</tr>
+</tr>";
 
-<!-- Debian -->
+/*echo "<!-- Debian -->
 <tr id=\"debian\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
 <img alt=\"\" src=\"icons/debian.png\" />
@@ -115,9 +115,9 @@ lenny_amd64.deb</a><br />
 unstable_amd64.deb</a><br />
 
 </td>
-</tr>
+</tr>";
 
-<!-- Ubuntu -->
+echo "<!-- Ubuntu -->
 <tr id=\"ubuntu\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;\">
 <img alt=\"\" src=\"icons/ubuntu.png\" />
@@ -177,25 +177,25 @@ gutsy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_amd64.deb${download_suffix}\">
 hardy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_amd64.deb${download_suffix}\">
-intrepid_amd64.deb</a><br />
+intrepid_amd64.deb</a><br /> -->
 
 </td>
-</tr>
+</tr>";*/
 
-<!-- Mac OS X -->
+echo "<!-- Mac OS X -->
 <tr id=\"macosx\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-left:none;text-align:center\" >
 <img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
 <div class=\"osname\">Mac OS X</div>
 </td>
-<td class=\"mainpagedownloadtd\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
 
 </td>
-<td class=\"mainpagedownloadtd\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
 <a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
  Fink package</a><br />(older version)
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-right:none\" >
 <a href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
 (other program)
 </td>
@@ -218,8 +218,9 @@ installer.exe</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
 installer.exe</a><br />
 </td>
-</tr>
+</tr>";
 
+echo "
 </table>
 
 <br />
