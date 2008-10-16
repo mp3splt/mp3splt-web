@@ -64,6 +64,30 @@ echo "<!-- Source code -->
 </td>
 </tr>";
 
+echo "<!-- Slackware -->
+<tr id=\"slackware\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/slackware.png\" /><br />
+<div class=\"osname\">Slackware</div>
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://slackbuilds.org/repository/12.1/libraries/libmp3splt/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt-gtk/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+</tr>";
+
 /*echo "<!-- Debian -->
 <tr id=\"debian\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
@@ -225,6 +249,9 @@ echo "
 
 <br />
 ";
+
+echo "<div class=\"indentdiv\">Older downloads can be found on the <a href=\"https://sourceforge.net/project/showfiles.php?group_id=55130\">sourceforge downloads page</a>.";
+
 }
 
 begin_document("mp3splt project - download page",
