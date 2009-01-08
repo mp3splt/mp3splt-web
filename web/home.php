@@ -40,15 +40,15 @@ General Public License</a><br /><br />
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.5.2</div>
+<div style=\"font-style:italic\">0.5.3</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.2.1</div>
+<div style=\"font-style:italic\">2.2.2</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.5.2</div>
+<div style=\"font-style:italic\">0.5.3</div>
 </td>
 </tr>
 
@@ -103,14 +103,12 @@ src=\"icons/download_big.png\" />Unstable downloads</a></div> -->
 
 <a
 href=\"screenshots.php\">
-<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.3_gnu_linux.png\" />
+<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.5.3_gnu_linux.png\" />
 </a>
 
 </td>
 </tr>
 </table>
-
-Mp3splt-gtk now supports an 'internal' player using gstreamer.<br />
 
 <div class=\"title\" style=\"padding-top:5pt;\">News :</div>
 <br />

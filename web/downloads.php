@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.2";
-  $mp3splt_version="2.2.1";
-  $mp3splt_gtk_version="0.5.2";
+  $libmp3splt_version="0.5.3";
+  $mp3splt_version="2.2.2";
+  $mp3splt_gtk_version="0.5.3";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -64,31 +64,8 @@ echo "<!-- Source code -->
 </td>
 </tr>";
 
-echo "<!-- Slackware -->
-<tr id=\"slackware\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/slackware.png\" /><br />
-<div class=\"osname\">Slackware</div>
-</td>
 
-<td class=\"mainpagedownloadtd\">
-<a href=\"http://slackbuilds.org/repository/12.1/libraries/libmp3splt/\">
-SlackBuild page</a><br />
-(slackbuilds.org)
-</td>
-<td class=\"mainpagedownloadtd\">
-<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt/\">
-SlackBuild page</a><br />
-(slackbuilds.org)
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt-gtk/\">
-SlackBuild page</a><br />
-(slackbuilds.org)
-</td>
-</tr>";
-
-/*echo "<!-- Debian -->
+echo "<!-- Debian -->
 <tr id=\"debian\">
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
 <img alt=\"\" src=\"icons/debian.png\" />
@@ -201,10 +178,34 @@ gutsy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_amd64.deb${download_suffix}\">
 hardy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_amd64.deb${download_suffix}\">
-intrepid_amd64.deb</a><br /> -->
+intrepid_amd64.deb</a><br />
 
 </td>
-</tr>";*/
+</tr>";
+
+echo "<!-- Slackware -->
+<tr id=\"slackware\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/slackware.png\" /><br />
+<div class=\"osname\">Slackware</div>
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://slackbuilds.org/repository/12.1/libraries/libmp3splt/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<a href=\"http://slackbuilds.org/repository/12.1/audio/mp3splt-gtk/\">
+SlackBuild page</a><br />
+(slackbuilds.org)
+</td>
+</tr>";
 
 echo "<!-- Mac OS X -->
 <tr id=\"macosx\">

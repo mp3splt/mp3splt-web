@@ -28,8 +28,7 @@ find a bug when using it, you are also welcome to report the bug.
 <div class=\"indentdiv\">Translations are important to many people who
 don't speak english or who prefer their native language. If you like
 to contribute with the translation of mp3splt-gtk in your language,
-please send us a mail. (TODO: describe here a small how-to for the
-translation)</div>
+please send us a mail.</div>
 
 
 <br />

@@ -72,9 +72,9 @@ libmp3splt.
 <br />
 <div class=\"featdiv\">mp3splt-gtk features :</div>
 <ul>
-<li class=\"lifeatures\">integrated snackamp and beep-media-player
-control</li>
-<li class=\"lifeatures\">advanced zoom progress bar with splitpoints</li>
+<li class=\"lifeatures\">integrated player using gstreamer</li>
+<li class=\"lifeatures\">support for snackamp and audacious control</li>
+<li class=\"lifeatures\">advanced zoom progress bar with silence wave and splitpoints</li>
 </ul>
 ";
 }

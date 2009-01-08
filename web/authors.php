@@ -10,8 +10,8 @@ echo "
 
 <div class=\"title\">mp3splt :</div>
 <ul>
-<li> Matteo Trotta : author and main mantainer of Mp3Splt Project</li>
-<li> Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) : maintainer of mp3splt</li>
+<li>Matteo Trotta : author and main maintainer of Mp3Splt Project</li>
+<li>Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) : maintainer of Mp3Splt Project</li>
 </ul>
 
 People who contributed to mp3splt development :
@@ -24,15 +24,18 @@ People who contributed to mp3splt development :
 <li>Davide Magatti : \"official\" mp3splt beta tester</li>
 </ul>
 
-<div class=\"title\">libmp3splt :</div>
+People who contributed to libmp3splt development :
+
 <ul>
-<li> Alexandru Munteanu : author and main maintainer of libmp3splt</li>
+<li>Markus Elfring : code checking for return codes, some bad coding techniques and suggestions.</li>
 </ul>
 
-<div class=\"title\">mp3splt-gtk :</div>
+People who contributed to mp3splt-gtk development :
 <ul>
-<li> Alexandru Munteanu : author and main maintainer of mp3splt-gtk</li>
-</ul>";
+<li>Roberto Neri : patch from BMP to audacious support</li>
+</ul>
+
+";
 }
 
 begin_document("mp3splt project - authors page",

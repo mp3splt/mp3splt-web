@@ -20,7 +20,7 @@ function create_main_page()
 <div class=\"title\">Usage :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
-(2.2.1)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
+(2.2.2)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">Subversion build :</div>
@@ -30,7 +30,7 @@ function create_main_page()
 </div>
 <div class=\"indentdiv\">-
 <a href=\"windows_build.php\">Build for windows</a>
-(includes cross compilation)</div>
+</div>
 <br />
 
 <!--<div class=\"title\">Other :</div>

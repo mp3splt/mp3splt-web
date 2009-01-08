@@ -33,7 +33,7 @@ repository in the newly opened window and then click \"ok\" :</p>
 </div>
 <div class=\"indentdiv\">-
 <a href=\"windows_build.php\">Subversion build for windows</a>
-(includes cross compilation)</div>
+</div>
 
 ";
 }

@@ -16,6 +16,18 @@ echo "
 <tr>
 <td>
 <a
+href=\"screenshots/mp3splt-gtk_0.5.3_gnu_linux.png\">
+<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.5.3_gnu_linux.png\" />
+</a>
+<br />
+<div style=\"text-align:left\">mp3splt-gtk v0.5.3 on GNU/Linux</div>
+<br />
+</td>
+</tr>
+
+<tr>
+<td>
+<a
 href=\"screenshots/mp3splt-gtk_0.3_gnu_linux.png\">
 <img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.3_gnu_linux.png\" />
 </a>
