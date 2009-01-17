@@ -73,11 +73,12 @@ This means that splitting process will be quicker, but will be imprecise due to 
 you can split those VBR files only with framemode (see -f option).
 <P>
 <B>NOTE about TAGS:</B> by default, mp3splt will put the original tags in
-the split files. In order to extract the original tags from mp3 files,
-libmp3splt must be compiled with 'id3tag' support. Support for ID3v2 for
-known tags is available if libmp3splt is compiled with 'id3tag' support;
-otherwise, ID3v1 tags will be set. Custom tags for the split files can be
-set with the -g option.
+the split files. Custom tags for the split files can be set with the -g option.
+<P>
+<B>NOTE about MP3 TAGS:</B> in order to extract the original tags from mp3 files,
+libmp3splt must be compiled with 'id3tag' support. By default, the output
+files will have the same ID3 tag version as the input file. However, ID3V1
+output can be forced with the -1 option and ID3V2 with the -2 option.
 <P>
 <B>NOTE about the OUTPUT DIRECTORY:</B> by default, mp3splt will put the
 split files in the directory of the input file. In order to change the
@@ -176,14 +177,26 @@ If you want to get informations from Internet, SOURCE must have one of the
 following formats :
 <P>
 <BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query{album}</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query{album}(ALBUM_RESULT_NUMBER)</B>
 <BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query[search=protocol://SITE:PORT,get=protocol://SITE:PORT]</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query[search...]{album}</B>
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;<B>query[search...]{album}(ALBUM_RESULT_NUMBER)</B>
 <P>
-If SOURCE is 'query', then the default options will be chosen. Optional
-arguments to query are 'search' and 'get'; 'search' defines the CDDB search
-protocol and site (for searching the disc ID from the album and title); 'get'
-defines the CDDB download protocol and site (for downloading the CDDB file
-from the disc ID). Valid 'search' protocols are : 'cddb_cgi' and 'cddb_protocol'.
-Valid 'get' protocols are : 'cddb_cgi'.
+If a string is specified between '{' and '}', then the internet search is
+made on this string and the user will not be requested to
+interactively input a search string.
+The number between '(' and ')' is for auto-selecting the result number
+ALBUM_RESULT_NUMBER; thus, the user will not be requested to interactively
+input a choose result.
+<P>
+The other parameters between '[' and ']' are used to specify the protocols
+and the sites. If those parameters are not specified, default values will
+be chosen, which are good enough in most cases.
+Inside the square brackets, 'search' defines the CDDB search protocol and site (for
+searching the disc ID from the album and title); 'get' defines the CDDB download protocol
+and site (for downloading the CDDB file from the disc ID). Valid 'search' protocols are
+: 'cddb_cgi' and 'cddb_protocol'.  Valid 'get' protocols are : 'cddb_cgi'.
 <P>
 Examples :
 <P>
@@ -195,11 +208,11 @@ Examples :
 
 <BR>&nbsp;&nbsp;query[get=cddb_<A HREF="cgi://freedb.org/~cddb/cddb.cgi:80]">cgi://freedb.org/~cddb/cddb.cgi:80]</A>
 <P>
-Mp3splt will connect to server and will start to find the requested
-informations.  If you will find the right album, then mp3splt will finally
-query the server to get the selected album and, if all is correct, will
+Mp3splt will connect to the server and start to find the requested
+informations. If the right album is found, then mp3splt will query the
+server to get the selected album and (if no problem occurs) will
 write a file named &quot;query.cddb&quot; from which will get splitpoints and
-filenames. ID3 will be created automatically with taken informations.
+filenames.
 <P>
 <B>IMPORTANT NOTE FOR CDDB</B>: File split with this option can be not very precise due to:
 <P>
@@ -354,14 +367,20 @@ it will be created. The -o option can also be used to output files into a
 directory.
 <P>
 <DT><B>-n</B>         <DD>
-<B>No Tag</B>. Does not write ID3 or Vorbis comment in outputfile. Use if you need clean files.
+<B>No tags</B>. Does not write ID3 or Vorbis comment in outputfile. Use if you need clean files.
+<P>
+<DT><B>-1</B>         <DD>
+<B>Force ID3v1 tags</B>. For mp3 files, force output tags as version 1.
+<P>
+<DT><B>-2</B>         <DD>
+<B>Force ID3v2 tags</B>. For mp3 files, force output tags as version 2.
 <P>
 <DT><B>-N</B>         <DD>
 <B>No silence log file</B>. Don't create the 'mp3splt.log' log file when using
 silence detection. This option cannot be used without the '-s' option.
 <P>
 <DT><B>-g TAGS</B>         <DD>
-<B>Custom Tags</B>. Set custom tags to the split files.
+<B>Custom tags</B>. Set custom tags to the split files.
 TAGS should contain a list of square brackets pairs <B>[]</B>. The tags defined in the first
 pair of square brackets will be set on the first split file, those defined in the
 second pair of square brackets will be set on the second split file, ... Inside
@@ -561,7 +580,7 @@ for latest release.
 (C) 2002-2005 by Matteo Trotta
 <BR>
 
-(C) 2005-2008 by Alexandru Ionut Munteanu
+(C) 2005-2009 by Alexandru Ionut Munteanu
 <P>
 
 Permission is granted to copy, distribute and/or modify
@@ -589,6 +608,6 @@ This can be found as COPYING in mp3splt packages.
 This document was created by
 <A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
 using the manual pages.<BR>
-Time: 23:29:02 GMT, January 07, 2009
+Time: 21:36:03 GMT, January 17, 2009
 </BODY>
 </HTML>
