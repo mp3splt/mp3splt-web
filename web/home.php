@@ -18,7 +18,8 @@ to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
 or from .cue files. Supports also automatic silence split, that can be
 used also to adjust cddb/cue splitpoints. You can extract tracks from
-Mp3Wrap or AlbumWrap files in few seconds. Mp3splt-project is split in 3 parts :
+Mp3Wrap or AlbumWrap files in few seconds. For mp3 files, both ID3v1 &
+ID3v2 tags are supported. Mp3splt-project is split in 3 parts :
 libmp3splt, mp3splt and mp3splt-gtk. </div>
 <div class=\"indentdiv\">See <a href=\"about.php\">the about section</a> for more details.</div>
 
