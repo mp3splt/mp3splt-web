@@ -150,21 +150,12 @@ ${astyle3}>Sf.net page</a></div>";
 ${astyle3}>Mp3Wrap</a></div>";
 
   echo "<br />";
+
   //support logo
   echo "<center><a
   href=\"https://sourceforge.net/donate/index.php?group_id=55130\"> <img
   alt=\"\" border=\"0\" src=\"project-support.jpg\" /> </a></center>
   ";
-
-  //sourceforge logo
-  echo "
-<br />
-<center><a href=\"http://sourceforge.net\"> <img
- src=\"http://sourceforge.net/sflogo.php?group_id=55130&amp;type=2\"
- width=\"125\" height=\"37\" border=\"0\" alt=\"SourceForge Logo\" />
- </a> </center>
-</div>
-";
 
   //tracktype logo
   echo "
@@ -174,6 +165,19 @@ border=\"0\" alt=\"Tracktype web site\" />
  </a> </center>
 </div>
 ";
+
+  //sourceforge logo
+  echo "
+<br />
+ <center>
+  <a href=\"http://sourceforge.net/projects/mp3splt\">
+   <img src=\"http://sflogo.sourceforge.net/sflogo.php?group_id=55130&amp;type=12\"
+        width=\"120\" border=\"0\" height=\"30\" alt=\"Get mp3splt at SourceForge.net. Fast, secure and Free Open Source software downloads\" />
+  </a>
+ </center>
+</div>
+";
+
 
 }
 

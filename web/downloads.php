@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.4";
-  $mp3splt_version="2.2.3";
-  $mp3splt_gtk_version="0.5.4";
+  $libmp3splt_version="0.5.5";
+  $mp3splt_version="2.2.4";
+  $mp3splt_gtk_version="0.5.5";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -76,12 +76,16 @@ echo "<!-- Debian -->
 <!-- i386 -->
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_i386.deb${download_suffix}\">
 lenny_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.squeeze_i386.deb${download_suffix}\">
+squeeze_i386.deb</a><br />
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.unstable_i386.deb${download_suffix}\">
 unstable_i386.deb</a><br />
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_amd64.deb${download_suffix}\">
 lenny_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.squeeze_amd64.deb${download_suffix}\">
+squeeze_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.unstable_amd64.deb${download_suffix}\">
 unstable_amd64.deb</a><br />
 
@@ -91,12 +95,16 @@ unstable_amd64.deb</a><br />
 <!-- i386 -->
 <a href=\"${download_url}mp3splt_${mp3splt_version}.lenny_i386.deb${download_suffix}\">
 lenny_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.squeeze_i386.deb${download_suffix}\">
+squeeze_i386.deb</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}.unstable_i386.deb${download_suffix}\">
 unstable_i386.deb</a><br />
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.lenny_amd64.deb${download_suffix}\">
 lenny_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.squeeze_amd64.deb${download_suffix}\">
+squeeze_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.unstable_amd64.deb${download_suffix}\">
 unstable_amd64.deb</a><br />
 
@@ -106,12 +114,16 @@ unstable_amd64.deb</a><br />
 <!-- i386 -->
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_i386.deb${download_suffix}\">
 lenny_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.squeeze_i386.deb${download_suffix}\">
+squeeze_i386.deb</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.unstable_i386.deb${download_suffix}\">
 unstable_i386.deb</a><br />
 
 <!-- amd64 -->
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_amd64.deb${download_suffix}\">
 lenny_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.squeeze_amd64.deb${download_suffix}\">
+squeeze_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.unstable_amd64.deb${download_suffix}\">
 unstable_amd64.deb</a><br />
 
@@ -127,58 +139,58 @@ echo "<!-- Ubuntu -->
 <td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.gutsy_i386.deb${download_suffix}\">
-gutsy_i386.deb</a><br />
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.hardy_i386.deb${download_suffix}\">
 hardy_i386.deb</a><br />
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.intrepid_i386.deb${download_suffix}\">
 intrepid_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.jaunty_i386.deb${download_suffix}\">
+jaunty_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.gutsy_amd64.deb${download_suffix}\">
-gutsy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.hardy_amd64.deb${download_suffix}\">
 hardy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.intrepid_amd64.deb${download_suffix}\">
 intrepid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.jaunty_amd64.deb${download_suffix}\">
+jaunty_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
-<a href=\"${download_url}mp3splt_${mp3splt_version}.gutsy_i386.deb${download_suffix}\">
-gutsy_i386.deb</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}.hardy_i386.deb${download_suffix}\">
 hardy_i386.deb</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}.intrepid_i386.deb${download_suffix}\">
 intrepid_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.jaunty_i386.deb${download_suffix}\">
+jaunty_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.gutsy_amd64.deb${download_suffix}\">
-gutsy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.hardy_amd64.deb${download_suffix}\">
 hardy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.intrepid_amd64.deb${download_suffix}\">
 intrepid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.jaunty_amd64.deb${download_suffix}\">
+jaunty_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
 
 <!-- i386 -->
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.gutsy_i386.deb${download_suffix}\">
-gutsy_i386.deb</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_i386.deb${download_suffix}\">
 hardy_i386.deb</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_i386.deb${download_suffix}\">
 intrepid_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.jaunty_i386.deb${download_suffix}\">
+jaunty_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.gutsy_amd64.deb${download_suffix}\">
-gutsy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.hardy_amd64.deb${download_suffix}\">
 hardy_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_amd64.deb${download_suffix}\">
 intrepid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.jaunty_amd64.deb${download_suffix}\">
+jaunty_amd64.deb</a><br />
 
 </td>
 </tr>";
@@ -213,16 +225,26 @@ echo "<!-- Mac OS X -->
 <img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
 <div class=\"osname\">Mac OS X</div>
 </td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
 
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
+<a href=\"http://fink.sourceforge.net/pdb/package.php/libmp3splt\">
+ Fink package</a><br />(finkproject.org)
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/libmp3splt/Portfile\">
+ Mac Portfile</a><br />(macports.org)
 </td>
+
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
 <a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
- Fink package</a><br />(older version)
+ Fink package</a><br />(finkproject.org)
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt/Portfile\">
+ Mac Portfile</a><br />(macports.org)
 </td>
+
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-right:none\" >
-<a href=\"http://alex.primafila.net/albumextractorx/\">AlbumExtractorX</a><br />
-(other program)
+<a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt-gtk\">
+ Fink package</a><br />(finkproject.org)
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt-gtk/Portfile\">
+ Mac Portfile</a><br />(macports.org)
 </td>
 </tr>
 
