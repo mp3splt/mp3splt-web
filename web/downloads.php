@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.5";
-  $mp3splt_version="2.2.4";
-  $mp3splt_gtk_version="0.5.5";
+  $libmp3splt_version="0.5.6";
+  $mp3splt_version="2.2.5";
+  $mp3splt_gtk_version="0.5.6";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -207,16 +207,42 @@ echo "<!-- Slackware -->
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
+
 <td class=\"mainpagedownloadtd\">
 <a href=\"http://slackbuilds.org/repository/12.2/audio/mp3splt/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
+
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
 <a href=\"http://slackbuilds.org/repository/12.2/audio/mp3splt-gtk/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
+</tr>";
+
+echo "<!-- RPMs -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/fedora.png\" /><br />
+<div class=\"osname\">Fedora/Red Hat</div>
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://atrpms.net/name/libmp3splt\">atrpms page</a><br />
+(atrpms.net)
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://atrpms.net/name/mp3splt\">atrpms page</a><br />
+(atrpms.net)
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<a href=\"http://atrpms.net/name/mp3splt-gtk\">atrpms page</a><br />
+(atrpms.net)
+</td>
+
 </tr>";
 
 echo "<!-- Mac OS X -->
