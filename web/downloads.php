@@ -302,7 +302,8 @@ echo "
 <br />
 ";
 
-echo "<div class=\"indentdiv\">Older downloads can be found on the <a href=\"https://sourceforge.net/project/showfiles.php?group_id=55130\">sourceforge downloads page</a>.";
+echo "<div class=\"indentdiv\">Older downloads can be found on the <a
+ href=\"https://sourceforge.net/project/showfiles.php?group_id=55130\">sourceforge downloads page</a>.</div>";
 
 }
 

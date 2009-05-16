@@ -5,14 +5,16 @@ header("Content-type: text/html; charset=utf-8");
 function begin_document($title, $css_file,$third)
 {
   $doctype =
-    "<!DOCTYPE html 
+    "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+    <!DOCTYPE html 
      PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
   \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
   ";
   
   echo $doctype,
-"<html>
+"<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">
 <head>
+<meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\" />
 <title>",
     $title,
 "
@@ -163,7 +165,6 @@ ${astyle3}>Mp3Wrap</a></div>";
 <center><a href=\"http://tracktype.org\"> <img src=\"tracktype.png\"
 border=\"0\" alt=\"Tracktype web site\" />
  </a> </center>
-</div>
 ";
 
   //sourceforge logo
@@ -195,7 +196,7 @@ function create_table_with_menu($page)
 <a href=\"home.php\" style=\"display:block\"><img style=\"margin:0pt;padding:0pt;border:0\" src=\"mp3splt.jpg\" alt=\"project\" /></a>
 </div>
 
-<table id=\"top\" style=\"border-collapse:collapse\">
+<table id=\"top\" style=\"border-collapse:collapse;padding:0pt;margin:0pt;border:0\">
 <tr>
 <td id=\"main_menu_column\">
 ",
