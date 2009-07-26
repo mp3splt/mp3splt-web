@@ -12,7 +12,7 @@ function create_main_page()
 
 <ol>
 <li>Download
-<a href=\"http://prdownloads.sourceforge.net/mingw/MinGW-4.1.1.exe\">MinGW-4.1.1.exe</a>
+<a href=\"http://prdownloads.sourceforge.net/mingw/MinGW-5.1.4.exe\">MinGW-5.1.4.exe</a>
 and install it in the directory
 <span class=\"colorspan\">c:\mp3splt_mingw</span></li>
 

@@ -20,7 +20,7 @@ function create_main_page()
 <div class=\"title\">Usage :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
-(2.2.5)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
+(2.2.6)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">Subversion build :</div>
@@ -41,8 +41,7 @@ libmp3splt implementation</a></div>-->
 ";
 }
 
-begin_document("mp3splt project - documentation page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - documentation page", "default.css",FALSE);
 
 create_table_with_menu("documentation");
 

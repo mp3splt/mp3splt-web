@@ -8,7 +8,9 @@ function create_main_page()
 <h2 class=\"pagetitle\">How to contribute to the mp3splt project ?</h2>
 <hr />
 
+<div class=\"indentdiv\">Short answer: by sending a mail to one of the authors.</div>
 <br />
+
 <div class=\"indentdiv\">You don't have to be a developer to contribute to the mp3splt
 project.</div><br />
 
@@ -26,9 +28,11 @@ find a bug when using it, you are also welcome to report the bug.
 <br />
 <div class=\"title\">Translating :</div>
 <div class=\"indentdiv\">Translations are important to many people who
-don't speak english or who prefer their native language. If you like
-to contribute with the translation of mp3splt-gtk in your language,
-please send us a mail.</div>
+don't speak english or who prefer their native language. If you want
+to contribute with translations, please send us a mail.
+Hint: <a href=\"http://www.poedit.net/\">poedit</a> can be used to translate the
+<a href=\"http://mp3splt.svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/trunk/mp3splt-gtk/po/fr.po?view=markup\">
+po file(s)</a>.</div>
 
 
 <br />
@@ -38,14 +42,6 @@ documentation. Of course the best documentation is supposed to be the
 one written by the developers, but often no documentation is written
 due to the lack of time. We will try to document the programs but if
 you want to help don't hesitate.</div>
-
-
-<br />
-<div class=\"title\">Packaging :</div>
-<div class=\"indentdiv\">Packaging is also important. Binary or not
-binary packages are easy to install for the user. A user who tries to
-install a software and all the dependencies of the program will get
-tired if this takes too long and will finally quit.</div>
 
 
 <br />

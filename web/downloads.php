@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.6";
-  $mp3splt_version="2.2.5";
-  $mp3splt_gtk_version="0.5.6";
+  $libmp3splt_version="0.5.7";
+  $mp3splt_version="2.2.6";
+  $mp3splt_gtk_version="0.5.7";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -289,10 +289,14 @@ echo "<!-- Mac OS X -->
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
 <a href=\"${download_url}mp3splt_${mp3splt_version}_i386.exe${download_suffix}\">
 installer.exe</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.zip${download_suffix}\">
+zip archive</a>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;border-top:solid;border-top-width:1pt;\">
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
 installer.exe</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.zip${download_suffix}\">
+zip archive</a>
 </td>
 </tr>";
 
@@ -303,12 +307,11 @@ echo "
 ";
 
 echo "<div class=\"indentdiv\">Older downloads can be found on the <a
- href=\"https://sourceforge.net/project/showfiles.php?group_id=55130\">sourceforge downloads page</a>.</div>";
+ href=\"https://sourceforge.net/projects/mp3splt/files\">sourceforge downloads page</a>.</div>";
 
 }
 
-begin_document("mp3splt project - download page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - download page", "default.css",FALSE);
 
 create_table_with_menu("downloads");
 

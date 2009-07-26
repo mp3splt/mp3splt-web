@@ -27,6 +27,7 @@ libmp3splt, mp3splt and mp3splt-gtk.</div>
 <ul>
 <li class=\"lifeatures\">split mp3 and ogg files from a begin time to
 an end time <i>without decoding</i></li>
+<li class=\"lifeatures\">recursive multiple files split</i></li>
 <li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag)</li>
 <li class=\"lifeatures\">split an album with splitpoints from the freedb.org server</li>
 <li class=\"lifeatures\">split an album with local .XMCD, .CDDB or .CUE file</li>
@@ -66,7 +67,7 @@ auto detection split</li>
 <!-- mp3splt-gtk -->
 <div class=\"title\">mp3splt-gtk :</div>
 <br />
-<div class=\"indentdiv\"> Mp3splt-gtk is a GTK2 gui that uses
+<div class=\"indentdiv\"> Mp3splt-gtk is a GTK2 GUI that uses
 libmp3splt.
 </div>
 
@@ -75,7 +76,7 @@ libmp3splt.
 <ul>
 <li class=\"lifeatures\">integrated player using gstreamer</li>
 <li class=\"lifeatures\">support for snackamp and audacious control</li>
-<li class=\"lifeatures\">advanced zoom progress bar with silence wave and splitpoints</li>
+<li class=\"lifeatures\">advanced zoom progress bar with amplitude wave and splitpoints</li>
 </ul>
 ";
 }
