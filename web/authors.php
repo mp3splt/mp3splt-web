@@ -12,8 +12,8 @@ Main authors :
 <br />
 
 <ul>
-<li>Matteo Trotta : author and main maintainer of Mp3Splt Project</li>
-<li>Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) : maintainer of Mp3Splt Project</li>
+<li>Matteo Trotta - author and main maintainer of Mp3Splt Project</li>
+<li>Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) - maintainer of Mp3Splt Project</li>
 </ul>
 
 People who contributed to mp3splt-project development :
