@@ -27,8 +27,7 @@ GNU General Public License for more details.
 <br /><br />";
 }
 
-begin_document("mp3splt project - license page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - license page", "default.css",FALSE);
 
 create_table_with_menu("license");
 

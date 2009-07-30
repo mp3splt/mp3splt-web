@@ -17,8 +17,7 @@ function create_main_page()
   echo "<br />";
 }
 
-begin_document("mp3splt project - news page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - news page", "default.css",FALSE);
 
 create_table_with_menu("news");
 
