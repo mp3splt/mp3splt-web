@@ -31,9 +31,9 @@ indicate the directory where it is installed, type in <span class=\"colorspan\">
 <li>Download <a href=\"http://prdownloads.sourceforge.net/mingw/msysDTK-1.0.1.exe\">msysDTK-1.0.1.exe</a>
 and install it in the same directory as mingw and msys (<span class=\"colorspan\">c:\mp3splt_mingw</span>)</li>
 
-<li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</li>
+<li>Download <a href=\"https://sourceforge.net/projects/mp3splt/files/dev/libmp3splt_mingw_required_libs.tar.bz2/download\">libmp3splt_mingw_required_libs.tar.bz2</a>,
+<a href=\"https://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_mingw_required_libs.tar.bz2/download\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
+<a href=\"https://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_runtime.tar.bz2/download\">mp3splt-gtk_runtime.tar.bz2</a> and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> where XXX is the username)</li>
 
 <li>Install <a href=\"http://sourceforge.net/project/showfiles.php?group_id=138498&amp;package_id=151948\">TortoiseSVN</a>. Go in the <span class=\"colorspan\">c:\mp3splt_mingw\home\XXX\</span> directory (with windows explorer) and create a directory called mp3splt-project.
 </li>
@@ -66,9 +66,9 @@ command line and the other for the gui)</p>
 </ol>
 
 Info : some sources of the dependencies libraries can be found : 
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs_sources.tar.bz2\">
+<a href=\"https://sourceforge.net/projects/mp3splt/files/dev/libmp3splt_mingw_required_libs_sources.tar.bz2/download\">
 libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
+<a href=\"https://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2/download\">
 mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
 <br /><br />
 
@@ -88,10 +88,10 @@ mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
 <code>mkdir libs</code>
 </li>
 
-<li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
-<a href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
+<li>Download <a href=\"http://prdownloads.sourceforge.net/mp3splt/dev/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
+<a href=\"http://prdownloads.sourceforge.net/mp3splt/dev/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
 <a
-href=\"http://prdownloads.sourceforge.net/mp3splt/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and
+href=\"http://prdownloads.sourceforge.net/mp3splt/dev/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a> and
 put them in the <span class=\"colorspan\">libs</span> directory</li>
 
 <li>Download mp3splt-project subversion code :

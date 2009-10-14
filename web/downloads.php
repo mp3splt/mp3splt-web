@@ -203,19 +203,19 @@ echo "<!-- Slackware -->
 </td>
 
 <td class=\"mainpagedownloadtd\">
-<a href=\"http://slackbuilds.org/repository/12.2/libraries/libmp3splt/\">
+<a href=\"http://slackbuilds.org/repository/13.0/libraries/libmp3splt/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
 <td class=\"mainpagedownloadtd\">
-<a href=\"http://slackbuilds.org/repository/12.2/audio/mp3splt/\">
+<a href=\"http://slackbuilds.org/repository/13.0/audio/mp3splt/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-right:none\">
-<a href=\"http://slackbuilds.org/repository/12.2/audio/mp3splt-gtk/\">
+<a href=\"http://slackbuilds.org/repository/13.0/audio/mp3splt-gtk/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
@@ -296,7 +296,11 @@ zip archive</a>
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
 installer.exe</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.zip${download_suffix}\">
-zip archive</a>
+zip archive</a><br />
+<hr style=\"width:50%;border:dashed;border-width:1px\" />
+<a href=\"http://www.winpenpack.com/main/download.php?view.1254\">Portable version</a>
+<br />
+(winPenPack.com)
 </td>
 </tr>";
 
