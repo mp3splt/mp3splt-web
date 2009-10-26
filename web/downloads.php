@@ -245,6 +245,26 @@ echo "<!-- RPMs -->
 
 </tr>";
 
+echo "<!-- Maemo -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/maemo.png\" /><br />
+<div class=\"osname\">Maemo</div>
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"\">
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://maemo.org/downloads/product/OS2008/mp3splt\">Maemo package</a><br />
+(maemo.org)
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+</td>
+
+</tr>";
+
 echo "<!-- Mac OS X -->
 <tr id=\"macosx\">
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-left:none;text-align:center\" >

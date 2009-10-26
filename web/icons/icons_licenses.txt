@@ -215,3 +215,13 @@ downloaded from http://archlinux.org/art/ on the 04/12/06
 License:
 --------
  no license ?
+
+The Maemo icon :
+****************
+downloaded from http://wiki.maemo.org/Maemo.org_logo_contest_submissions#glaoliver
+
+License:
+--------
+ Creative Commons Attribution-Share Alike 3.0 Unported:
+   http://creativecommons.org/licenses/by-sa/3.0/
+
