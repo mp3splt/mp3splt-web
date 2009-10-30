@@ -27,7 +27,7 @@ libmp3splt, mp3splt and mp3splt-gtk.</div>
 <ul>
 <li class=\"lifeatures\">split mp3 and ogg files from a begin time to
 an end time <i>without decoding</i></li>
-<li class=\"lifeatures\">recursive multiple files split</i></li>
+<li class=\"lifeatures\">recursive multiple files split</li>
 <li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag)</li>
 <li class=\"lifeatures\">split an album with splitpoints from the freedb.org server</li>
 <li class=\"lifeatures\">split an album with local .XMCD, .CDDB or .CUE file</li>

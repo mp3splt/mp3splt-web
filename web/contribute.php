@@ -14,7 +14,7 @@ href=\"authors.php\">authors</a>.</div>
 
 <div class=\"title\">Coding:</div>
 <div class=\"indentdiv\">There are a lot of feature requests <a
-href=\"https://sourceforge.net/tracker/?group_id=55130&atid=476064\">here</a>.</div>
+href=\"https://sourceforge.net/tracker/?group_id=55130&amp;atid=476064\">here</a>.</div>
 <br />
 
 <div class=\"title\">Testing:</div>
