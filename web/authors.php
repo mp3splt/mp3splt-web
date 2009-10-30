@@ -28,6 +28,7 @@ People who contributed to mp3splt-project development :
 <li>Roberto Neri - patch from BMP to audacious support</li>
 <li>Mario Blättermann - german translation and suggestions</li>
 <li>Erez Volk - alphabetic track number output variables patch</li>
+<li>Federico Grau - audacity labels support</li>
 </ul>
 
 and others ...

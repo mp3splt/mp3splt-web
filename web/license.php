@@ -10,10 +10,10 @@ echo "
 <br />
 
 <div class=\"indentdiv\">
-mp3splt, libmp3splt and mp3splt-gtk are licensed under the 
+libmp3splt, mp3splt and mp3splt-gtk are licensed under the 
 
- <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
-General Public License</a>
+ <a href=\"http://www.gnu.org/old-licenses/gpl-2.0.html\">GNU
+General Public License version 2</a>
 </div>
 
 <br />

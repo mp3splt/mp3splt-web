@@ -8,7 +8,7 @@ function create_main_page()
 <h2 class=\"pagetitle\">How to contribute to the mp3splt project ?</h2>
 <hr />
 
-<div class=\"indentdiv\">Short answer: by sending a mail to one of the <a
+<div class=\"indentdiv\">Short answer: by sending a mail to one of the main <a
 href=\"authors.php\">authors</a>.</div>
 <br />
 

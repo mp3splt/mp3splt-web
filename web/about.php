@@ -31,6 +31,7 @@ an end time <i>without decoding</i></li>
 <li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag)</li>
 <li class=\"lifeatures\">split an album with splitpoints from the freedb.org server</li>
 <li class=\"lifeatures\">split an album with local .XMCD, .CDDB or .CUE file</li>
+<li class=\"lifeatures\">audacity labels file support</li>
 <li class=\"lifeatures\">split files automatically with silence detection</li>
 <li class=\"lifeatures\">split files by a fixed time length</li>
 <li class=\"lifeatures\">split files created with Mp3Wrap or AlbumWrap</li>
