@@ -12,7 +12,7 @@ echo "
 <div class=\"indentdiv\">
 libmp3splt, mp3splt and mp3splt-gtk are licensed under the 
 
- <a href=\"http://www.gnu.org/old-licenses/gpl-2.0.html\">GNU
+ <a href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GNU
 General Public License version 2</a>
 </div>
 
