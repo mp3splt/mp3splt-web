@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.8";
-  $mp3splt_version="2.2.7";
-  $mp3splt_gtk_version="0.5.8";
+  $libmp3splt_version="0.5.8a";
+  $mp3splt_version="2.2.7a";
+  $mp3splt_gtk_version="0.5.8a";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
