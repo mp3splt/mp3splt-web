@@ -28,12 +28,13 @@ libmp3splt, mp3splt and mp3splt-gtk.</div>
 <li class=\"lifeatures\">split mp3 and ogg files from a begin time to
 an end time <i>without decoding</i></li>
 <li class=\"lifeatures\">recursive multiple files split</li>
-<li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag)</li>
+<li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag), vorbis comments support</li>
 <li class=\"lifeatures\">split an album with splitpoints from the freedb.org server</li>
 <li class=\"lifeatures\">split an album with local .XMCD, .CDDB or .CUE file</li>
 <li class=\"lifeatures\">audacity labels file support</li>
-<li class=\"lifeatures\">split files automatically with silence detection</li>
-<li class=\"lifeatures\">split files by a fixed time length</li>
+<li class=\"lifeatures\">split automatically with silence detection</li>
+<li class=\"lifeatures\">split by a fixed time length</li>
+<li class=\"lifeatures\">split in equal time tracks</li>
 <li class=\"lifeatures\">split files created with Mp3Wrap or AlbumWrap</li>
 <li class=\"lifeatures\">split concatenated mp3 files</li>
 <li class=\"lifeatures\">support for mp3 VBR (variable bit rate)</li>
@@ -45,12 +46,6 @@ an end time <i>without decoding</i></li>
 <br />
 <div class=\"indentdiv\">Mp3splt is the command line program from the mp3splt-project.</div>
 
-<!--<br />
-<div class=\"featdiv\">mp3splt features :</div>
-<ul>
-<li class=\"lifeatures\">specify output directory for split files</li>
-</ul>-->
-
 <br />
 
 <!-- libmp3splt -->
@@ -59,11 +54,6 @@ an end time <i>without decoding</i></li>
 <div class=\"indentdiv\">Libmp3splt is a library created from mp3splt version 2.1c.</div>
 
 <br />
-<!--<div class=\"featdiv\">libmp3splt features :</div>
-<ul>
-<li class=\"lifeatures\">wrap mode, error mode, time split, silence
-auto detection split</li>
-</ul>-->
 
 <!-- mp3splt-gtk -->
 <div class=\"title\">mp3splt-gtk :</div>
