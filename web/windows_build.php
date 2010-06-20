@@ -12,7 +12,7 @@ function create_main_page()
 
 <ol>
 <li>Download
-<a href=\"http://prdownloads.sourceforge.net/mingw/MinGW-5.1.4.exe\">MinGW-5.1.4.exe</a>
+<a href=\"http://prdownloads.sourceforge.net/mingw/MinGW-5.1.6.exe\">MinGW-5.1.6.exe</a>
 and install it in the directory
 <span class=\"colorspan\">c:\mp3splt_mingw</span></li>
 
@@ -58,7 +58,7 @@ during MSYS's installation and type :
 <br />
 <code>cd mp3splt-project &amp;&amp; ./compile_win32.sh</code>
 
-<p>You will find two executables installers in the <span
+<p>Then, two executable installers will be found in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
 command line and the other for the gui)</p>
 </li>
@@ -103,7 +103,7 @@ put them in the <span class=\"colorspan\">libs</span> directory</li>
 <br />
 <code>cd mp3splt-project &amp;&amp; make windows_cross_installers</code>
 
-<p>You will find two executables installers in the <span
+<p>Then, two executable installers will be found in the <span
 class=\"colorspan\">mp3splt-project</span> directory (one for the
 command line and the other for the gui)</p>
 </li>
