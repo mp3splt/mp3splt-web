@@ -9,9 +9,9 @@ function create_main_page()
   //$download_suffix="?download";
   $download_suffix="";
   //versions
-  $libmp3splt_version="0.5.9";
-  $mp3splt_version="2.2.8";
-  $mp3splt_gtk_version="0.5.9";
+  $libmp3splt_version="0.6";
+  $mp3splt_version="2.2.9";
+  $mp3splt_gtk_version="0.6";
   
   //freebsd versions
   $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
@@ -139,58 +139,58 @@ echo "<!-- Ubuntu -->
 <td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.intrepid_i386.deb${download_suffix}\">
-intrepid_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.jaunty_i386.deb${download_suffix}\">
-jaunty_i386.deb</a><br />
 <a href=\"${download_url}libmp3splt_${libmp3splt_version}.karmic_i386.deb${download_suffix}\">
 karmic_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.lucid_i386.deb${download_suffix}\">
+lucid_i386.deb</a><br />
+<a href=\"${download_url}libmp3splt_${libmp3splt_version}.maverick_i386.deb${download_suffix}\">
+maverick_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.intrepid_amd64.deb${download_suffix}\">
-intrepid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.jaunty_amd64.deb${download_suffix}\">
-jaunty_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.karmic_amd64.deb${download_suffix}\">
 karmic_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.lucid_amd64.deb${download_suffix}\">
+lucid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.maverick_amd64.deb${download_suffix}\">
+maverick_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\">
 
 <!-- i386 -->
-<a href=\"${download_url}mp3splt_${mp3splt_version}.intrepid_i386.deb${download_suffix}\">
-intrepid_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.jaunty_i386.deb${download_suffix}\">
-jaunty_i386.deb</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}.karmic_i386.deb${download_suffix}\">
 karmic_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.lucid_i386.deb${download_suffix}\">
+lucid_i386.deb</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}.maverick_i386.deb${download_suffix}\">
+maverick_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.intrepid_amd64.deb${download_suffix}\">
-intrepid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.jaunty_amd64.deb${download_suffix}\">
-jaunty_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.karmic_amd64.deb${download_suffix}\">
 karmic_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.lucid_amd64.deb${download_suffix}\">
+lucid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.maverick_amd64.deb${download_suffix}\">
+maverick_amd64.deb</a><br />
 
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
 
 <!-- i386 -->
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_i386.deb${download_suffix}\">
-intrepid_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.jaunty_i386.deb${download_suffix}\">
-jaunty_i386.deb</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.karmic_i386.deb${download_suffix}\">
 karmic_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lucid_i386.deb${download_suffix}\">
+lucid_i386.deb</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.maverick_i386.deb${download_suffix}\">
+maverick_i386.deb</a><br />
 
 <!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.intrepid_amd64.deb${download_suffix}\">
-intrepid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.jaunty_amd64.deb${download_suffix}\">
-jaunty_amd64.deb</a><br />
 <a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.karmic_amd64.deb${download_suffix}\">
 karmic_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lucid_amd64.deb${download_suffix}\">
+lucid_amd64.deb</a><br />
+<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.maverick_amd64.deb${download_suffix}\">
+maverick_amd64.deb</a><br />
 
 </td>
 </tr>";

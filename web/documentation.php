@@ -20,7 +20,7 @@ function create_main_page()
 <div class=\"title\">Usage :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual page (HTML) : <a href=\"documentation/man.html\">English
-(2.2.8)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
+(2.2.9)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">Subversion build :</div>
