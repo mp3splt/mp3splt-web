@@ -19,7 +19,7 @@ and install it in the directory
 <p>Select the following extra components to install: 'MSYS Basic System' and 'MinGW Developer ToolKit'.</p>
 </li>
 
-<li>Open the MinGW console from <span class=\"colorspan\">Start-\&gt;MinGW-&gt;MinGW Shell</span>.</li>
+<li>Open the MinGW console from <span class=\"colorspan\">Start-&gt;MinGW-&gt;MinGW Shell</span>.</li>
 
 <li>Download <a href=\"../dev/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
 <a href=\"../dev/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
@@ -58,11 +58,16 @@ command line and the other for the gui)</p>
 
 </ol>
 
-Info : some sources of the dependencies libraries can be found : 
+<p style=\"text-align: left\">Some sources of the dependencies libraries can be found:</p>
+</br>
+
+<p style=\"text-align: left\">
 <a href=\"../dev/libmp3splt_mingw_required_libs_sources.tar.bz2\">
 libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
 <a href=\"../dev/mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
 mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
+</p>
+
 <br /><br />
 ";
 }
