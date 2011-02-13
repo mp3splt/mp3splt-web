@@ -4,27 +4,19 @@ include 'menu.php';
 
 function create_main_page()
 {
-  //download urls
-  $download_url="http://prdownloads.sourceforge.net/mp3splt/";
-  //$download_suffix="?download";
-  $download_suffix="";
-  //versions
-  $libmp3splt_version="0.6";
-  $mp3splt_version="2.2.9";
-  $mp3splt_gtk_version="0.6";
-  
-  //freebsd versions
-  $fbsd_libmp3splt_version=str_replace("_",".",$libmp3splt_version);
-  $fbsd_libmp3splt_version=str_replace("rc","r",$fbsd_libmp3splt_version);
-  $fbsd_mp3splt_version=str_replace("_",".",$mp3splt_version);
-  $fbsd_mp3splt_version=str_replace("rc","r",$fbsd_mp3splt_version);
-  $fbsd_mp3splt_gtk_version=str_replace("_",".",$mp3splt_gtk_version);
-  $fbsd_mp3splt_gtk_version=str_replace("rc","r",$fbsd_mp3splt_gtk_version);
-  
+  include 'download_variables.php';
+
   echo "
 <h2  class=\"pagetitle\">Downloads</h2>
-<hr />
+<hr />";
 
+create_source_code_table();
+
+create_debian_ubuntu_table();
+
+echo "<br/><div class=\"title\">All other:</div><br />";
+
+echo "
 <table class=\"mainpagedownloadtable\">
 
 <!-- top stuff -->
@@ -45,176 +37,26 @@ function create_main_page()
 </td>
 </tr>";
 
-echo "<!-- Source code -->
-<tr id=\"source_code\">
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
-<img alt=\"\" src=\"icons/keyboard.png\" /><br />
-<span style=\"font-weight:bold\">Source code</span>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}.tar.gz${download_suffix}\">.tar.gz</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}.tar.gz${download_suffix}\">
-.tar.gz</a>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
-<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
-.tar.gz</a>
-</td>
-</tr>";
-
-
-echo "<!-- Debian -->
-<tr id=\"debian\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
-<img alt=\"\" src=\"icons/debian.png\" />
-<div class=\"osname\">Debian</div>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-
-<!-- i386 -->
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_i386.deb${download_suffix}\">
-lenny_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.squeeze_i386.deb${download_suffix}\">
-squeeze_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.unstable_i386.deb${download_suffix}\">
-unstable_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.lenny_amd64.deb${download_suffix}\">
-lenny_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.squeeze_amd64.deb${download_suffix}\">
-squeeze_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.unstable_amd64.deb${download_suffix}\">
-unstable_amd64.deb</a><br />
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-
-<!-- i386 -->
-<a href=\"${download_url}mp3splt_${mp3splt_version}.lenny_i386.deb${download_suffix}\">
-lenny_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.squeeze_i386.deb${download_suffix}\">
-squeeze_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.unstable_i386.deb${download_suffix}\">
-unstable_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.lenny_amd64.deb${download_suffix}\">
-lenny_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.squeeze_amd64.deb${download_suffix}\">
-squeeze_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.unstable_amd64.deb${download_suffix}\">
-unstable_amd64.deb</a><br />
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
-
-<!-- i386 -->
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_i386.deb${download_suffix}\">
-lenny_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.squeeze_i386.deb${download_suffix}\">
-squeeze_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.unstable_i386.deb${download_suffix}\">
-unstable_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lenny_amd64.deb${download_suffix}\">
-lenny_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.squeeze_amd64.deb${download_suffix}\">
-squeeze_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.unstable_amd64.deb${download_suffix}\">
-unstable_amd64.deb</a><br />
-
-</td>
-</tr>";
-
-echo "<!-- Ubuntu -->
-<tr id=\"ubuntu\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;\">
-<img alt=\"\" src=\"icons/ubuntu.png\" />
-<div class=\"osname\">Ubuntu</div>
-</td>
-<td class=\"mainpagedownloadtd\">
-
-<!-- i386 -->
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.karmic_i386.deb${download_suffix}\">
-karmic_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.lucid_i386.deb${download_suffix}\">
-lucid_i386.deb</a><br />
-<a href=\"${download_url}libmp3splt_${libmp3splt_version}.maverick_i386.deb${download_suffix}\">
-maverick_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.karmic_amd64.deb${download_suffix}\">
-karmic_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.lucid_amd64.deb${download_suffix}\">
-lucid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}libmp3splt_${libmp3splt_version}.maverick_amd64.deb${download_suffix}\">
-maverick_amd64.deb</a><br />
-
-</td>
-<td class=\"mainpagedownloadtd\">
-
-<!-- i386 -->
-<a href=\"${download_url}mp3splt_${mp3splt_version}.karmic_i386.deb${download_suffix}\">
-karmic_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.lucid_i386.deb${download_suffix}\">
-lucid_i386.deb</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}.maverick_i386.deb${download_suffix}\">
-maverick_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.karmic_amd64.deb${download_suffix}\">
-karmic_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.lucid_amd64.deb${download_suffix}\">
-lucid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt_${mp3splt_version}.maverick_amd64.deb${download_suffix}\">
-maverick_amd64.deb</a><br />
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
-
-<!-- i386 -->
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.karmic_i386.deb${download_suffix}\">
-karmic_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lucid_i386.deb${download_suffix}\">
-lucid_i386.deb</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.maverick_i386.deb${download_suffix}\">
-maverick_i386.deb</a><br />
-
-<!-- amd64 -->
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.karmic_amd64.deb${download_suffix}\">
-karmic_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.lucid_amd64.deb${download_suffix}\">
-lucid_amd64.deb</a><br />
-<a class=\"amd64\" href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}.maverick_amd64.deb${download_suffix}\">
-maverick_amd64.deb</a><br />
-
-</td>
-</tr>";
-
 echo "<!-- Slackware -->
 <tr id=\"slackware\">
-<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/slackware.png\" /><br />
 <div class=\"osname\">Slackware</div>
 </td>
 
-<td class=\"mainpagedownloadtd\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 <a href=\"http://slackbuilds.org/repository/13.0/libraries/libmp3splt/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
-<td class=\"mainpagedownloadtd\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 <a href=\"http://slackbuilds.org/repository/13.0/audio/mp3splt/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
-<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
 <a href=\"http://slackbuilds.org/repository/13.0/audio/mp3splt-gtk/\">
 SlackBuild page</a><br />
 (slackbuilds.org)
@@ -312,6 +154,7 @@ installer.exe</a><br />
 <a href=\"${download_url}mp3splt_${mp3splt_version}_i386.zip${download_suffix}\">
 zip archive</a>
 </td>
+
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;border-top:solid;border-top-width:1pt;\">
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
 installer.exe</a><br />
@@ -322,10 +165,10 @@ zip archive</a><br />
 <br />
 (winPenPack.com)
 </td>
+
 </tr>";
 
-echo "
-</table>
+echo "</table>
 
 <br />
 ";
@@ -335,9 +178,105 @@ echo "<div class=\"indentdiv\">Older downloads can be found on the <a
 
 }
 
+function create_source_code_table()
+{
+  include 'download_variables.php';
+
+  echo "<div class=\"title\">Source code:</div><br />";
+
+echo "
+<table class=\"mainpagedownloadtable\">
+
+<!-- top stuff -->
+<tr>
+<td>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
+<div style=\"font-weight:bold\">Libmp3splt</div>
+<div style=\"font-style:italic\">${libmp3splt_version}</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
+<div style=\"font-weight:bold\">Mp3splt</div>
+<div style=\"font-style:italic\">${mp3splt_version}</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
+<div style=\"font-weight:bold\">Mp3splt-gtk</div>
+<div style=\"font-style:italic\">${mp3splt_gtk_version}</div>
+</td>
+</tr>";
+
+echo "
+<tr id=\"source_code\">
+<td class=\"mainpagedownloadtd\"
+style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center;border-bottom:none\">
+<img alt=\"\" src=\"icons/keyboard.png\" /><br />
+<span style=\"font-weight:bold\">Source code</span>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-bottom:none\">
+<a class=\"source\" href=\"${download_url}libmp3splt-${libmp3splt_version}.tar.gz${download_suffix}\">.tar.gz</a>
+</td>
+<td class=\"mainpagedownloadtd\"
+style=\"border-top:solid;border-top-width:1pt;border-bottom:none\">
+<a class=\"source\" href=\"${download_url}mp3splt-${mp3splt_version}.tar.gz${download_suffix}\">
+.tar.gz</a>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;border-bottom:none\">
+<a class=\"source\" href=\"${download_url}mp3splt-gtk-${mp3splt_gtk_version}.tar.gz${download_suffix}\">
+.tar.gz</a>
+</td>
+</tr>";
+
+echo "</table><br />";
+}
+
+function create_debian_ubuntu_table()
+{
+  include 'download_variables.php';
+
+  echo "<div class=\"title\">Debian &amp; Ubuntu:</div><br />";
+
+  echo "<table class=\"mainpagedownloadtable\">";
+
+  echo "<tr id=\"debian\">
+    <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-top:none\">
+    <img alt=\"\" src=\"icons/debian.png\" />
+    <div class=\"osname\">Debian</div>
+    </td>
+
+    <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:none\">";
+
+  foreach ($debian_versions as $debian_version => $extra)
+  {
+    echo "<a href=\"debian_downloads.php?version=$debian_version\">$debian_version</a> $extra <br/>";
+  }
+
+  echo "
+    </td>
+
+    </tr>";
+
+  echo "
+    <tr id=\"ubuntu\">
+    <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center;border-bottom:none\">
+    <img alt=\"\" src=\"icons/ubuntu.png\" />
+    <div class=\"osname\">Ubuntu</div>
+    </td>
+
+    <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-bottom:none\">";
+
+  foreach ($ubuntu_versions as $ubuntu_version => $extra)
+  {
+    echo "<a href=\"debian_downloads.php?version=$ubuntu_version&amp;ubuntu=true\">$ubuntu_version</a> $extra <br/>";
+  }
+
+  echo "</td></tr></table>";
+}
+
 begin_document("mp3splt project - download page", "default.css",FALSE);
 
 create_table_with_menu("downloads");
 
 end_document();
+
 ?>
+
