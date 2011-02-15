@@ -34,6 +34,17 @@ function create_main_page()
 <h2  class=\"pagetitle\">$debian_or_ubuntu_upper $os_version packages</h2>
 <hr />";
 
+
+  echo "<div class=\"title\">From repository:</div>";
+
+  echo "<ol><li>Append the following to <i>/etc/apt/sources.list</i><br/>";
+  echo "<code>deb http://mp3splt.sourceforge.net/repository $os_version_lower main</code></li>";
+  echo "<li>Install mp3splt and mp3splt-gtk:<br/>";
+  echo "<code>apt-get install mp3splt mp3splt-gtk</code></li>";
+  echo "</ol>";
+
+  echo "<div class=\"title\">Manual:</div><br />";
+
 echo "<br/><table class=\"mainpagedownloadtable\">
 
 <!-- top stuff -->
