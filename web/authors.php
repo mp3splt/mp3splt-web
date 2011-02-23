@@ -12,8 +12,8 @@ Main authors :
 <br />
 
 <ul>
-<li>Matteo Trotta - author and main maintainer of Mp3Splt Project</li>
-<li>Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) - maintainer of Mp3Splt Project</li>
+<li>Matteo Trotta - author and main maintainer of Mp3splt Project</li>
+<li>Alexandru Munteanu (<a href=\"http://ioalex.net\">home page</a>) - maintainer of Mp3splt Project</li>
 </ul>
 
 People who contributed to mp3splt-project development :
@@ -29,6 +29,7 @@ People who contributed to mp3splt-project development :
 <li>Mario Blättermann - german translation and suggestions</li>
 <li>Erez Volk - alphabetic track number output variables patch</li>
 <li>Federico Grau - audacity labels support</li>
+<li>David Belohrad - set tags from filename regular expression</li>
 </ul>
 
 and others ...
