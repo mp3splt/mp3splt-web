@@ -29,8 +29,8 @@ libmp3splt, mp3splt and mp3splt-gtk. </div>
 <br />
 <span style=\"font-weight:bold\">OS</span> : GNU Linux, *BSD, MacOS X, BeOS, Windows<br />
 <span style=\"font-weight:bold\">Environment</span> : Console (Text Based), Graphic GTK2<br />
-<span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU
-General Public License</a><br /><br />
+<span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GNU
+General Public License version 2</a><br /><br />
 
 <div class=\"title\">Latest releases:</div>
 <br />
@@ -41,15 +41,15 @@ General Public License</a><br /><br />
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.6</div>
+<div style=\"font-style:italic\">0.6.1</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.2.9</div>
+<div style=\"font-style:italic\">2.3</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.6</div>
+<div style=\"font-style:italic\">0.6.1</div>
 </td>
 </tr>
 
