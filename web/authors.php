@@ -30,6 +30,7 @@ People who contributed to mp3splt-project development :
 <li>Erez Volk - alphabetic track number output variables patch</li>
 <li>Federico Grau - audacity labels support</li>
 <li>David Belohrad - set tags from filename regular expression</li>
+<li>Gunter Königsmann - gui improvement and debian packaging</li>
 </ul>
 
 and others ...

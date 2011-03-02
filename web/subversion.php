@@ -10,10 +10,13 @@ function create_main_page()
 <br />
 
 <div class=\"title\">unix-like OSes :</div>
-<p>svn co
+<p>
+Command line :</p>
+<code>svn co
 https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk
 mp3splt-project
-</p>
+</code>
+<br />
 <br />
 
 <div class=\"title\">windows :</div>

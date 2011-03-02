@@ -28,20 +28,17 @@ find a bug when using it, you are also welcome to report the bug.
 <div class=\"title\">Translating:</div>
 <div class=\"indentdiv\">Translations are important to many people who
 don't speak english or who prefer their native language. If you want
-to contribute with translations, please send us a mail.
-Hint: <a href=\"http://www.poedit.net/\">poedit</a> can be used to translate the
-<a href=\"http://mp3splt.svn.sourceforge.net/viewvc/mp3splt/mp3splt-project/trunk/mp3splt-gtk/po/fr.po?view=markup\">
-po file(s)</a>.</div>
-
+to contribute with translations. <a href=\"http://www.poedit.net/\">poedit</a> can be used to translate the
+files from <a href=\"http://www.transifex.net/projects/p/mp3splt-gtk/\">transifex</a>.
+The 'mp3splt-gtk' project from transifex also contains the translation for the library and
+the command line mp3splt client.</div>
 
 <br />
 <div class=\"title\">Documenting:</div>
 <div class=\"indentdiv\">Libmp3splt and mp3splt-gtk need
-documentation. Of course the best documentation is supposed to be the
-one written by the developers, but often no documentation is written
-due to the lack of time. We will try to document the programs but if
-you want to help don't hesitate.</div>
-
+documentation. The best documentation is supposed to be the
+one written by the developers, but often no documentation is not written
+due to the lack of time.</div>
 
 <br />
 <div class=\"title\">Moral support:</div>
