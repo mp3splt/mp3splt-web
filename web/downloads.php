@@ -25,15 +25,15 @@ echo "
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">${libmp3splt_version}</div>
+<!--<div style=\"font-style:italic\">${libmp3splt_version}</div>-->
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">${mp3splt_version}</div>
+<!--<div style=\"font-style:italic\">${mp3splt_version}</div>-->
 </td>
 <td class=\"mainpagedownloadtd\" style=\"border-top:none;text-align:center;border-right:none\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">${mp3splt_gtk_version}</div>
+<!--<div style=\"font-style:italic\">${mp3splt_gtk_version}</div>-->
 </td>
 </tr>";
 

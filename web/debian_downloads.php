@@ -40,7 +40,7 @@ function create_main_page()
   echo "<ol><li>Append the following to <i>/etc/apt/sources.list</i><br/>";
   echo "<code>deb http://mp3splt.sourceforge.net/repository $os_version_lower main</code></li>";
   echo "<li>Install mp3splt and mp3splt-gtk:<br/>";
-  echo "<code>apt-get install mp3splt mp3splt-gtk</code></li>";
+  echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg mp3splt mp3splt-gtk</code></li>";
   echo "</ol>";
 
   echo "<div class=\"title\">Manual:</div><br />";
@@ -88,11 +88,11 @@ foreach ($architectures as $arch) {
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
-  <a href=\"${download_url}mp3splt_${libmp3splt_suffix}\">mp3splt</a><br />
+  <a href=\"${download_url}mp3splt_${mp3splt_suffix}\">mp3splt</a><br />
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;border-top:solid;border-top-width:1pt;\">
-  <a href=\"${download_url}mp3splt-gtk_${libmp3splt_suffix}\">mp3splt-gtk</a><br />
+  <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_suffix}\">mp3splt-gtk</a><br />
 </td>
 
 </tr>";
