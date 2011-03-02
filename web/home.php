@@ -25,7 +25,7 @@ libmp3splt, mp3splt and mp3splt-gtk. </div>
 
 <table width=\"100%\">
 <tr>
-<td>
+<td valign='top'>
 <br />
 <span style=\"font-weight:bold\">OS</span> : GNU Linux, *BSD, MacOS X, BeOS, Windows<br />
 <span style=\"font-weight:bold\">Environment</span> : Console (Text Based), Graphic GTK2<br />
@@ -94,6 +94,14 @@ href=\"unstable_downloads.php\">
 <img border=\"0\" style=\"vertical-align:middle;z-index:1\" alt=\"\"
 src=\"icons/download_big.png\" />Unstable downloads</a></div> -->
 
+<div class=\"title\" style=\"padding-top:5pt;\">News :</div>
+<br />
+
+";
+
+  include "news.html";
+
+echo "
 </td>
 </tr>
 
@@ -103,22 +111,14 @@ src=\"icons/download_big.png\" />Unstable downloads</a></div> -->
 <td>
 
 <a
-href=\"screenshots.php\">
-<img alt=\"\" border=\"0\" src=\"screenshots/thumb.mp3splt-gtk_0.5.3_gnu_linux.png\" />
+href=\"screenshots/mp3splt-gtk_0.6.1.png\">
+<img alt=\"\" border=\"0\" src=\"screenshots/small_mp3splt-gtk_0.6.1.png\" />
 </a>
 
 </td>
 </tr>
 </table>
-
-<div class=\"title\" style=\"padding-top:5pt;\">News :</div>
-<br />
 ";
-
-  include "news.html";
-
-  echo "
-<br />";
 }
 
 begin_document("mp3 and ogg splitter - mp3splt project home page",
