@@ -5,9 +5,9 @@
   //$download_suffix="?download";
   $download_suffix="";
 
-  $libmp3splt_version="0.6.1";
-  $mp3splt_version="2.3";
-  $mp3splt_gtk_version="0.6.1";
+  $libmp3splt_version="0.6.1a";
+  $mp3splt_version="2.3a";
+  $mp3splt_gtk_version="0.6.1a";
 
   $debian_versions=array(
       "Squeeze" => "(stable)",
