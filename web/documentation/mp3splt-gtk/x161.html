@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>Troubleshooting</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"><LINK
+REL="HOME"
+TITLE="mp3splt-gtk Manual"
+HREF="index.html"><LINK
+REL="PREVIOUS"
+TITLE="Saving and resuming your work"
+HREF="x152.html"></HEAD
+><BODY
+CLASS="sect1"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+SUMMARY="Header navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>mp3splt-gtk Manual</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="x152.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+></TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+>&nbsp;</TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="sect1"
+><H1
+CLASS="sect1"
+><A
+NAME="mp3splt_gtk-Troubleshooting"
+>5. Troubleshooting</A
+></H1
+><DIV
+CLASS="sect2"
+><H2
+CLASS="sect2"
+><A
+NAME="mp3splt_gtk-PlayerWontStart"
+>5.1. The player won't start</A
+></H2
+><P
+>&#13;	If the player won't start even if the play button is pressed try
+	starting the player independently from mp3splt-gtk and pressing
+	play thereafter.
+      </P
+><P
+>&#13;	mp3splt-gtk knows how to remote-control SnackAmp and Audacious to
+	automatically switch to the file that is about to be split.
+      </P
+></DIV
+><DIV
+CLASS="sect2"
+><H2
+CLASS="sect2"
+><A
+NAME="mp3splt_gtk-SplittingDoesntWork"
+>5.2. Splitting doesn't work</A
+></H2
+><P
+>&#13;	Try to make sure that the version of libmp3splt is installed
+	correspondends to the version of mp3splt-gtk.
+	Even if (for newer versions of the program) the configure
+	script makes sure that both versions match it might still
+	be possible to have the wrong combination of these elements
+	installed on the same system.
+      </P
+><P
+>&#13;	If that is the case make sure that in the <SPAN
+CLASS="guilabel"
+>File
+	mode</SPAN
+> tab of the <SPAN
+CLASS="guilabel"
+>Type of split</SPAN
+>
+	tab <SPAN
+CLASS="guilabel"
+>Single file</SPAN
+> mode is selected.
+      </P
+></DIV
+><DIV
+CLASS="sect2"
+><H2
+CLASS="sect2"
+><A
+NAME="mp3splt_gtk-SplittingDoesntWorkII"
+>5.3. Splitting a certain Ogg file doesn't work</A
+></H2
+><P
+>&#13;	Next to the lossy ogg vorbis format that gives good
+	compression while keeping file sizes extremely low there are
+	other file formats that can be kept inside an ogg container as
+	well, notably ogg flac. 
+      </P
+><P
+>&#13;	Flac is a completely lossless codec which means that the
+	output files are sonewhat larger than Ogg vorbis ones but
+	these files can be cut on any information without loosing any
+	quality.
+      </P
+><P
+>&#13;	Since there is no direct need mp3splt-gtk still does not
+	support cutting flac files.
+      </P
+></DIV
+><DIV
+CLASS="sect2"
+><H2
+CLASS="sect2"
+><A
+NAME="mp3splt_gtk-AddingFilesDoesntWork"
+>5.4. Adding a file to the files view doesn't work</A
+></H2
+><P
+>&#13;	Make sure that in the <SPAN
+CLASS="guilabel"
+>File mode</SPAN
+> tab of
+	the <SPAN
+CLASS="guilabel"
+>Type of split</SPAN
+> tab
+	<SPAN
+CLASS="guilabel"
+>Batch processing</SPAN
+> mode is selected.
+      </P
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+SUMMARY="Footer navigation table"
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="x152.html"
+ACCESSKEY="P"
+>Prev</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+ACCESSKEY="H"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>&nbsp;</TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Saving and resuming your work</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>&nbsp;</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>
