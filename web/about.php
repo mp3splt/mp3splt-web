@@ -33,6 +33,7 @@ an end time <i>without decoding</i></li>
 <li class=\"lifeatures\">split an album with local .XMCD, .CDDB or .CUE file</li>
 <li class=\"lifeatures\">audacity labels file support</li>
 <li class=\"lifeatures\">split automatically with silence detection</li>
+<li class=\"lifeatures\">trim using silence detection</li>
 <li class=\"lifeatures\">split by a fixed time length</li>
 <li class=\"lifeatures\">split in equal time tracks</li>
 <li class=\"lifeatures\">split files created with Mp3Wrap or AlbumWrap</li>

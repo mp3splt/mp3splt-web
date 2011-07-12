@@ -25,7 +25,7 @@ find a bug when using it, you are also welcome to report the bug.
 </div>
 
 <br />
-<div class=\"title\">Translating:</div>
+<div class=\"title\">Translations:</div>
 <div class=\"indentdiv\">Translations are important to many people who
 don't speak english or who prefer their native language. If you want
 to contribute with translations. <a href=\"http://www.poedit.net/\">poedit</a> can be used to translate the
@@ -34,7 +34,7 @@ The 'mp3splt-gtk' project from transifex also contains the translation for the l
 the command line mp3splt client.</div>
 
 <br />
-<div class=\"title\">Documenting:</div>
+<div class=\"title\">Documentation:</div>
 <div class=\"indentdiv\">Libmp3splt and mp3splt-gtk need
 documentation. The best documentation is supposed to be the
 one written by the developers, but often no documentation is not written
