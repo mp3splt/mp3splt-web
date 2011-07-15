@@ -14,8 +14,8 @@ function create_main_page()
 <li>Download
 <a href=\"http://prdownloads.sourceforge.net/mingw/mingw-get-inst-20101030.exe\">Mingw-get-inst</a>
 and install it in the directory
-<span class=\"colorspan\">c:\mp3splt_mingw</span></li>
-
+<span class=\"colorspan\">c:\mp3splt_mingw</span>
+<br />
 <p>Select the following extra components to install: 'MSYS Basic System' and 'MinGW Developer ToolKit'.</p>
 </li>
 
@@ -58,8 +58,8 @@ command line and the other for the gui)</p>
 
 </ol>
 
+<br />
 <p style=\"text-align: left\">Some sources of the dependencies libraries can be found:</p>
-</br>
 
 <p style=\"text-align: left\">
 <a href=\"../dev/libmp3splt_mingw_required_libs_sources.tar.bz2\">
@@ -68,7 +68,7 @@ libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
 mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
 </p>
 
-<br /><br />
+<br />
 ";
 }
 
