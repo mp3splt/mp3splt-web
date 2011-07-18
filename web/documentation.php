@@ -23,6 +23,13 @@ function create_main_page()
 (2.4)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
+<div class=\"title\">FAQ :</div>
+<br />
+<div class=\"indentdiv\">-
+<a href=\"faq.php\">Frequently asked questions (English)</a>
+</div>
+
+<br />
 <div class=\"title\">Subversion build :</div>
 <br />
 <div class=\"indentdiv\">-
