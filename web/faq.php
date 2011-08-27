@@ -10,13 +10,24 @@ function create_main_page()
 
 <ol>
 
-<li id=\"faq1\">
+<li id=\"faq1\" style=\"faq_li\">
 When using cue or cddb files with characters like ä, ö, ü, ß, mp3splt produces broken
 filenames.
 <br />
-<p>- verify the encoding of the cddb or the cue file; in most cases, it is better to
+<p>Verify the encoding of the cddb or the cue file; in most cases, it is better to
 encode it using UTF-8.</p>
-</li>
+<br /></li>
+
+<li id=\"faq2\" style=\"faq_li\">
+Why there is no player graph or amplitude wave shown in the graphical user interface
+(mp3splt-gtk) ?
+<br />
+<p>- if the used player does not recognize the total length, there is no
+wave because the graphical interface uses the total time provided by the
+player.</p>
+<p>- try splitting from 0 to a big number of seconds (bigger than the
+possible total length of the file), and then work with this newly created file; the newly created file should be more \"readable\".</p>
+<br /></li>
 
 </ol>
 
