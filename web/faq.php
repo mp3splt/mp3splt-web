@@ -10,7 +10,7 @@ function create_main_page()
 
 <ol>
 
-<li id=\"faq1\" style=\"faq_li\">
+<li id=\"faq1\">
 When using cue or cddb files with characters like ä, ö, ü, ß, mp3splt produces broken
 filenames.
 <br />
@@ -18,7 +18,7 @@ filenames.
 encode it using UTF-8.</p>
 <br /></li>
 
-<li id=\"faq2\" style=\"faq_li\">
+<li id=\"faq2\">
 Why there is no player graph or amplitude wave shown in the graphical user interface
 (mp3splt-gtk) ?
 <br />
