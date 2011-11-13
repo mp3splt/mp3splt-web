@@ -17,7 +17,7 @@
   $ubuntu_versions=array(
       //"Karmic" => "(9.10)",
       "Maverick" => "(10.10)",
-      "Natty" => "(11.04)"
+      "Natty" => "(11.04)",
       "Oneiric" => "(11.10)"
       );
 
