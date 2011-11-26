@@ -29,6 +29,16 @@ player.</p>
 possible total length of the file), and then work with this newly created file; the newly created file should be more \"readable\".</p>
 <br /></li>
 
+<li id=\"faq3\">
+Why I can't see the ID3v2 tags ?
+<br />
+<p>Mp3splt is using libid3tag to write ID3v2 tags and the library only supports writing ID3v2 version 2.4 (26/11/2011).
+If the software that you are using only supports ID3v2 version 2.3, no tags will be read.
+<a href=\"http://en.wikipedia.org/wiki/ID3#ID3v2\">http://en.wikipedia.org/wiki/ID3#ID3v2</a>
+</p>
+<br /></li>
+
+
 </ol>
 
 <br />
