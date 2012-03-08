@@ -38,6 +38,29 @@ If the software that you are using only supports ID3v2 version 2.3, no tags will
 </p>
 <br /></li>
 
+<li id=\"faq4\">
+How can I use mp3splt with cygwin ?
+<br />
+<p>In order to use mp3splt from cygwin you can do one of the following :
+</p>
+<p>&nbsp;&nbsp;- use the windows paths insted of the cygwin paths</p>
+<p>&nbsp;&nbsp;- use the <span style=\"font-style:italic\">cygpath</span> utility from cygwin
+  <a href=\"http://cygwin.com/cygwin-ug-net/using-utils.html#cygpath\">http://cygwin.com/cygwin-ug-net/using-utils.html#cygpath</a>
+</p>
+<pre>
+  Example:
+    $ mp3splt.exe -t 1.0 $(cygpath -w /path/to/your/file.ogg)
+</pre>
+<p>
+&nbsp;&nbsp;- use other tools like <span style=\"font-style:italic\">cyg-wrapper.sh</span>
+  <a href=\"http://hermitte.free.fr/cygwin/#Win32\">http://hermitte.free.fr/cygwin/#Win32</a>
+</p>
+<pre>
+  Example:
+    $ cyg-wrapper.sh mp3splt.exe --binary-opt=-t /path/to/your/file.ogg -t 1.0
+</pre>
+<br /></li>
+
 
 </ol>
 
