@@ -42,15 +42,15 @@ General Public License version 2</a><br /><br />
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Libmp3splt</div>
-<div style=\"font-style:italic\">0.7.1</div>
+<div style=\"font-style:italic\">0.7.2</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt</div>
-<div style=\"font-style:italic\">2.4.1</div>
+<div style=\"font-style:italic\">2.4.2</div>
 </td>
 <td class=\"mainpagedownloadtd\" style=\"text-align:center\">
 <div style=\"font-weight:bold\">Mp3splt-gtk</div>
-<div style=\"font-style:italic\">0.7.1</div>
+<div style=\"font-style:italic\">0.7.2</div>
 </td>
 </tr>
 
