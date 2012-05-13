@@ -20,7 +20,7 @@ function create_main_page()
 <div class=\"title\">Usage :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual : <a href=\"documentation/man.html\">English
-(2.4)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
+(2.4.2)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 
 <br />
 <div class=\"title\">FAQ :</div>
