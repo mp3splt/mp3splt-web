@@ -97,7 +97,6 @@ src=\"icons/download_big.png\" />Unstable downloads</a></div> -->
 
 <div class=\"title\" style=\"padding-top:5pt;\">News :</div>
 <br />
-
 ";
 
   include "news.html";
@@ -119,6 +118,7 @@ href=\"screenshots/mp3splt-gtk_0.7.2.png\">
 </td>
 </tr>
 </table>
+
 ";
 }
 
