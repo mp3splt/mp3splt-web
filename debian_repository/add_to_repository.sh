@@ -2,7 +2,7 @@
 
 dir=$1
 
-versions="squeeze wheezy unstable maverick natty oneiric"
+versions="squeeze wheezy unstable natty oneiric precise"
 
 for version in $versions;do
   echo "processing $version ..."

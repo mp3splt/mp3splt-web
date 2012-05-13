@@ -24,14 +24,6 @@ Description: mp3splt-project repository
 
 Origin: mp3splt-project
 Label: mp3splt-project
-Suite: maverick
-Codename: maverick
-Architectures: i386 amd64 source
-Components: main non-free contrib
-Description: mp3splt-project repository
-
-Origin: mp3splt-project
-Label: mp3splt-project
 Suite: natty
 Codename: natty
 Architectures: i386 amd64 source
@@ -45,4 +37,13 @@ Codename: oneiric
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
+
+Origin: mp3splt-project
+Label: mp3splt-project
+Suite: precise
+Codename: precise
+Architectures: i386 amd64 source
+Components: main non-free contrib
+Description: mp3splt-project repository
+
 
