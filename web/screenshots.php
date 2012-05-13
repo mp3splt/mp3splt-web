@@ -11,6 +11,13 @@ echo "
 <div class=\"title\">mp3splt-gtk :</div>
 <br />
 
+<a href=\"screenshots/mp3splt-gtk_0.7.2.png\">
+<img alt=\"\" border=\"0\" src=\"screenshots/small_mp3splt-gtk_0.7.2.png\" />
+</a>
+<br />
+<div style=\"text-align:left\">mp3splt-gtk v0.7.2</div>
+<br />
+
 <a href=\"screenshots/mp3splt-gtk_0.6.1.png\">
 <img alt=\"\" border=\"0\" src=\"screenshots/small_mp3splt-gtk_0.6.1.png\" />
 </a>

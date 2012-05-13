@@ -112,8 +112,8 @@ echo "
 <td>
 
 <a
-href=\"screenshots/mp3splt-gtk_0.6.1.png\">
-<img alt=\"\" border=\"0\" src=\"screenshots/small_mp3splt-gtk_0.6.1.png\" />
+href=\"screenshots/mp3splt-gtk_0.7.2.png\">
+<img alt=\"\" border=\"0\" src=\"screenshots/small_mp3splt-gtk_0.7.2.png\" />
 </a>
 
 </td>
