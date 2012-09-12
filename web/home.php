@@ -29,7 +29,7 @@ libmp3splt, mp3splt and mp3splt-gtk. </div>
 <td valign='top'>
 <br />
 <span style=\"font-weight:bold\">OS</span> : GNU Linux, *BSD, MacOS X, BeOS, Windows<br />
-<span style=\"font-weight:bold\">Environment</span> : Console (Text Based), Graphic GTK2<br />
+<span style=\"font-weight:bold\">Environment</span> : Console (Text Based), Graphic GTK3<br />
 <span style=\"font-weight:bold\">License</span> : <a href=\"http://www.gnu.org/licenses/gpl-2.0.html\">GNU
 General Public License version 2</a><br /><br />
 

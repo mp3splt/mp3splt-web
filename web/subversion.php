@@ -13,7 +13,7 @@ function create_main_page()
 <p>
 Command line :</p>
 <code>svn co
-https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk
+http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk
 mp3splt-project
 </code>
 <br />
@@ -26,7 +26,7 @@ and create a directory called mp3splt-project. Go in the newly created <span
 class=\"colorspan\">mp3splt-project</span> directory, right click
 inside the window and select SVN Checkout. Type the following URL of
 repository in the newly opened window and then click \"ok\" :</p>
-<code>https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk</code>
+<code>http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk</code>
 
 <br /><br />
 <div class=\"title\">See also :</div>

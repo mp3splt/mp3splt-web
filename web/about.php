@@ -59,7 +59,7 @@ an end time <i>without decoding</i></li>
 <!-- mp3splt-gtk -->
 <div class=\"title\">mp3splt-gtk :</div>
 <br />
-<div class=\"indentdiv\"> Mp3splt-gtk is a GTK2 GUI that uses
+<div class=\"indentdiv\"> Mp3splt-gtk is a GTK3 GUI that uses
 libmp3splt.
 </div>
 

@@ -36,14 +36,14 @@ MAD sourceforge page</a></li>
 <li><span class=\"colorspan\">gstreamer</span> : download it from the 
 <a href=\"http://www.gstreamer.net/\">gstreamer home page</a></li>
 <li><span class=\"colorspan\">audacious</span> : download it from the 
-<a href=\"http://audacious-media-player.org/index.php?title=Main_Page\">audacious home page</a></li>
+<a href=\"http://audacious-media-player.org/\">audacious home page</a></li>
 </ul>
 </li>
 
 <li>Get the subversion code :
 <br />
 <code>
-svn co https://mp3splt.svn.sourceforge.net/svnroot/mp3splt/mp3splt-project/trunk mp3splt-project
+svn co http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk mp3splt-project
 </code>
 </li>
 
