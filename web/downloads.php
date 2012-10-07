@@ -45,19 +45,19 @@ echo "<!-- Slackware -->
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a href=\"http://slackbuilds.org/repository/13.37/libraries/libmp3splt/\">
+<a href=\"http://slackbuilds.org/result/?search=libmp3splt&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
-<a href=\"http://slackbuilds.org/repository/13.37/audio/mp3splt/\">
+<a href=\"http://slackbuilds.org/result/?search=mp3splt&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
-<a href=\"http://slackbuilds.org/repository/13.37/audio/mp3splt-gtk/\">
+<a href=\"http://slackbuilds.org/result/?search=mp3splt-gtk&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>

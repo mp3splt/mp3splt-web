@@ -78,7 +78,7 @@ type :
 <li>After that, type :
 <br />
 <code>./configure</code>
-<p>You can disable the use of ogg with \"./configure
+<p>You can disable the use of ogg vorbis with \"./configure
 --disable-ogg\" but it is not recommended</p>
 <p>You can disable the use of id3tag with \"./configure
 --disable-id3tag\" but it is not recommended</p>
