@@ -37,7 +37,36 @@ echo "
 </td>
 </tr>";
 
-echo "<!-- Slackware -->
+echo "
+<!-- openSUSE -->
+<tr id=\"opensuse\">
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/opensuse.png\" /><br />
+<div class=\"osname\">openSUSE</div>
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<a href=\"http://packman.links2linux.org/package/libmp3splt\">
+PackMan</a><br />
+(at links2linux.org)
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<a href=\"http://packman.links2linux.org/package/mp3splt\">
+PackMan</a><br />
+(at links2linux.org)
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
+<a href=\"http://packman.links2linux.org/package/mp3splt-gtk\">
+PackMan</a><br />
+(at links2linux.org)
+</td>
+</tr>";
+
+
+echo "
+<!-- Slackware -->
 <tr id=\"slackware\">
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/slackware.png\" /><br />
