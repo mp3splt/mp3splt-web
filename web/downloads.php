@@ -144,27 +144,45 @@ echo "<!-- Mac OS X -->
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
-<a href=\"http://fink.sourceforge.net/pdb/package.php/libmp3splt\">
- Fink package</a><br />(finkproject.org)
+<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/libmp3splt.rb\">
+ Homebrew</a><br />(on github)
 <br />
+
 <a href=\"http://trac.macports.org/browser/trunk/dports/audio/libmp3splt/Portfile\">
  Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/libmp3splt\">
+ Fink package</a><br />(finkproject.org)
+<br />
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
-<a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt\">
- Fink package</a><br />(finkproject.org)
-<br />
+<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/mp3splt.rb\">
+ Homebrew</a><br />(on github)
+ <br />
+
 <a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt/Portfile\">
  Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt\">
+ Fink package</a><br />(finkproject.org)
+<br />
+
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-right:none\" >
-<a href=\"http://fink.sourceforge.net/pdb/package.php/mp3splt-gtk\">
- Fink package</a><br />(finkproject.org)
-<br />
+<br /><br />
+
 <a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt-gtk/Portfile\">
  Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt-gtk\">
+ Fink package</a><br />(finkproject.org)
+<br />
+
 </td>
 </tr>
 
