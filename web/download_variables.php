@@ -5,9 +5,9 @@
   //$download_suffix="?download";
   $download_suffix="";
 
-  $libmp3splt_version="0.7.3";
-  $mp3splt_version="2.4.3";
-  $mp3splt_gtk_version="0.7.3";
+  $libmp3splt_version="0.8";
+  $mp3splt_version="2.5";
+  $mp3splt_gtk_version="0.8";
 
   $debian_versions=array(
       "Squeeze" => "(stable)",
@@ -15,9 +15,9 @@
       "Unstable" => "");
 
   $ubuntu_versions=array(
-      "Natty" => "(11.04)",
       "Oneiric" => "(11.10)",
-      "Precise" => "(12.04)"
+      "Precise" => "(12.04)",
+      "Quantal" => "(12.10)"
       );
 
 ?>

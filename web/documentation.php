@@ -17,20 +17,20 @@ function create_main_page()
 </div>
 <br /> -->
 
-<div class=\"title\">Usage :</div>
+<div class=\"title\">For users :</div>
 <br />
 <div class=\"indentdiv\">- mp3splt manual : <a href=\"documentation/man.html\">English
-(2.4.3)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
-
-<br />
-<div class=\"title\">FAQ :</div>
+(2.5)</a> , <a href=\"documentation/man-de.html\">German (1.9)</a></div>
 <br />
 <div class=\"indentdiv\">-
 <a href=\"faq.php\">Frequently asked questions (English)</a>
 </div>
 
 <br />
-<div class=\"title\">Subversion build :</div>
+<div class=\"title\">For developers :</div>
+<br />
+<div class=\"indentdiv\">- <a href=\"documentation/libmp3splt_api/index.html\">libmp3splt API
+documentation</a></div>
 <br />
 <div class=\"indentdiv\">-
 <a href=\"gnu_build.php\">Build for unix-like OSes</a>
