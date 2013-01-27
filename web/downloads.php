@@ -208,6 +208,10 @@ installer.exe</a><br />
 <a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.zip${download_suffix}\">
 zip archive</a><br />
 <hr style=\"width:50%;border:dashed;border-width:1px\" />
+<a href=\"http://portableapps.com/apps/music_video/mp3splt-portable\">Portable version</a>
+<br />
+(portableapps.com)
+<hr style=\"width:50%;border:dashed;border-width:1px\" />
 <a href=\"http://www.winpenpack.com/main/download.php?view.1254\">Portable version</a>
 <br />
 (winPenPack.com)
