@@ -53,6 +53,7 @@ an end time <i>without decoding</i></li>
 <div class=\"title\">libmp3splt :</div>
 <br />
 <div class=\"indentdiv\">Libmp3splt is a library created from mp3splt version 2.1c.</div>
+<div class=\"indentdiv\">Libmp3splt is not thread-safe.</div>
 
 <br />
 
