@@ -12,10 +12,11 @@ function create_main_page()
 
 <li id=\"faq1\">
 When using cue or cddb files with characters like ä, ö, ü, ß, mp3splt produces broken
-filenames.
+filenames or broken tags.
 <br />
-<p>Verify the encoding of the cddb or the cue file; in most cases, it is better to
-encode it using UTF-8.</p>
+<p>Verify the encoding of the cddb or the cue file. Try converting the input file to UTF-8.
+Mp3splt expects UTF-8 by default when writing tags.
+However, mp3splt has the -I option to specify the input tags encoding that is used to write ID3v2 tags.</p>
 <br /></li>
 
 <li id=\"faq2\">

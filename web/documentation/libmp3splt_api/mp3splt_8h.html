@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="libmp3splt_ico.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">libmp3splt
-   &#160;<span id="projectnumber">0.8.1</span>
+   &#160;<span id="projectnumber">0.8.2</span>
    </div>
    <div id="projectbrief">Lossless library for splitting audio formats like mp3 and ogg vorbis.</div>
   </td>
@@ -99,10 +99,13 @@ $(document).ready(function(){initNavTree('mp3splt_8h.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;sys/types.h&gt;</code><br/>
+<code>#include &quot;version.h&quot;</code><br/>
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for mp3splt.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="mp3splt_8h__incl.png" border="0" usemap="#include_2libmp3splt_2mp3splt_8h" alt=""/></div>
+<map name="include_2libmp3splt_2mp3splt_8h" id="include_2libmp3splt_2mp3splt_8h">
+<area shape="rect" id="node5" href="version_8h_source.html" title="version.h" alt="" coords="123,99,203,127"/></map>
 </div>
 </div>
 <p><a href="mp3splt_8h_source.html">Go to the source code of this file.</a></p>
@@ -316,7 +319,9 @@ Enumerations</h2></td></tr>
 <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a29be99158c9e804d8d44b4f1e7b3f844">SPLT_OPT_CUE_SET_SPLITPOINT_NAMES_FROM_REM_NAME</a>, 
 <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a6a2ef81cc6281ac697b66183acc06408">SPLT_OPT_CUE_DISABLE_CUE_FILE_CREATED_MESSAGE</a>, 
 <br/>
-&#160;&#160;<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79">SPLT_OPT_ID3V2_ENCODING</a>
+&#160;&#160;<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afc4ba197ee91c718233a33cee83bbdf1">SPLT_OPT_CUE_CDDB_ADD_TAGS_WITH_KEEP_ORIGINAL_TAGS</a>, 
+<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79">SPLT_OPT_ID3V2_ENCODING</a>, 
+<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a834e40e2e91cbbf1a34cf9e1769da1b4">SPLT_OPT_INPUT_TAGS_ENCODING</a>
 <br/>
  }</td></tr>
 <tr class="memitem:ga69bad439b833bc4fe8b6ee12286c8ea4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__options__.html#ga69bad439b833bc4fe8b6ee12286c8ea4">splt_split_mode_options</a> { <br/>
@@ -372,7 +377,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>SPLT_TAGS_COMMENT</b> =  5, 
 <b>SPLT_TAGS_TRACK</b> =  6, 
 <b>SPLT_TAGS_GENRE</b> =  7, 
-<b>SPLT_TAGS_PERFORMER</b> =  8
+<b>SPLT_TAGS_PERFORMER</b> =  8, 
+<br/>
+&#160;&#160;<a class="el" href="group__splt__tags__.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b">SPLT_TAGS_ORIGINAL</a> =  900
 <br/>
  }</td></tr>
 <tr class="memitem:ga7492ffeec6258b8159f5c2e11d88d96f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__import__.html#ga7492ffeec6258b8159f5c2e11d88d96f">splt_import_type</a> { <b>CUE_IMPORT</b>, 
@@ -404,6 +411,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga614ce1758d2327bc57a53c07180557d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__filepaths__.html#ga614ce1758d2327bc57a53c07180557d0">mp3splt_set_silence_full_log_filename</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *filename)</td></tr>
 <tr class="memitem:gaf1d25dad4977549141611e4992cfd24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#gaf1d25dad4977549141611e4992cfd24b">mp3splt_set_message_function</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, void(*message_cb)(const char *message, <a class="el" href="group__splt__callback__.html#gadbc286e3669fe0a4a506e146126049d8">splt_message_type</a> type, void *cb_data), void *cb_data)</td></tr>
 <tr class="memitem:gab57a6a703bac55ff345db324631a0a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#gab57a6a703bac55ff345db324631a0a15">mp3splt_set_split_filename_function</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, void(*file_cb)(const char *filename, void *cb_data), void *cb_data)</td></tr>
+<tr class="memitem:gaca4ffc48b36363746648faa22145bc54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#gaca4ffc48b36363746648faa22145bc54">mp3splt_set_pretend_to_split_write_function</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, void(*write_cb)(const void *ptr, size_t size, size_t nmemb, void *cb_data), void *cb_data)</td></tr>
 <tr class="memitem:gacfcea56f878c1d1b197496284faf42d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#gacfcea56f878c1d1b197496284faf42d4">mp3splt_set_progress_function</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, void(*progress_cb)(<a class="el" href="group__splt__callback__.html#ga998b3b6d0f276faf0f987f49375e8a70">splt_progress</a> *p_bar, void *cb_data), void *cb_data)</td></tr>
 <tr class="memitem:ga2089be39d45ee57b30d97f25f41bfdc0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#ga2089be39d45ee57b30d97f25f41bfdc0">mp3splt_progress_get_type</a> (const <a class="el" href="group__splt__callback__.html#ga998b3b6d0f276faf0f987f49375e8a70">splt_progress</a> *p_bar)</td></tr>
 <tr class="memitem:gae4852d874c731280eb34ca6fbd2a2f49"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__callback__.html#gae4852d874c731280eb34ca6fbd2a2f49">mp3splt_progress_get_filename_shorted</a> (const <a class="el" href="group__splt__callback__.html#ga998b3b6d0f276faf0f987f49375e8a70">splt_progress</a> *p_bar)</td></tr>
@@ -433,6 +441,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5b1a50c0d3ac1c9b322b82df06e4fd2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__tags__.html#ga28f1620a2a86127f60366ec4aa47836d">splt_tags</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga5b1a50c0d3ac1c9b322b82df06e4fd2d">mp3splt_tags_group_next</a> (<a class="el" href="group__splt__tags__.html#ga865404805506c94ca275c75fc409677a">splt_tags_group</a> *tags_group)</td></tr>
 <tr class="memitem:gacede87a9a6f2973a7ab6df73867c1313"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gacede87a9a6f2973a7ab6df73867c1313">mp3splt_tags_get</a> (<a class="el" href="group__splt__tags__.html#ga28f1620a2a86127f60366ec4aa47836d">splt_tags</a> *tags, <a class="el" href="group__splt__tags__.html#ga61290003d05c8f5f840a4ccc176cebe9">splt_tag_key</a> key)</td></tr>
 <tr class="memitem:ga0a860e77fb817d872e48afaecc096443"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga0a860e77fb817d872e48afaecc096443">mp3splt_put_tags_from_string</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *tags, <a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a> *error)</td></tr>
+<tr class="memitem:gac8d45283c4c77b550aed3455fcac62b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gac8d45283c4c77b550aed3455fcac62b7">mp3splt_read_original_tags</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state)</td></tr>
 <tr class="memitem:gad855adfdd068d2e577a75427754b5bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gad855adfdd068d2e577a75427754b5bfd">mp3splt_erase_all_tags</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state)</td></tr>
 <tr class="memitem:ga9804c20a13de20df0aa50cabc453ea6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga9804c20a13de20df0aa50cabc453ea6d">mp3splt_set_input_filename_regex</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *regex)</td></tr>
 <tr class="memitem:ga42a1fe80d9c008b465b76cee54f48254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga42a1fe80d9c008b465b76cee54f48254">mp3splt_set_default_comment_tag</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *default_comment_tag)</td></tr>
@@ -485,7 +494,7 @@ Variables</h2></td></tr>
 
 <p>True value. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00087">87</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00089">89</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -501,7 +510,7 @@ Variables</h2></td></tr>
 
 <p>False value. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00091">91</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00093">93</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -517,9 +526,10 @@ Variables</h2></td></tr>
 
 <p>Allow several inclusions of this file. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02187">2187</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02251">2251</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div />

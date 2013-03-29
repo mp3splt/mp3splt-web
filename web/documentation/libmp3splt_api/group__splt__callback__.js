@@ -13,6 +13,7 @@ var group__splt__callback__ =
     ] ],
     [ "mp3splt_set_message_function", "group__splt__callback__.html#gaf1d25dad4977549141611e4992cfd24b", null ],
     [ "mp3splt_set_split_filename_function", "group__splt__callback__.html#gab57a6a703bac55ff345db324631a0a15", null ],
+    [ "mp3splt_set_pretend_to_split_write_function", "group__splt__callback__.html#gaca4ffc48b36363746648faa22145bc54", null ],
     [ "mp3splt_set_progress_function", "group__splt__callback__.html#gacfcea56f878c1d1b197496284faf42d4", null ],
     [ "mp3splt_progress_get_type", "group__splt__callback__.html#ga2089be39d45ee57b30d97f25f41bfdc0", null ],
     [ "mp3splt_progress_get_filename_shorted", "group__splt__callback__.html#gae4852d874c731280eb34ca6fbd2a2f49", null ],

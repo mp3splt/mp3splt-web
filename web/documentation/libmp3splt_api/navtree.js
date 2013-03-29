@@ -14,7 +14,7 @@ var NAVTREE =
     [ "Files", null, [
       [ "File List", "files.html", "files" ],
       [ "Globals", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
@@ -30,8 +30,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"mp3splt_8h.html#ga21c8a4cb62ab5c5e065e60e99b6b09a8",
-"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aa17060c73f5be2ef67f8f68c16440cad"
+"mp3splt_8h.html#ga1648e202fbab96ea8a1fd2ec46696acf",
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a84e1415166cd4e3055ce4c743ba5b27b"
 ];
 
 var navTreeSubIndices = new Array();

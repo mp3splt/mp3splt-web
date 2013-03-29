@@ -1,5 +1,18 @@
 var NAVTREEINDEX2 =
 {
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a84e1415166cd4e3055ce4c743ba5b27b":[3,0,0,0,0,40,68],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a8cb2670446c92a18971d79b95ae2165e":[3,0,0,0,0,40,26],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a8df1bae3794861753c24593ca850bfd0":[3,0,0,0,0,40,44],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9166bf895d6f4fbf2074276d06135a2b":[3,0,0,0,0,40,20],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a98038e133b2436017428eddc3b6dffb7":[3,0,0,0,0,40,70],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9901371209563f6650b9637977ab8b09":[3,0,0,0,0,40,18],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a990be49c98796123bca29ff26ef36e25":[3,0,0,0,0,40,14],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9a103870e7925903a1106bd854ce8b56":[3,0,0,0,0,40,63],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9aa5c4df8362d02b37bc39a0ea174e77":[3,0,0,0,0,40,76],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9bfaf1c3d3d56cb83d66f73fc614fb27":[3,0,0,0,0,40,72],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9c387846edeff164d9528331a0f71566":[3,0,0,0,0,40,83],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9f99d35dacedb7ea4d9cd2a9577e737f":[3,0,0,0,0,40,29],
+"mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aa0512a0338c3e48e692110d742319c6e":[3,0,0,0,0,40,24],
 "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aa17060c73f5be2ef67f8f68c16440cad":[3,0,0,0,0,40,30],
 "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aa46b13652cb5e05627f6e075697bcef1":[3,0,0,0,0,40,59],
 "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aa725af7eada8fa3956affd2dd739bcdd":[3,0,0,0,0,40,69],
@@ -43,5 +56,6 @@ var NAVTREEINDEX2 =
 "structsplt__plugin__info.html#a4838f65d3a4bf8730898556829c094b2":[2,0,1,3],
 "structsplt__plugin__info.html#a8cd4fa926a1762753b50a5af280819fe":[2,0,1,0],
 "structsplt__plugin__info.html#aeb21c91758e5a462cbac08ba9448ab1c":[2,0,1,2],
-"structsplt__plugin__info.html#aebbd7f0496dc3ecf1c9c1e282d53e6f2":[2,0,1,1]
+"structsplt__plugin__info.html#aebbd7f0496dc3ecf1c9c1e282d53e6f2":[2,0,1,1],
+"version_8h_source.html":[3,0,0,0,1]
 };

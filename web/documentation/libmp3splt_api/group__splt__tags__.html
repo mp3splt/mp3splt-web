@@ -29,7 +29,7 @@
   <td id="projectlogo"><img alt="Logo" src="libmp3splt_ico.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">libmp3splt
-   &#160;<span id="projectnumber">0.8.1</span>
+   &#160;<span id="projectnumber">0.8.2</span>
    </div>
    <div id="projectbrief">Lossless library for splitting audio formats like mp3 and ogg vorbis.</div>
   </td>
@@ -119,7 +119,9 @@ Enumerations</h2></td></tr>
 &#160;&#160;<b>SPLT_TAGS_COMMENT</b> =  5, 
 <b>SPLT_TAGS_TRACK</b> =  6, 
 <b>SPLT_TAGS_GENRE</b> =  7, 
-<b>SPLT_TAGS_PERFORMER</b> =  8
+<b>SPLT_TAGS_PERFORMER</b> =  8, 
+<br/>
+&#160;&#160;<a class="el" href="group__splt__tags__.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b">SPLT_TAGS_ORIGINAL</a> =  900
 <br/>
  }</td></tr>
 </table><table class="memberdecls">
@@ -134,6 +136,7 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5b1a50c0d3ac1c9b322b82df06e4fd2d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__tags__.html#ga28f1620a2a86127f60366ec4aa47836d">splt_tags</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga5b1a50c0d3ac1c9b322b82df06e4fd2d">mp3splt_tags_group_next</a> (<a class="el" href="group__splt__tags__.html#ga865404805506c94ca275c75fc409677a">splt_tags_group</a> *tags_group)</td></tr>
 <tr class="memitem:gacede87a9a6f2973a7ab6df73867c1313"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gacede87a9a6f2973a7ab6df73867c1313">mp3splt_tags_get</a> (<a class="el" href="group__splt__tags__.html#ga28f1620a2a86127f60366ec4aa47836d">splt_tags</a> *tags, <a class="el" href="group__splt__tags__.html#ga61290003d05c8f5f840a4ccc176cebe9">splt_tag_key</a> key)</td></tr>
 <tr class="memitem:ga0a860e77fb817d872e48afaecc096443"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga0a860e77fb817d872e48afaecc096443">mp3splt_put_tags_from_string</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *tags, <a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a> *error)</td></tr>
+<tr class="memitem:gac8d45283c4c77b550aed3455fcac62b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gac8d45283c4c77b550aed3455fcac62b7">mp3splt_read_original_tags</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state)</td></tr>
 <tr class="memitem:gad855adfdd068d2e577a75427754b5bfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#gad855adfdd068d2e577a75427754b5bfd">mp3splt_erase_all_tags</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state)</td></tr>
 <tr class="memitem:ga9804c20a13de20df0aa50cabc453ea6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga9804c20a13de20df0aa50cabc453ea6d">mp3splt_set_input_filename_regex</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *regex)</td></tr>
 <tr class="memitem:ga42a1fe80d9c008b465b76cee54f48254"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__splt__tags__.html#ga42a1fe80d9c008b465b76cee54f48254">mp3splt_set_default_comment_tag</a> (<a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *state, const char *default_comment_tag)</td></tr>
@@ -159,7 +162,7 @@ Variables</h2></td></tr>
 
 <p>Undefined genre string. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01365">1365</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01411">1411</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -176,7 +179,7 @@ Variables</h2></td></tr>
 <p>Number of ID3v1 genres. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__tags__.html#ga4faf69e6334e36c1a77376e7d96b749d" title="ID3v1 genres.">splt_id3v1_genres</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01371">1371</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01417">1417</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -196,7 +199,7 @@ Variables</h2></td></tr>
 <p>The structure contains the tags that we can set to one generated file. Tags may also define the output filenames.</p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__tags__.html#ga905d2032de899f77f0cea38432473f84" title="Set tags values in the tags.">mp3splt_tags_set</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01401">1401</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01452">1452</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +216,7 @@ Variables</h2></td></tr>
 <p>Structure containing a group of tags. </p>
 <p>All members are private. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01450">1450</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01504">1504</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -229,8 +232,16 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Key tags useful with <a class="el" href="group__splt__tags__.html#ga65a7682499c5735d876abd4b95722d15" title="Append the tags in the state.">mp3splt_append_tags</a>. </p>
+<dl><dt><b>Enumerator: </b></dt><dd><table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em><a class="anchor" id="gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b"></a>SPLT_TAGS_ORIGINAL</em>&nbsp;</td><td>
+<p>Use this to set original tags. </p>
+<p>You must call <a class="el" href="group__splt__tags__.html#gac8d45283c4c77b550aed3455fcac62b7" title="Parses the original tags from the input file and stores them for the future split.">mp3splt_read_original_tags</a> in order to use this. </p>
+</td></tr>
+</table>
+</dd>
+</dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01381">1381</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l01427">1427</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -291,7 +302,8 @@ Variables</h2></td></tr>
 <p>The ... parameters are pairs of (key, value); arguments must end with 0, where key is a <a class="el" href="group__splt__tags__.html#ga61290003d05c8f5f840a4ccc176cebe9" title="Key tags useful with mp3splt_append_tags.">splt_tag_key</a> and value is const char *.</p>
 <p>Example: </p>
 <div class="fragment"><div class="line"><a class="code" href="group__splt__tags__.html#ga905d2032de899f77f0cea38432473f84" title="Set tags values in the tags.">mp3splt_tags_set</a>(tags, SPLT_TAGS_ARTIST, <span class="stringliteral">&quot;my_artist&quot;</span>, SPLT_TAGS_ALBUM, <span class="stringliteral">&quot;my_album&quot;</span>, 0);</div>
-</div><!-- fragment --><dl class="params"><dt>Parameters</dt><dd>
+</div><!-- fragment --><p>When using <a class="el" href="group__splt__tags__.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b" title="Use this to set original tags.">SPLT_TAGS_ORIGINAL</a>, the only possible values are "true" or "false". In order to use <a class="el" href="group__splt__tags__.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b" title="Use this to set original tags.">SPLT_TAGS_ORIGINAL</a>, you have to call <a class="el" href="group__splt__tags__.html#gac8d45283c4c77b550aed3455fcac62b7" title="Parses the original tags from the input file and stores them for the future split.">mp3splt_read_original_tags</a> before.</p>
+<dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">tags</td><td>Tags to be changed. </td></tr>
   </table>
@@ -530,6 +542,32 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="gac8d45283c4c77b550aed3455fcac62b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__splt__error__codes__.html#gaed8b624746e8485d41a8000e922e9de0">splt_code</a> mp3splt_read_original_tags </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__splt__state__.html#ga0b1904bdcb8ea650ef4cafa53e0d73d2">splt_state</a> *&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parses the original tags from the input file and stores them for the future split. </p>
+<p>This function must be called when using <a class="el" href="group__splt__tags__.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b" title="Use this to set original tags.">SPLT_TAGS_ORIGINAL</a> called by <a class="el" href="group__splt__tags__.html#ga905d2032de899f77f0cea38432473f84" title="Set tags values in the tags.">mp3splt_tags_set</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>Main state. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Possible error. </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="gad855adfdd068d2e577a75427754b5bfd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -750,3 +788,4 @@ Variables</h2></td></tr>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div />

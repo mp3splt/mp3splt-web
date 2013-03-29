@@ -164,7 +164,9 @@ var mp3splt_8h =
       [ "SPLT_OPT_KEEP_SILENCE_RIGHT", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a75d927a99b532a47902acd528fbe9659", null ],
       [ "SPLT_OPT_CUE_SET_SPLITPOINT_NAMES_FROM_REM_NAME", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a29be99158c9e804d8d44b4f1e7b3f844", null ],
       [ "SPLT_OPT_CUE_DISABLE_CUE_FILE_CREATED_MESSAGE", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a6a2ef81cc6281ac697b66183acc06408", null ],
-      [ "SPLT_OPT_ID3V2_ENCODING", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79", null ]
+      [ "SPLT_OPT_CUE_CDDB_ADD_TAGS_WITH_KEEP_ORIGINAL_TAGS", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afc4ba197ee91c718233a33cee83bbdf1", null ],
+      [ "SPLT_OPT_ID3V2_ENCODING", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79", null ],
+      [ "SPLT_OPT_INPUT_TAGS_ENCODING", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a834e40e2e91cbbf1a34cf9e1769da1b4", null ]
     ] ],
     [ "splt_split_mode_options", "mp3splt_8h.html#ga69bad439b833bc4fe8b6ee12286c8ea4", [
       [ "SPLT_OPTION_NORMAL_MODE", "mp3splt_8h.html#gga69bad439b833bc4fe8b6ee12286c8ea4adba3c40b1f2ac03fe218c8795df8a2a9", null ],
@@ -220,7 +222,8 @@ var mp3splt_8h =
       [ "SPLT_TAGS_COMMENT", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9accf29074c3f072b2966c02f736a4397d", null ],
       [ "SPLT_TAGS_TRACK", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9aa3f65fe046179e9156661550793f408e", null ],
       [ "SPLT_TAGS_GENRE", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9ae05e311b41718b6c148215e264d39a9c", null ],
-      [ "SPLT_TAGS_PERFORMER", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9ae61e0a007caef27634864b552dd47102", null ]
+      [ "SPLT_TAGS_PERFORMER", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9ae61e0a007caef27634864b552dd47102", null ],
+      [ "SPLT_TAGS_ORIGINAL", "mp3splt_8h.html#gga61290003d05c8f5f840a4ccc176cebe9a82d42b1c8f1fd656a3ad2c2e3a62973b", null ]
     ] ],
     [ "splt_import_type", "mp3splt_8h.html#ga7492ffeec6258b8159f5c2e11d88d96f", [
       [ "CUE_IMPORT", "mp3splt_8h.html#gga7492ffeec6258b8159f5c2e11d88d96fa1475b62303fa5c4100d0b3c462ab8e13", null ],
@@ -250,6 +253,7 @@ var mp3splt_8h =
     [ "mp3splt_set_silence_full_log_filename", "mp3splt_8h.html#ga614ce1758d2327bc57a53c07180557d0", null ],
     [ "mp3splt_set_message_function", "mp3splt_8h.html#gaf1d25dad4977549141611e4992cfd24b", null ],
     [ "mp3splt_set_split_filename_function", "mp3splt_8h.html#gab57a6a703bac55ff345db324631a0a15", null ],
+    [ "mp3splt_set_pretend_to_split_write_function", "mp3splt_8h.html#gaca4ffc48b36363746648faa22145bc54", null ],
     [ "mp3splt_set_progress_function", "mp3splt_8h.html#gacfcea56f878c1d1b197496284faf42d4", null ],
     [ "mp3splt_progress_get_type", "mp3splt_8h.html#ga2089be39d45ee57b30d97f25f41bfdc0", null ],
     [ "mp3splt_progress_get_filename_shorted", "mp3splt_8h.html#gae4852d874c731280eb34ca6fbd2a2f49", null ],
@@ -279,6 +283,7 @@ var mp3splt_8h =
     [ "mp3splt_tags_group_next", "mp3splt_8h.html#ga5b1a50c0d3ac1c9b322b82df06e4fd2d", null ],
     [ "mp3splt_tags_get", "mp3splt_8h.html#gacede87a9a6f2973a7ab6df73867c1313", null ],
     [ "mp3splt_put_tags_from_string", "mp3splt_8h.html#ga0a860e77fb817d872e48afaecc096443", null ],
+    [ "mp3splt_read_original_tags", "mp3splt_8h.html#gac8d45283c4c77b550aed3455fcac62b7", null ],
     [ "mp3splt_erase_all_tags", "mp3splt_8h.html#gad855adfdd068d2e577a75427754b5bfd", null ],
     [ "mp3splt_set_input_filename_regex", "mp3splt_8h.html#ga9804c20a13de20df0aa50cabc453ea6d", null ],
     [ "mp3splt_set_default_comment_tag", "mp3splt_8h.html#ga42a1fe80d9c008b465b76cee54f48254", null ],

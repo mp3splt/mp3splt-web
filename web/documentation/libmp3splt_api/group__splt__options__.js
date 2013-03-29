@@ -52,7 +52,9 @@ var group__splt__options__ =
       [ "SPLT_OPT_KEEP_SILENCE_RIGHT", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a75d927a99b532a47902acd528fbe9659", null ],
       [ "SPLT_OPT_CUE_SET_SPLITPOINT_NAMES_FROM_REM_NAME", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a29be99158c9e804d8d44b4f1e7b3f844", null ],
       [ "SPLT_OPT_CUE_DISABLE_CUE_FILE_CREATED_MESSAGE", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a6a2ef81cc6281ac697b66183acc06408", null ],
-      [ "SPLT_OPT_ID3V2_ENCODING", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79", null ]
+      [ "SPLT_OPT_CUE_CDDB_ADD_TAGS_WITH_KEEP_ORIGINAL_TAGS", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afc4ba197ee91c718233a33cee83bbdf1", null ],
+      [ "SPLT_OPT_ID3V2_ENCODING", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79", null ],
+      [ "SPLT_OPT_INPUT_TAGS_ENCODING", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a834e40e2e91cbbf1a34cf9e1769da1b4", null ]
     ] ],
     [ "splt_split_mode_options", "group__splt__options__.html#ga69bad439b833bc4fe8b6ee12286c8ea4", [
       [ "SPLT_OPTION_NORMAL_MODE", "group__splt__options__.html#gga69bad439b833bc4fe8b6ee12286c8ea4adba3c40b1f2ac03fe218c8795df8a2a9", null ],
