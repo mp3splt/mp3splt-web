@@ -10,8 +10,8 @@
   $mp3splt_gtk_version="0.8.2";
 
   $debian_versions=array(
-      "Squeeze" => "(stable)",
-      "Wheezy" => "(testing)",
+      "Squeeze" => "(old stable)",
+      "Wheezy" => "(stable)",
       "Unstable" => "");
 
   $ubuntu_versions=array(
