@@ -4,6 +4,8 @@ include 'menu.php';
 
 function create_main_page()
 {
+  include 'download_variables.php';
+
   echo "
 <h2  class=\"pagetitle\">Subversion build for windows</h2>
 <hr />
@@ -62,9 +64,9 @@ command line and the other for the gui)</p>
 <p style=\"text-align: left\">Some sources of the dependencies libraries can be found:</p>
 
 <p style=\"text-align: left\">
-<a href=\"../dev/libmp3splt_mingw_required_libs_sources.tar.bz2\">
+<a href=\"${download_url}libmp3splt_mingw_required_libs_sources.tar.bz2\">
 libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
-<a href=\"../dev/mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
+<a href=\"${download_url}mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
 mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
 </p>
 
