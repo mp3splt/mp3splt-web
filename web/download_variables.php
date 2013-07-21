@@ -16,7 +16,7 @@
 
   $ubuntu_versions=array(
       "Precise" => "(12.04)",
-      "Quantal" => "(12.10)"
+      "Quantal" => "(12.10)",
       "Raring" => "(13.04)"
       );
 

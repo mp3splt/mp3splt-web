@@ -11,9 +11,9 @@ function create_main_page()
 <!-- mp3splt project -->
 <div class=\"title\">mp3splt-project :</div>
 <br />
-<div class=\"indentdiv\">Mp3splt-project is a utility to split mp3 and ogg vorbis
+<div class=\"indentdiv\">Mp3splt-project is a utility to split mp3, ogg vorbis and native FLAC
 files selecting a begin and an end time position, <i>without
-decoding</i>. It's very useful to split large mp3/ogg vorbis to make smaller
+decoding</i>. It's very useful to split large mp3, ogg vorbis and native FLAC to make smaller
 files or to split entire albums to obtain original tracks. If you want
 to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
@@ -25,7 +25,7 @@ libmp3splt, mp3splt and mp3splt-gtk.</div>
 <!-- mp3splt project common features -->
 <div class=\"featdiv\">mp3splt-project common features :</div>
 <ul>
-<li class=\"lifeatures\">split mp3 and ogg vorbis files from a begin time to
+<li class=\"lifeatures\">split mp3, ogg vorbis and native FLAC files from a begin time to
 an end time <i>without decoding</i></li>
 <li class=\"lifeatures\">recursive multiple files split</li>
 <li class=\"lifeatures\">ID3v1 &amp; ID3v2 tags support for mp3 files (using libid3tag), vorbis comments support</li>

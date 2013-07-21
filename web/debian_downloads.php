@@ -40,7 +40,7 @@ function create_main_page()
   echo "<ol><li>Append the following to <i>/etc/apt/sources.list</i><br/>";
   echo "<code>deb http://mp3splt.sourceforge.net/repository $os_version_lower main</code></li>";
   echo "<li>Install mp3splt and mp3splt-gtk:<br/>";
-  echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg mp3splt mp3splt-gtk</code></li>";
+  echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg libmp3splt0-flac mp3splt mp3splt-gtk</code></li>";
   echo "</ol>";
 
   echo "<div class=\"title\">Manual:</div><br />";
@@ -83,6 +83,7 @@ foreach ($architectures as $arch) {
   <a href=\"${download_url}libmp3splt0_${libmp3splt_suffix}\">libmp3splt0</a><br />
   <a href=\"${download_url}libmp3splt0-mp3_${libmp3splt_suffix}\">libmp3splt0-mp3</a><br />
   <a href=\"${download_url}libmp3splt0-ogg_${libmp3splt_suffix}\">libmp3splt0-ogg</a><br />
+  <a href=\"${download_url}libmp3splt0-flac_${libmp3splt_suffix}\">libmp3splt0-flac</a><br />
   <hr style=\"border: none\" />
   <a href=\"${download_url}libmp3splt-dev_${libmp3splt_suffix}\">libmp3splt-dev</a><br />
 </td>
@@ -104,6 +105,7 @@ echo "</tr></table><br />";
 echo "libmp3splt0 - main library needed for both mp3splt and mp3splt-gtk<br />";
 echo "libmp3splt0-mp3 - mp3 plugin<br />";
 echo "libmp3splt0-ogg - ogg vorbis plugin<br />";
+echo "libmp3splt0-flac - native FLAC plugin<br />";
 echo "libmp3splt-dev - development package<br /><br/>";
 echo "mp3splt - command line client<br /><br/>";
 echo "mp3splt-gtk - graphical user interface client<br /><br/>";

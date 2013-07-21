@@ -28,6 +28,11 @@ class=\"colorspan\">libvorbis</span> : download them from the
 <li><span class=\"colorspan\">libid3tag</span> : download it from 
 <a href=\"http://sourceforge.net/projects/mad/\">
 MAD sourceforge page</a></li>
+
+<li><span class=\"colorspan\">libFLAC</span> : download it from 
+<a href=\"https://xiph.org/flac/download.html\">
+FLAC download page </a></li>
+
 </ul>
 </li>
 
@@ -79,9 +84,11 @@ type :
 <br />
 <code>./configure</code>
 <p>You can disable the use of ogg vorbis with \"./configure
---disable-ogg\" but it is not recommended</p>
+--disable-ogg\"</p>
 <p>You can disable the use of id3tag with \"./configure
---disable-id3tag\" but it is not recommended</p>
+--disable-id3tag\"</p>
+<p>You can disable the use of FLAC with \"./configure
+--disable-flac\"</p>
 </li>
 
 <li>Compile the library :

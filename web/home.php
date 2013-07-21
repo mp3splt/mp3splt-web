@@ -11,8 +11,8 @@ function create_main_page()
 <div class=\"title\">Description :</div>
 <br />
 <div class=\"indentdiv\"><span style=\"font-weight:bold\">Mp3Splt-project</span> is a utility to
-split mp3 and ogg vorbis files selecting a begin and an end time position, <i>without
-decoding</i>. It's very useful to split large mp3/ogg vorbis to make smaller
+split mp3, ogg vorbis and native FLAC files selecting a begin and an end time position, <i>without
+decoding</i>. It's very useful to split large mp3/ogg vorbis/FLAC to make smaller
 files or to split entire albums to obtain original tracks. If you want
 to split an album, you can select split points and filenames manually
 or you can get them automatically from CDDB (internet or a local file)
@@ -122,7 +122,7 @@ href=\"screenshots/mp3splt-gtk_0.7.3.png\">
 ";
 }
 
-begin_document("mp3 and ogg vorbis splitter - mp3splt project home page",
+begin_document("mp3, ogg vorbis and FLAC splitter - mp3splt project home page",
 	       "default.css",FALSE);
 
 create_table_with_menu("home");
