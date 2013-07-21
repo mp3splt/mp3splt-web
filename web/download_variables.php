@@ -5,7 +5,7 @@
   //$download_suffix="?download";
   $download_suffix="";
 
-  $libmp3splt_version="0.9";
+  $libmp3splt_version="0.9.0";
   $mp3splt_version="2.6";
   $mp3splt_gtk_version="0.9";
 
