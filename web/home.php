@@ -122,7 +122,7 @@ href=\"screenshots/mp3splt-gtk_0.7.3.png\">
 ";
 }
 
-begin_document("mp3, ogg vorbis and FLAC splitter - mp3splt project home page",
+begin_document("mp3, ogg vorbis and FLAC splitter - mp3splt-project",
 	       "default.css",FALSE);
 
 create_table_with_menu("home");

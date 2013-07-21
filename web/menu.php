@@ -15,6 +15,9 @@ function begin_document($title, $css_file,$third)
 "<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">
 <head>
 <meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\" />
+<meta name=\"description\" content=\"split FLAC, split mp3, split ogg vorbis\">
+<meta name=\"keywords\" content=\"mp3,ogg,vorbis,FLAC,split,splitter,cue,cddb\">
+<meta name=\"author\" content=\"Matteo Trotta, Alexandru Munteanu\">
 <title>",
     $title,
 "
