@@ -1,7 +1,7 @@
 Origin: mp3splt-project
 Label: mp3splt-project
 Suite: stable
-Codename: squeeze
+Codename: wheezy
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
@@ -9,7 +9,7 @@ Description: mp3splt-project repository
 Origin: mp3splt-project
 Label: mp3splt-project
 Suite: testing
-Codename: wheezy
+Codename: jessie
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
@@ -18,14 +18,6 @@ Origin: mp3splt-project
 Label: mp3splt-project
 Suite: unstable
 Codename: unstable
-Architectures: i386 amd64 source
-Components: main non-free contrib
-Description: mp3splt-project repository
-
-Origin: mp3splt-project
-Label: mp3splt-project
-Suite: oneiric 
-Codename: oneiric
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
@@ -42,6 +34,14 @@ Origin: mp3splt-project
 Label: mp3splt-project
 Suite: quantal
 Codename: quantal
+Architectures: i386 amd64 source
+Components: main non-free contrib
+Description: mp3splt-project repository
+
+Origin: mp3splt-project
+Label: mp3splt-project
+Suite: raring
+Codename: raring
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
