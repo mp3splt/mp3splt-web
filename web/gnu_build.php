@@ -124,7 +124,7 @@ type :
 
 <li>After that type :
 <br />
-<code>./configure</code>
+<code>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:\$PKG_CONFIG_PATH && ./configure</code>
 </li>
 
 <li>Compile the program :
@@ -151,7 +151,7 @@ type :
 
 <li>After that type :
 <br />
-<code>./configure</code>
+<code>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/:\$PKG_CONFIG_PATH && ./configure</code>
 <p>You can also use the '--enable-gstreamer' and '--enable-audacious'
 parameters to configure. It is recommended to use '--enable-gstreamer'.</p>
 </li>
