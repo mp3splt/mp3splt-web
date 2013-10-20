@@ -18,10 +18,10 @@ function create_main_page()
 and install it in the directory
 <span class=\"colorspan\">c:\mp3splt_mingw</span>
 <br />
-<p>Select the following extra components to install: 'MSYS Basic System' and 'MinGW Developer ToolKit'.</p>
+<p>Select the following components to install: mingw-developer-toolkit, mingw32-base, msys-base, mingw32-w32api (dev).</p>
 </li>
 
-<li>Open the MinGW console from <span class=\"colorspan\">Start-&gt;MinGW-&gt;MinGW Shell</span>.</li>
+<li>Open the MinGW console from <span class=\"colorspan\">C:\mp3splt_mingw\msys\1.0\msys.bat</span></li>
 
 <li>Download <a href=\"http://sourceforge.net/projects/mp3splt/files/dev/libmp3splt_mingw_required_libs.tar.bz2/download\">libmp3splt_mingw_required_libs.tar.bz2</a>,
 <a href=\"http://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_mingw_required_libs.tar.bz2/download\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
