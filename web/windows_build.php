@@ -14,7 +14,7 @@ function create_main_page()
 
 <ol>
 <li>Download
-<a href=\"http://prdownloads.sourceforge.net/mingw/mingw-get-inst-20101030.exe\">Mingw-get-inst</a>
+<a href=\"http://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download\">Mingw-get-setup</a>
 and install it in the directory
 <span class=\"colorspan\">c:\mp3splt_mingw</span>
 <br />
@@ -23,9 +23,9 @@ and install it in the directory
 
 <li>Open the MinGW console from <span class=\"colorspan\">Start-&gt;MinGW-&gt;MinGW Shell</span>.</li>
 
-<li>Download <a href=\"../dev/libmp3splt_mingw_required_libs.tar.bz2\">libmp3splt_mingw_required_libs.tar.bz2</a>,
-<a href=\"../dev/mp3splt-gtk_mingw_required_libs.tar.bz2\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
-<a href=\"../dev/mp3splt-gtk_runtime.tar.bz2\">mp3splt-gtk_runtime.tar.bz2</a>
+<li>Download <a href=\"http://sourceforge.net/projects/mp3splt/files/dev/libmp3splt_mingw_required_libs.tar.bz2/download\">libmp3splt_mingw_required_libs.tar.bz2</a>,
+<a href=\"http://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_mingw_required_libs.tar.bz2/download\">mp3splt-gtk_mingw_required_libs.tar.bz2</a>,
+<a href=\"http://sourceforge.net/projects/mp3splt/files/dev/mp3splt-gtk_runtime.tar.bz2/download\">mp3splt-gtk_runtime.tar.bz2</a>
 and put them in the home directory of mingw (<span class=\"colorspan\">c:\mp3splt_mingw\msys\\1.0\home\XXX\</span> where XXX is the username)</li>
 
 <li>Install <a
@@ -60,22 +60,22 @@ command line and the other for the gui)</p>
 
 </ol>
 
-<br />
-<p style=\"text-align: left\">Some sources of the dependencies libraries can be found:</p>
+<p style=\"text-align: left\">Sources of the dependencies:</p>
 
 <p style=\"text-align: left\">
-<a href=\"${download_url}libmp3splt_mingw_required_libs_sources.tar.bz2\">
+<a href=\"http://sourceforge.net/projects/mp3splt/files/dev/libmp3splt_mingw_required_libs_sources.tar.bz2/download\">
 libmp3splt_mingw_required_libs_sources.tar.bz2</a>,
-<a href=\"${download_url}mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2\">
-mp3splt-gtk_mingw_required_libs_runtime_sources.tar.bz2</a>.
+<a href=\"http://sourceforge.net/projects/mp3splt/files/dev/GTK%2B3.6.4_build_system-win32-v4-Alex.zip/download\">
+GTK+ 3.6.4 build system</a>,
+<a href=\"http://sourceforge.net/projects/mp3splt/files/dev/gstreamer-1.1.14_build_system-win32.zip/download\">
+gstreamer 1.1.14 build system</a>.
 </p>
 
 <br />
 ";
 }
 
-begin_document("mp3splt and libmp3splt",
-	       "default.css",TRUE);
+begin_document("mp3splt project windows build", "default.css",TRUE);
 
 create_table_with_menu("documentation");
 

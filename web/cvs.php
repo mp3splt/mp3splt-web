@@ -21,8 +21,7 @@ function create_main_page()
 ";
 }
 
-begin_document("mp3splt project - cvs page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - cvs page", "default.css",FALSE);
 
 create_table_with_menu("cvs");
 

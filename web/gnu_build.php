@@ -171,7 +171,7 @@ parameters to configure. It is recommended to use '--enable-gstreamer'.</p>
 </ol>";
 }
 
-begin_document("libmp3splt and mp3splt-gtk GNU/linux build",
+begin_document("mp3splt project GNU/Linux build",
 	       "default.css",FALSE);
 
 create_table_with_menu("documentation",TRUE);

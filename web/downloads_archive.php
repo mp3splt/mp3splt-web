@@ -401,8 +401,7 @@ mp3splt-gtk-win32(+gtk) v0.1.1</a>
 ";
 }
 
-begin_document("mp3splt project - download page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - download page", "default.css",FALSE);
 
 create_table_with_menu("downloads");
 

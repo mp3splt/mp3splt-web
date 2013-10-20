@@ -69,7 +69,7 @@ How can I use mp3splt with cygwin ?
 ";
 }
 
-begin_document("mp3splt-project FAQ", "default.css",TRUE);
+begin_document("mp3splt project FAQ", "default.css",TRUE);
 
 create_table_with_menu("documentation");
 

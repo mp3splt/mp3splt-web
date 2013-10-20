@@ -41,8 +41,7 @@ repository in the newly opened window and then click \"ok\" :</p>
 ";
 }
 
-begin_document("mp3splt project - Subversion page",
-	       "default.css",FALSE);
+begin_document("mp3splt project - subversion page", "default.css",FALSE);
 
 create_table_with_menu("subversion");
 
