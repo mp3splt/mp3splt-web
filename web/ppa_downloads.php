@@ -2,12 +2,14 @@
 
 include 'menu.php';
 
-$os_version="Precise";
+$os_version=$_GET['version'];
 $os_version_lower = strtolower($os_version);
 
 function create_main_page()
 {
   include 'download_variables.php';
+
+  global $os_version, $os_version_lower;
 
   echo "
 <h2  class=\"pagetitle\">Ubuntu $os_version packages</h2>
