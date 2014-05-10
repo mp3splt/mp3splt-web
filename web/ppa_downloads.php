@@ -26,6 +26,8 @@ function create_main_page()
   echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg libmp3splt0-flac libmp3splt-doc libmp3splt-dev mp3splt mp3splt-gtk</code></li>";
   echo "</ol>";
 
+echo "<div style='padding-left:10pt'>You can also go to the <a href=\"https://launchpad.net/~m-ioalex/+archive/mp3splt\">mp3splt-project PPA repository page</a>.</div><br />";
+
 echo "libmp3splt0 - main library needed for both mp3splt and mp3splt-gtk<br /><br />";
 
 echo "libmp3splt0-mp3 - mp3 plugin<br />";
