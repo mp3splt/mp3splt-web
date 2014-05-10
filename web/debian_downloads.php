@@ -37,10 +37,15 @@ function create_main_page()
 
   echo "<div class=\"title\">From repository:</div>";
 
-  echo "<ol><li>Append the following to <i>/etc/apt/sources.list</i><br/>";
-  echo "<code>deb http://mp3splt.sourceforge.net/repository $os_version_lower main</code></li>";
+
+  echo "<ol><li>Add the repositories:<br/>";
+  echo "<code>add-apt-repository \"deb http://mp3splt.sourceforge.net/repository $os_version_lower main\"</code></li>";
+
+  echo "<li>Update the packages:<br />";
+  echo "<code>apt-get update</code></li>";
+
   echo "<li>Install mp3splt and mp3splt-gtk:<br/>";
-  echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg libmp3splt0-flac mp3splt mp3splt-gtk</code></li>";
+  echo "<code>apt-get install libmp3splt0-mp3 libmp3splt0-ogg libmp3splt0-flac libmp3splt-doc libmp3splt-dev mp3splt mp3splt-gtk</code></li>";
   echo "</ol>";
 
   echo "<div class=\"title\">Manual:</div><br />";
@@ -86,6 +91,7 @@ foreach ($architectures as $arch) {
   <a href=\"${download_url}libmp3splt0-flac_${libmp3splt_suffix}\">libmp3splt0-flac</a><br />
   <hr style=\"border: none\" />
   <a href=\"${download_url}libmp3splt-dev_${libmp3splt_suffix}\">libmp3splt-dev</a><br />
+  <a href=\"${download_url}libmp3splt-doc_${libmp3splt_suffix}\">libmp3splt-doc</a><br />
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
@@ -102,11 +108,15 @@ foreach ($architectures as $arch) {
 
 echo "</tr></table><br />";
 
-echo "libmp3splt0 - main library needed for both mp3splt and mp3splt-gtk<br />";
+echo "libmp3splt0 - main library needed for both mp3splt and mp3splt-gtk<br /><br />";
+
 echo "libmp3splt0-mp3 - mp3 plugin<br />";
 echo "libmp3splt0-ogg - ogg vorbis plugin<br />";
-echo "libmp3splt0-flac - native FLAC plugin<br />";
-echo "libmp3splt-dev - development package<br /><br/>";
+echo "libmp3splt0-flac - native FLAC plugin<br /><br />";
+
+echo "libmp3splt-dev - development package<br />";
+echo "libmp3splt-doc - libmp3splt API documentation<br /><br/>";
+
 echo "mp3splt - command line client<br /><br/>";
 echo "mp3splt-gtk - graphical user interface client<br /><br/>";
 

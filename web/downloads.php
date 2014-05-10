@@ -315,6 +315,8 @@ function create_debian_ubuntu_table()
 
     <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-bottom:none\">";
 
+    echo "<a href=\"ppa_downloads.php\">Precise</a> (12.04 LTS) <br/>";
+
   foreach ($ubuntu_versions as $ubuntu_version => $extra)
   {
     echo "<a href=\"debian_downloads.php?version=$ubuntu_version&amp;ubuntu=true\">$ubuntu_version</a> $extra <br/>";

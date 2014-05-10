@@ -17,7 +17,7 @@
   $ubuntu_versions=array(
       "Raring" => "(13.04)",
       "Saucy" => "(13.10)",
-      "Trusty" => "(14.04)"
+      "Trusty" => "(14.04 LTS)"
       );
 
 ?>
