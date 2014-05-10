@@ -24,25 +24,26 @@ Description: mp3splt-project repository
 
 Origin: mp3splt-project
 Label: mp3splt-project
-Suite: precise
-Codename: precise
-Architectures: i386 amd64 source
-Components: main non-free contrib
-Description: mp3splt-project repository
-
-Origin: mp3splt-project
-Label: mp3splt-project
-Suite: quantal
-Codename: quantal
-Architectures: i386 amd64 source
-Components: main non-free contrib
-Description: mp3splt-project repository
-
-Origin: mp3splt-project
-Label: mp3splt-project
 Suite: raring
 Codename: raring
 Architectures: i386 amd64 source
 Components: main non-free contrib
 Description: mp3splt-project repository
+
+Origin: mp3splt-project
+Label: mp3splt-project
+Suite: saucy
+Codename: saucy
+Architectures: i386 amd64 source
+Components: main non-free contrib
+Description: mp3splt-project repository
+
+Origin: mp3splt-project
+Label: mp3splt-project
+Suite: trusty
+Codename: trusty
+Architectures: i386 amd64 source
+Components: main non-free contrib
+Description: mp3splt-project repository
+
 

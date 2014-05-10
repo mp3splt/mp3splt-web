@@ -2,7 +2,7 @@
 
 dir=$1
 
-versions="wheezy jessie unstable precise quantal raring"
+versions="wheezy jessie unstable raring saucy trusty"
 
 for version in $versions;do
   echo "processing $version ..."
