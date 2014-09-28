@@ -48,19 +48,19 @@ echo "
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 <a href=\"http://packman.links2linux.org/package/libmp3splt\">
 PackMan</a><br />
-(at links2linux.org)
+(links2linux.org)
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
 <a href=\"http://packman.links2linux.org/package/mp3splt\">
 PackMan</a><br />
-(at links2linux.org)
+(links2linux.org)
 </td>
 
 <td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
 <a href=\"http://packman.links2linux.org/package/mp3splt-gtk\">
 PackMan</a><br />
-(at links2linux.org)
+(links2linux.org)
 </td>
 </tr>";
 
@@ -68,24 +68,24 @@ PackMan</a><br />
 echo "
 <!-- Slackware -->
 <tr id=\"slackware\">
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;border-left:none;text-align:center\">
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
 <img alt=\"\" src=\"icons/slackware.png\" /><br />
 <div class=\"osname\">Slackware</div>
 </td>
 
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\">
 <a href=\"http://slackbuilds.org/result/?search=libmp3splt&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
-<td class=\"mainpagedownloadtd\" style=\"border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\">
 <a href=\"http://slackbuilds.org/result/?search=mp3splt&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
 </td>
 
-<td class=\"mainpagedownloadtd\" style=\"border-right:none;border-top:solid;border-top-width:1pt;\">
+<td class=\"mainpagedownloadtd\" style=\"border-right:none;\">
 <a href=\"http://slackbuilds.org/result/?search=mp3splt-gtk&sv=\">
 SlackBuild page</a><br />
 (slackbuilds.org)
@@ -116,6 +116,111 @@ echo "<!-- RPMs -->
 
 </tr>";
 
+echo "<!-- CRUX -->
+<tr>
+<td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
+<img alt=\"\" src=\"icons/crux.png\" /><br />
+<div class=\"osname\">CRUX</div>
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"\">
+<a href=\"http://crux.nu/portdb/?a=search&q=libmp3splt\">Crux port</a><br />
+(crux.nu)
+</td>
+
+<td class=\"mainpagedownloadtd\">
+<a href=\"http://crux.nu/portdb/?a=search&q=mp3splt\">Crux port</a><br />
+(crux.nu)
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-right:none\">
+</td>
+
+</tr>";
+
+echo "<!-- Mac OS X -->
+<tr id=\"macosx\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center\" >
+<img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
+<div class=\"osname\">Mac OS X</div>
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\" >
+<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/libmp3splt.rb\">
+ Homebrew</a><br />(github)
+<br />
+
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/libmp3splt/Portfile\">
+ Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/libmp3splt\">
+ Fink package</a><br />(finkproject.org)
+<br />
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\" >
+<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/mp3splt.rb\">
+ Homebrew</a><br />(github)
+ <br />
+
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt/Portfile\">
+ Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt\">
+ Fink package</a><br />(finkproject.org)
+<br />
+
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none\" >
+<br /><br />
+
+<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt-gtk/Portfile\">
+ Mac Portfile</a><br />(macports.org)
+<br />
+
+<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt-gtk\">
+ Fink package</a><br />(finkproject.org)
+<br />
+
+</td>
+</tr>
+
+<!-- Windows -->
+<tr id=\"windows\">
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center;\">
+<img alt=\"\" src=\"icons/winxp.png\" /><br />
+<div class=\"osname\">Windows</div>
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
+
+</td>
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;\">
+<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.exe${download_suffix}\">
+installer.exe</a><br />
+<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.zip${download_suffix}\">
+zip archive</a>
+</td>
+
+<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;\">
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
+installer.exe</a><br />
+<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.zip${download_suffix}\">
+zip archive</a><br />
+<hr style=\"width:50%;border:dashed;border-width:1px\" />
+<a href=\"http://portableapps.com/apps/music_video/mp3splt-portable\">Portable version</a>
+<br />
+(portableapps.com)
+<hr style=\"width:50%;border:dashed;border-width:1px\" />
+<a href=\"http://www.winpenpack.com/main/download.php?view.1254\">Portable version</a>
+<br />
+(winPenPack.com)
+</td>
+
+</tr>";
+
 echo "<!-- Maemo -->
 <tr>
 <td class=\"mainpagedownloadtd\" style=\"border-left:none;text-align:center\">
@@ -136,88 +241,6 @@ echo "<!-- Maemo -->
 
 </tr>";
 
-echo "<!-- Mac OS X -->
-<tr id=\"macosx\">
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-left:none;text-align:center\" >
-<img alt=\"\" src=\"icons/mac_os_x.png\" /><br />
-<div class=\"osname\">Mac OS X</div>
-</td>
-
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
-<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/libmp3splt.rb\">
- Homebrew</a><br />(on github)
-<br />
-
-<a href=\"http://trac.macports.org/browser/trunk/dports/audio/libmp3splt/Portfile\">
- Mac Portfile</a><br />(macports.org)
-<br />
-
-<a href=\"http://pdb.finkproject.org/pdb/package.php/libmp3splt\">
- Fink package</a><br />(finkproject.org)
-<br />
-</td>
-
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\" >
-<a href=\"https://github.com/mxcl/homebrew/blob/master/Library/Formula/mp3splt.rb\">
- Homebrew</a><br />(on github)
- <br />
-
-<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt/Portfile\">
- Mac Portfile</a><br />(macports.org)
-<br />
-
-<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt\">
- Fink package</a><br />(finkproject.org)
-<br />
-
-</td>
-
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;border-right:none\" >
-<br /><br />
-
-<a href=\"http://trac.macports.org/browser/trunk/dports/audio/mp3splt-gtk/Portfile\">
- Mac Portfile</a><br />(macports.org)
-<br />
-
-<a href=\"http://pdb.finkproject.org/pdb/package.php/mp3splt-gtk\">
- Fink package</a><br />(finkproject.org)
-<br />
-
-</td>
-</tr>
-
-<!-- Windows -->
-<tr id=\"windows\">
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-left:none;text-align:center;border-top:solid;border-top-width:1pt;\">
-<img alt=\"\" src=\"icons/winxp.png\" /><br />
-<div class=\"osname\">Windows</div>
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
-
-</td>
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-top:solid;border-top-width:1pt;\">
-<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.exe${download_suffix}\">
-installer.exe</a><br />
-<a href=\"${download_url}mp3splt_${mp3splt_version}_i386.zip${download_suffix}\">
-zip archive</a>
-</td>
-
-<td class=\"mainpagedownloadtd\" style=\"border-bottom:none;border-right:none;border-top:solid;border-top-width:1pt;\">
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.exe${download_suffix}\">
-installer.exe</a><br />
-<a href=\"${download_url}mp3splt-gtk_${mp3splt_gtk_version}_i386.zip${download_suffix}\">
-zip archive</a><br />
-<hr style=\"width:50%;border:dashed;border-width:1px\" />
-<a href=\"http://portableapps.com/apps/music_video/mp3splt-portable\">Portable version</a>
-<br />
-(portableapps.com)
-<hr style=\"width:50%;border:dashed;border-width:1px\" />
-<a href=\"http://www.winpenpack.com/main/download.php?view.1254\">Portable version</a>
-<br />
-(winPenPack.com)
-</td>
-
-</tr>";
 
 echo "</table>
 
