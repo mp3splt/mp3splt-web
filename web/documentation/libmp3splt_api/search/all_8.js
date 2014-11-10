@@ -55,6 +55,7 @@ var searchData=
   ['splt_5fopt_5fenable_5fsilence_5flog',['SPLT_OPT_ENABLE_SILENCE_LOG',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a35ca11633485cd29d1c35b5532cd0931',1,'mp3splt.h']]],
   ['splt_5fopt_5fforce_5ftags_5fversion',['SPLT_OPT_FORCE_TAGS_VERSION',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a00973e78d127e8650f37613c35892259',1,'mp3splt.h']]],
   ['splt_5fopt_5fframe_5fmode',['SPLT_OPT_FRAME_MODE',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a34142bf61ad4cf8bf50ef255cfe6c589',1,'mp3splt.h']]],
+  ['splt_5fopt_5fhandle_5fbit_5freservoir',['SPLT_OPT_HANDLE_BIT_RESERVOIR',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ad0d8ece8ac42373cdb7f11e68e6dfcbf',1,'mp3splt.h']]],
   ['splt_5fopt_5fid3v2_5fencoding',['SPLT_OPT_ID3V2_ENCODING',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a79056ffe36cc33e4723e24725ef7bd79',1,'mp3splt.h']]],
   ['splt_5fopt_5finput_5fnot_5fseekable',['SPLT_OPT_INPUT_NOT_SEEKABLE',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a204b43f200d415cf5f8d896c2ba897d4',1,'mp3splt.h']]],
   ['splt_5fopt_5finput_5ftags_5fencoding',['SPLT_OPT_INPUT_TAGS_ENCODING',['../group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a834e40e2e91cbbf1a34cf9e1769da1b4',1,'mp3splt.h']]],

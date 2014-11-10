@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="libmp3splt_ico.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">libmp3splt
-   &#160;<span id="projectnumber">0.9.1</span>
+   &#160;<span id="projectnumber">0.9.2</span>
    </div>
    <div id="projectbrief">Lossless library for splitting audio formats like mp3, ogg vorbis and FLAC.</div>
   </td>
@@ -186,7 +186,8 @@ Enumerations</h2></td></tr>
 <br/>
 &#160;&#160;<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a9025d9f435f5239d9a86c69139ab5428">SPLT_OPT_WARN_IF_NO_AUTO_ADJUST_FOUND</a>, 
 <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a3c4af7a687c98764ce03758d55daefbb">SPLT_OPT_STOP_IF_NO_AUTO_ADJUST_FOUND</a>, 
-<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d">SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES</a>
+<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d">SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES</a>, 
+<a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ad0d8ece8ac42373cdb7f11e68e6dfcbf">SPLT_OPT_HANDLE_BIT_RESERVOIR</a>
 <br/>
  }</td></tr>
 <tr class="separator:gae4bfb16c0e941930ce1b9bc7a5befb73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -260,7 +261,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73aca215da9abd0f44074a7b876da0136b4" title="The threshold level (dB) to be considered as silence. ">SPLT_OPT_PARAM_THRESHOLD</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00792">792</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00804">804</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -276,7 +277,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a4f362f3444946b764ef8f0b212af59e2" title="Offset of cutpoint inside the silence part when having a SPLT_OPTION_SILENCE_MODE or SPLT_OPT_AUTO_AD...">SPLT_OPT_PARAM_OFFSET</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00796">796</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00808">808</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -292,7 +293,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73acbedfeac913e1276566678b42946eb7e" title="Minimum number of silence seconds to be considered a valid splitpoint. ">SPLT_OPT_PARAM_MIN_LENGTH</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00800">800</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00812">812</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +309,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ac590acfe5650a77224838191c67ef0fd" title="Minimum number of seconds to be considered a valid track. ">SPLT_OPT_PARAM_MIN_TRACK_LENGTH</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00804">804</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00816">816</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -324,7 +325,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a2341823d467e19b6d45794c744416af4" title="Minimum number of seconds to be considered a valid track. ">SPLT_OPT_PARAM_MIN_TRACK_JOIN</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00808">808</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00820">820</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +341,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ad652a5b49b2045e6d74e5c0e46564256" title="The time to auto-adjust before and after splitpoint when having the SPLT_OPT_AUTO_ADJUST option...">SPLT_OPT_PARAM_GAP</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00812">812</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00824">824</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -356,7 +357,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a0a489884c9d33ad6f709ff8d4fe22e23" title="The desired number of tracks when having a SPLT_OPTION_SILENCE_MODE split. ">SPLT_OPT_PARAM_NUMBER_TRACKS</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00816">816</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00828">828</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -372,7 +373,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a9a725816f5dc1a36328e46c75f511deb" title="The desired number of shots when having a SPLT_OPTION_SILENCE_MODE or SPLT_OPTION_TRIM_SILENCE_MODE s...">SPLT_OPT_PARAM_SHOTS</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00820">820</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00832">832</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +389,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a8ba2fabba44bc20e40ec396444ecdcda" title="When using the SPLT_OPT_PARAM_REMOVE_SILENCE, this option allows you to keep some number of seconds o...">SPLT_OPT_KEEP_SILENCE_LEFT</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00824">824</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00836">836</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -404,7 +405,7 @@ Functions</h2></td></tr>
 
 <p>Default value for the <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a75d927a99b532a47902acd528fbe9659" title="When using the SPLT_OPT_PARAM_REMOVE_SILENCE, this option allows you to keep some number of seconds o...">SPLT_OPT_KEEP_SILENCE_RIGHT</a> option. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00828">828</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00840">840</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -421,7 +422,7 @@ Functions</h2></td></tr>
 <p>Default output for <a class="el" href="group__splt__options__.html#gga69bad439b833bc4fe8b6ee12286c8ea4adba3c40b1f2ac03fe218c8795df8a2a9" title="Normal split mode - using splitpoints provided with mp3splt_append_splitpoint. ">SPLT_OPTION_NORMAL_MODE</a> when using <a class="el" href="group__splt__options__.html#gga7717724deb5671b1a2806166bc565447a6f7b837c4e9369c68b19ade1f9e57959" title="The default output; depends of the type of the split. ">SPLT_OUTPUT_DEFAULT</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__options__.html#ga4a76a99681299ec4228d3b83de48a3f7" title="Set the output format when using SPLT_OUTPUT_FORMAT. ">mp3splt_set_oformat</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00856">856</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00868">868</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -438,7 +439,7 @@ Functions</h2></td></tr>
 <p>Output filename format for CDDB and CUE when using <a class="el" href="group__splt__options__.html#gga7717724deb5671b1a2806166bc565447a6f7b837c4e9369c68b19ade1f9e57959" title="The default output; depends of the type of the split. ">SPLT_OUTPUT_DEFAULT</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__options__.html#ga4a76a99681299ec4228d3b83de48a3f7" title="Set the output format when using SPLT_OUTPUT_FORMAT. ">mp3splt_set_oformat</a>, <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afca81998bc6662d8a7bb008824bf4112" title="Defines how the output filenames are created. ">SPLT_OPT_OUTPUT_FILENAMES</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00862">862</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00874">874</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +456,7 @@ Functions</h2></td></tr>
 <p>Output filename format for <a class="el" href="group__splt__options__.html#gga69bad439b833bc4fe8b6ee12286c8ea4a9f7976783911bf4e22eaa7846ad6d128" title="Synchronisation error split mode (mp3 only). ">SPLT_OPTION_ERROR_MODE</a> when using <a class="el" href="group__splt__options__.html#gga7717724deb5671b1a2806166bc565447a6f7b837c4e9369c68b19ade1f9e57959" title="The default output; depends of the type of the split. ">SPLT_OUTPUT_DEFAULT</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__options__.html#ga4a76a99681299ec4228d3b83de48a3f7" title="Set the output format when using SPLT_OUTPUT_FORMAT. ">mp3splt_set_oformat</a>, <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afca81998bc6662d8a7bb008824bf4112" title="Defines how the output filenames are created. ">SPLT_OPT_OUTPUT_FILENAMES</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00867">867</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00879">879</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -472,7 +473,7 @@ Functions</h2></td></tr>
 <p>Output filename format for <a class="el" href="group__splt__options__.html#gga69bad439b833bc4fe8b6ee12286c8ea4ae3b2a8f03aa5d8ce6b9f45791705fc19" title="Silence detection split mode. ">SPLT_OPTION_SILENCE_MODE</a> when using <a class="el" href="group__splt__options__.html#gga7717724deb5671b1a2806166bc565447a6f7b837c4e9369c68b19ade1f9e57959" title="The default output; depends of the type of the split. ">SPLT_OUTPUT_DEFAULT</a>. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__options__.html#ga4a76a99681299ec4228d3b83de48a3f7" title="Set the output format when using SPLT_OUTPUT_FORMAT. ">mp3splt_set_oformat</a>, <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afca81998bc6662d8a7bb008824bf4112" title="Defines how the output filenames are created. ">SPLT_OPT_OUTPUT_FILENAMES</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00872">872</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00884">884</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -489,7 +490,7 @@ Functions</h2></td></tr>
 <p>Default output for the trim silence split. </p>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="group__splt__options__.html#ga4a76a99681299ec4228d3b83de48a3f7" title="Set the output format when using SPLT_OUTPUT_FORMAT. ">mp3splt_set_oformat</a>, <a class="el" href="group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afca81998bc6662d8a7bb008824bf4112" title="Defines how the output filenames are created. ">SPLT_OPT_OUTPUT_FILENAMES</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00877">877</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00889">889</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -734,9 +735,15 @@ Functions</h2></td></tr>
 <p>Int option that can take the values <a class="el" href="mp3splt_8h.html#a1eb39872952119eb6e11dc1fc11cdec1" title="True value. ">SPLT_TRUE</a> or <a class="el" href="mp3splt_8h.html#ab448164f3f3742a07d2e749954f63bb2" title="False value. ">SPLT_FALSE</a>.</p>
 <p>Default is <a class="el" href="mp3splt_8h.html#ab448164f3f3742a07d2e749954f63bb2" title="False value. ">SPLT_FALSE</a>. </p>
 </td></tr>
+<tr><td class="fieldname"><em><a class="anchor" id="ggae4bfb16c0e941930ce1b9bc7a5befb73ad0d8ece8ac42373cdb7f11e68e6dfcbf"></a>SPLT_OPT_HANDLE_BIT_RESERVOIR</em>&#160;</td><td class="fielddoc">
+<p>If <a class="el" href="mp3splt_8h.html#a1eb39872952119eb6e11dc1fc11cdec1" title="True value. ">SPLT_TRUE</a>, handles bit-reservoir for gapless playback when splitting. </p>
+<p>It currently works only for mp3 files.</p>
+<p>Int option that can take the values <a class="el" href="mp3splt_8h.html#a1eb39872952119eb6e11dc1fc11cdec1" title="True value. ">SPLT_TRUE</a> or <a class="el" href="mp3splt_8h.html#ab448164f3f3742a07d2e749954f63bb2" title="False value. ">SPLT_FALSE</a>.</p>
+<p>Default is <a class="el" href="mp3splt_8h.html#ab448164f3f3742a07d2e749954f63bb2" title="False value. ">SPLT_FALSE</a>. </p>
+</td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00309">309</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00312">312</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +787,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00712">712</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00724">724</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -807,7 +814,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00751">751</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00763">763</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -835,7 +842,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00769">769</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00781">781</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -865,7 +872,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00833">833</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00845">845</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -898,7 +905,7 @@ Functions</h2></td></tr>
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00884">884</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l00896">896</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>

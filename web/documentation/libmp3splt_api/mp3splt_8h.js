@@ -94,6 +94,7 @@ var mp3splt_8h =
       [ "SPLT_ERROR_LENGTH_SPLIT_VALUE_INVALID", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a58d5d40631f2b2c30f66028cf30ccdef", null ],
       [ "SPLT_ERROR_CANNOT_GET_TOTAL_TIME", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a1a6e3729d6f37931f7bf75a937ae728d", null ],
       [ "SPLT_ERROR_LIBID3", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a64d6c31c18220bd0d68b1acca4250487", null ],
+      [ "SPLT_ERROR_FAILED_BITRESERVOIR", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0ab7d91d1d35c4e06a66e3c53755f26775", null ],
       [ "SPLT_FREEDB_ERROR_INITIALISE_SOCKET", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a09994ed06503bdaf395fbde8e5ca80fd", null ],
       [ "SPLT_FREEDB_ERROR_CANNOT_GET_HOST", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a3c8802b5f8873ede17e39688433f41d9", null ],
       [ "SPLT_FREEDB_ERROR_CANNOT_OPEN_SOCKET", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aecc137721db479f530ec1bfb52bda113", null ],
@@ -126,7 +127,8 @@ var mp3splt_8h =
       [ "SPLT_INVALID_REGEX", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a457e2a023bcf13d68ef305dc3759a3c4", null ],
       [ "SPLT_REGEX_NO_MATCH", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0a9c387846edeff164d9528331a0f71566", null ],
       [ "SPLT_REGEX_UNAVAILABLE", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0aae562c30feac70b4d71310fe1c294b8b", null ],
-      [ "SPLT_ERROR_NO_AUTO_ADJUST_FOUND", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0afa39db8d09d0af914aca636b707cb7df", null ]
+      [ "SPLT_ERROR_NO_AUTO_ADJUST_FOUND", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0afa39db8d09d0af914aca636b707cb7df", null ],
+      [ "SPLT_ERROR_INVALID_CODE", "mp3splt_8h.html#ggaed8b624746e8485d41a8000e922e9de0af444785b461d4a0d8d88a8de371bc758", null ]
     ] ],
     [ "splt_options", "mp3splt_8h.html#gae4bfb16c0e941930ce1b9bc7a5befb73", [
       [ "SPLT_OPT_PRETEND_TO_SPLIT", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a0a920a95c57751edebc550ca7f1d2df5", null ],
@@ -171,7 +173,8 @@ var mp3splt_8h =
       [ "SPLT_OPT_TIME_MINIMUM_THEORETICAL_LENGTH", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afc62a0c03f265736d316134519f956cf", null ],
       [ "SPLT_OPT_WARN_IF_NO_AUTO_ADJUST_FOUND", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a9025d9f435f5239d9a86c69139ab5428", null ],
       [ "SPLT_OPT_STOP_IF_NO_AUTO_ADJUST_FOUND", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a3c4af7a687c98764ce03758d55daefbb", null ],
-      [ "SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d", null ]
+      [ "SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d", null ],
+      [ "SPLT_OPT_HANDLE_BIT_RESERVOIR", "mp3splt_8h.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ad0d8ece8ac42373cdb7f11e68e6dfcbf", null ]
     ] ],
     [ "splt_split_mode_options", "mp3splt_8h.html#ga69bad439b833bc4fe8b6ee12286c8ea4", [
       [ "SPLT_OPTION_NORMAL_MODE", "mp3splt_8h.html#gga69bad439b833bc4fe8b6ee12286c8ea4adba3c40b1f2ac03fe218c8795df8a2a9", null ],

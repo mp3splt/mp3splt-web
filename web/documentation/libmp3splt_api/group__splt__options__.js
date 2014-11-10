@@ -58,7 +58,8 @@ var group__splt__options__ =
       [ "SPLT_OPT_TIME_MINIMUM_THEORETICAL_LENGTH", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73afc62a0c03f265736d316134519f956cf", null ],
       [ "SPLT_OPT_WARN_IF_NO_AUTO_ADJUST_FOUND", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a9025d9f435f5239d9a86c69139ab5428", null ],
       [ "SPLT_OPT_STOP_IF_NO_AUTO_ADJUST_FOUND", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a3c4af7a687c98764ce03758d55daefbb", null ],
-      [ "SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d", null ]
+      [ "SPLT_OPT_DECODE_AND_WRITE_FLAC_MD5SUM_FOR_CREATED_FILES", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73a49592ba1f4050e550865bbfabd20614d", null ],
+      [ "SPLT_OPT_HANDLE_BIT_RESERVOIR", "group__splt__options__.html#ggae4bfb16c0e941930ce1b9bc7a5befb73ad0d8ece8ac42373cdb7f11e68e6dfcbf", null ]
     ] ],
     [ "splt_split_mode_options", "group__splt__options__.html#ga69bad439b833bc4fe8b6ee12286c8ea4", [
       [ "SPLT_OPTION_NORMAL_MODE", "group__splt__options__.html#gga69bad439b833bc4fe8b6ee12286c8ea4adba3c40b1f2ac03fe218c8795df8a2a9", null ],

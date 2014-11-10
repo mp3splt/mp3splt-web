@@ -31,7 +31,7 @@
   <td id="projectlogo"><img alt="Logo" src="libmp3splt_ico.svg"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">libmp3splt
-   &#160;<span id="projectnumber">0.9.1</span>
+   &#160;<span id="projectnumber">0.9.2</span>
    </div>
    <div id="projectbrief">Lossless library for splitting audio formats like mp3, ogg vorbis and FLAC.</div>
   </td>
@@ -134,7 +134,7 @@ Data Fields</h2></td></tr>
 Mandatory functions are <a class="el" href="structsplt__plugin__func.html#ad598d8bc4be4254823496fb0618c3a32" title="Initialise the plugin. ">splt_pl_init</a>, <a class="el" href="structsplt__plugin__func.html#a58f5a560ff93ec6a5cc2cfbea611dcef" title="Unitialise the plugin. ">splt_pl_end</a>, <a class="el" href="structsplt__plugin__func.html#a8e7b5f91c0f631cf4d4d689199564fd1" title="Checks if the plugin matches the input file. ">splt_pl_check_plugin_is_for_file</a>, <a class="el" href="structsplt__plugin__func.html#a8631e7161925f0cd2cc2398087f5e198" title="Set plugin information into the information structure. ">splt_pl_set_plugin_info</a> and <a class="el" href="structsplt__plugin__func.html#a3ba5abb088254f065e17f909fe03da7d" title="Main split function. ">splt_pl_split</a>.</p>
 <p>Examples can be found for the <a href="http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk/libmp3splt/plugins/mp3.c">mp3</a>, <a href="http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk/libmp3splt/plugins/ogg.c">ogg vorbis</a> <a href="http://svn.code.sf.net/p/mp3splt/code/mp3splt-project/trunk/libmp3splt/plugins/flac.c">FLAC</a> implementations. </p>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02162">2162</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02174">2174</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 </div><h2 class="groupheader">Field Documentation</h2>
 <a class="anchor" id="ad598d8bc4be4254823496fb0618c3a32"></a>
 <div class="memitem">
@@ -158,7 +158,7 @@ Use the <code>state-&gt;codec</code> pointer to store the plugin data.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02172">2172</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02184">2184</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -184,7 +184,7 @@ Use the <code>state-&gt;codec</code> pointer to store the plugin data.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02181">2181</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02193">2193</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -210,7 +210,7 @@ Use the <code>state-&gt;codec</code> pointer to store the plugin data.</p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="mp3splt_8h.html#a1eb39872952119eb6e11dc1fc11cdec1" title="True value. ">SPLT_TRUE</a> if the plugin matches the input file. </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02191">2191</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02203">2203</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +236,7 @@ Use the <code>state-&gt;codec</code> pointer to store the plugin data.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02200">2200</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02212">2212</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Use the <code>state-&gt;codec</code> pointer to store the plugin data.</p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The real end point split; in most cases, it is equal to the <code>end_point</code>. </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02214">2214</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02226">2226</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -290,7 +290,7 @@ You can also save all the original tags in the <code>state</code> using <code>sp
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02227">2227</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02239">2239</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -313,7 +313,7 @@ You can also save all the original tags in the <code>state</code> using <code>sp
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02236">2236</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02248">2248</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -339,7 +339,7 @@ The processor handles the mp3splt silence detection logic.</p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of silence spots found. </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02248">2248</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02260">2260</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -365,7 +365,7 @@ Only the generic silence processor changes.</p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of silence spots found. </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02260">2260</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02272">2272</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -389,7 +389,7 @@ Only the generic silence processor changes.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02269">2269</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02281">2281</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +416,7 @@ Only the generic silence processor changes.</p>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Possible error. </dd></dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02281">2281</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02293">2293</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ Only the generic silence processor changes.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02293">2293</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02305">2305</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
@@ -465,7 +465,7 @@ Only the generic silence processor changes.</p>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02300">2300</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
+<p>Definition at line <a class="el" href="mp3splt_8h_source.html#l02312">2312</a> of file <a class="el" href="mp3splt_8h_source.html">mp3splt.h</a>.</p>
 
 </div>
 </div>
